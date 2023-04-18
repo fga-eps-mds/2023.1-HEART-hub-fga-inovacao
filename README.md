@@ -1,5 +1,5 @@
 
-# Grupo 1 - Desenvolvimento de Software | 2023.1
+# Grupo 1 - Desenvolvimento de Software | HUB FGA Inovação
 
 Repositório do grupo 1 da disciplina Desenvolvimento de Software da Universidade de Brasília, no semestre 2023.1.
 

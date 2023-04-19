@@ -14,5 +14,4 @@ Repositório do grupo 1 da disciplina Desenvolvimento de Software da Universidad
 - [@lucassouzs](https://github.com/lucassouzs)
 - [@Maryyscreuza](https://github.com/Maryyscreuza)
 
-<img src="8TEbRyq7c.gif" width="250" height="250"/>
 

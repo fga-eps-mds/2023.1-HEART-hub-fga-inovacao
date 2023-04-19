@@ -1,3 +1,0 @@
-# Público Alvo
-
-## Persona

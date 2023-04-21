@@ -1,7 +1,10 @@
 
-# Grupo 1 - Desenvolvimento de Software | HUB FGA Inovação
+# HEART: HUB FGA Inovação :purple_heart:
 
-Repositório do grupo 1 da disciplina Desenvolvimento de Software da Universidade de Brasília, no semestre 2023.1.
+
+Heart é o HUB de Inovação da Universidade de Brasília - Campus Gama, que reúne num só lugar informações referentes aos projetos científicos, pesquisas, pesquisadores, empresas juniores, equipes de competição, empreendedorismo, editais, etc. Tudo isso para conectar o que é desenvolvido dentro da Faculdade do Gama com a população brasiliense.
+
+## Stack 
 
 
 ## Autores

@@ -8,12 +8,12 @@ Heart é o HUB de Inovação da Universidade de Brasília - Campus Gama, que re�
 
 ### Front-end
 
-React
+- React
 
 ### Back-end
 
-Node.js
-
+- Node.js
+ 
 ## Autores
 
 - [@algorithmorphic](https://github.com/algorithmorphic)

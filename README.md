@@ -13,10 +13,12 @@ Heart é o HUB de Inovação da Universidade de Brasília - Campus Gama, que re�
 ### Back-end
 
 - Node.js
+- Express
 
 ### Database
 
-- MongoDB
+- MySQL
+- Sequelize
  
 ## Autores
 

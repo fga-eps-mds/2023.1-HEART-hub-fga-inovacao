@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import json
 
 linkprofs = []
 
@@ -15,32 +16,39 @@ for ul in ul_list:
     href = nome["href"]
     linkprofs.append(href) 
 
-#print(linkprofs)
-"""
+cont =0
+nomeprofs = []
+infoprofs = []
+professores = {"professores": []}
 for profurl in linkprofs:
     response2 = requests.get(profurl)
 
     sp = BeautifulSoup(response2.content, "html.parser")
-    #print(sp)
-
     prof = sp.find_all("div", class_="article-body article-body-text-article")
-    
+
     if len(prof) > 0:
-        nome2 = prof[0].find_all("p", class_="MsoNormal")
-        
-        for p in nome2:
-            print(p.text)
-    else:
-        print(f"Não foi encontrada nenhuma informação deste professor {profurl}")
-"""
-profurl = linkprofs[2]
-response2 = requests.get(profurl)
+        professor = prof[0].find_all("p")
 
-sp = BeautifulSoup(response2.content, "html.parser")
-    #print(sp)
+        if len(professor) > 0:
+            info = professor[0].find_all("span")
 
-prof = sp.find_all("div", class_="article-body article-body-text-article")
-nome2 = prof[0].find_all("p", class_="MsoNormal")
-nome3 = nome2[0].find_all("span")
-print(nome3[1].text)
-print(nome2[1].text)
+            if len(professor) > 1:
+                if len(info) > 0:
+                    #print(info[1].text)
+                    nomeprofs.append(info[1].text)
+                    #print(professor[1].text)  
+                    infoprofs.append(professor[1].text)
+                    cont = cont+1
+
+for j in range(cont):
+    professores["professores"].append(
+            {
+            "Nome": nomeprofs[j],
+            "Descricao": infoprofs[j]
+            }
+    )
+
+with open("Professores.json", "w") as arquivos:
+    json.dump(professores, arquivos,indent=4)
+
+#print(professores)

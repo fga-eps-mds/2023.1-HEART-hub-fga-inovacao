@@ -10,10 +10,11 @@ Heart é o HUB de Inovação da Universidade de Brasília - Campus Gama, que re�
 
 - React
 
-### Back-end
+### Web scraping
 
 - Python
 - Selenium
+- Beautiful Soup
 
 ### Hospedagem
 

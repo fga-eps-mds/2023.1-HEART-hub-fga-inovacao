@@ -22,21 +22,26 @@ body {
 .cabecalho-imagem {
   height: 72px;
   border-radius: 60px;
+}
 
+.cabecalho-titulo {
+  font-family: 'Righteous', cursive;
+  font-size: 55px;
+  color: #FFF2E7;
+  padding-left: 50px;
 }
 
 .conteudo {
   margin-bottom: 100px;
   border-top: 0.4px solid #FFF2E7;
   padding-left: 100px;
-  padding-right: 100px;
 }
 
 .conteudo-principal {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 80px;
   padding-right: 80px;
 
 }
@@ -45,15 +50,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  padding-right: 300px;
+  padding-right: 30px;
 }
 
 .conteudo-principal-escrito-titulo {
   font-family: 'Righteous', cursive;
-  font-weight: 400;
   font-size: 64px;
   color: #FFF2E7;
-  padding-top: 50px;
 }
 
 .conteudo-principal-escrito-subtitulo {
@@ -62,13 +65,36 @@ body {
   font-weight: 400;
   font-size: 24px;
   color: #ECD6C4;
-  padding-top: 40px;
+  padding-top: 30px;
+}
+
+.conteudo-botao {
+  height: 90px;
+  padding-top: 60px;
+  padding-left: 770px;;
+
+}
+
+.botao {
+  background-color: #ECD6C4;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2F2325;
+}
+
+.botao:hover {
+  background-color: rgba(236, 214, 196, 0.53);
 }
 
 .imagemhub {
-  width: 400px;
-  height: 250px;
-  outline: 3px solid black;
+  width: 700px;
+  height: 386px;
   overflow: hidden;
   margin: 50px auto;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
@@ -77,8 +103,8 @@ body {
 .imagemhub ul{
   display: flex;
   list-style: none;
-  width: 2400px;
-  height: 250px;
+  width: 5600px;
+  height: 386px;
 }
 
 .imagemhub li {
@@ -88,22 +114,28 @@ body {
 
 @keyframes slide {
   0%{left:0px}
-  10%{left:0px}
+  8%{left:0px}
 
-  15%{left:-400px}
-  25%{left:-400px}
+  12%{left:-700px}
+  20%{left:-700px}
 
-  30%{left:-800px}
-  40%{left:-800px}
+  24%{left:-1400px}
+  32%{left:-1400px}
 
-  45%{left:-1200px}
-  55%{left:-1200px}
+  36%{left:-2100px}
+  44%{left:-2100px}
 
-  60%{left:-1600px}
-  70%{left:-1600px}
+  48%{left:-2800px}
+  56%{left:-2800px}
 
-  75%{left:-2400px}
-  85%{left:-2400px}
+  60%{left:-3500px}
+  68%{left:-3500px}
+
+  72%{left:-4200px}
+  80%{left:-4200px}
+  
+  84%{left:-4900px}
+  92%{left:-4900px}
 
   100%{left:-0px}
 
@@ -119,4 +151,5 @@ body {
   height: 90px;
   display: block;
   margin: 0 auto;
+  border-radius: 10px;
 }

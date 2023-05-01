@@ -1,4 +1,5 @@
-#**Levantamento de funções disponíveis dentro do HUB USP Inovação**
+# Levantamento de funções disponíveis dentro do HUB USP Inovação
+
 Logo na tela inicial do site da USP, percebemos que ele é organizado em seções, e, para melhor descrever, dividimos o site em cinco seções. São elas:
 
 Seção 1: Dentro desta, temos um resumo curto e geral do site, além de uma barra de pesquisa e alguns menus no cabeçalho.
@@ -11,7 +12,8 @@ Seção 4: Dentro desta, temos uma pequena apresentação de empresas parceiras,
 
 Seção 5: Dentro desta, temos o rodapé do site.
 
-Menus/Pré-requisitos obrigatórios geralmente identificados em hubs
+## Menus/Pré-requisitos obrigatórios geralmente identificados em hubs
+
 Iniciativas: Mostra diversas iniciativas e programas dentro da UnB para facilitar e estimular a inovação e o empreendedorismo, fazendo a ponte entre o ambiente acadêmico, as organizações e a sociedade.
 
 P&D&I: Na seção de Pesquisa & Desenvolvimento & Inovação, você encontra laboratórios, organizações e programas que atuam com desenvolvimento e inovação no âmbito da UnB.

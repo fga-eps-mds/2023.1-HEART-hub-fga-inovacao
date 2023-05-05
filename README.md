@@ -35,6 +35,8 @@ Este passo a passo descreve como configurar um ambiente local para rodar a nossa
 - Node.js 16.14.0 ou superior
 - Git 2.30.1 ou superior
 
+### Sincronização de hora entre sistemas operacionais num dual boot
+
 ### Instalação do Python
 
 O Python já vem instalado por padrão no Ubuntu, mas é recomendável instalar a versão mais recente. Para instalar o Python 3.8, abra o terminal e execute o seguinte comando:

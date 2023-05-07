@@ -8,6 +8,8 @@
 html, 
 body, 
 #root {
-  background-color: #ffffff;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
+  background: url('./pages/imgbranco.jpg');
+  background-size: cover;
 }

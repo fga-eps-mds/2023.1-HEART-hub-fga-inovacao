@@ -37,6 +37,8 @@ Este passo a passo descreve como configurar um ambiente local para rodar a nossa
 
 ### Sincronização de hora entre sistemas operacionais num dual boot
 
+Caso você tenha optado por realizar um dual boot (inicialização dupla entre sistemas operacionais) e instalado a versão 22.04.2 LTS do Ubuntu na sua máquina que já possuia alguma versão do Windows instalada, você pode ter observado uma diferença ou dessincronização entre os horários apresentados em ambos os sistemas operacionais.
+
 ### Instalação do Python
 
 O Python já vem instalado por padrão no Ubuntu, mas é recomendável instalar a versão mais recente. Para instalar o Python 3.8, abra o terminal e execute o seguinte comando:

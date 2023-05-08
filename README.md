@@ -37,6 +37,18 @@ Este passo a passo descreve como configurar um ambiente local para rodar a nossa
 
 ### Sincronização de hora entre sistemas operacionais num dual boot
 
+Caso você tenha optado por realizar um dual boot (inicialização dupla entre sistemas operacionais) e instalado a versão 22.04.2 LTS do Ubuntu na sua máquina e já possuia alguma versão do Windows instalada, você pode ter observado uma diferença ou dessincronização entre os horários aprensentados em ambos os sistemas operacionais.
+
+Para corrigir a dessincronização de hora entre sistemas operacionais em um dual boot, você precisa configurar o relógio do sistema para interpretar a hora do relógio em relação ao fuso horário local do sistema. 
+
+O fuso horário local do sistema é a configuração que determina a diferença de tempo entre o horário do sistema e o [Tempo Universal Coordenado](https://pt.wikipedia.org/wiki/Tempo_Universal_Coordenado) (UTC), que é o padrão de tempo de referência global utilizado como base para sincronização de horários em todo o mundo. Cada região do mundo tem sua própria diferença de tempo em relação ao UTC, que é medida em horas e minutos. Por exemplo, o fuso horário do Brasil é UTC-3, o que significa que o horário do Brasil está três horas atrasado em relação ao UTC. Já o fuso horário de Tóquio é UTC+9, ou seja, o horário local está nove horas à frente do UTC. Isso significa que, após a configuração, a hora mostrada no relógio do sistema será relativa ao fuso horário local do sistema, e não ao UTC. E isso pode ser feito executando o seguinte comando no terminal:
+
+```
+timedatectl set-local-rtc 1
+```
+
+Depois de executar este comando, reinicie o computador para que as alterações tenham efeito. Isso deve corrigir a dessincronização da hora entre os sistemas operacionais.
+
 ### Instalação do Python
 
 O Python já vem instalado por padrão no Ubuntu, mas é recomendável instalar a versão mais recente. Para instalar o Python 3.8, abra o terminal e execute o seguinte comando:

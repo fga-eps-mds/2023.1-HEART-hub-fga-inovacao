@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+body {
+  overflow-y:scroll;
+  overflow-x: hidden;
+}
+.home_conntainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+}
+.home_containerh1{
+    font-size: 3.5em;
+    margin-left: 80px;
+    margin-top: 200px;
+    margin-bottom: .5em;
+    color: #7D2D88;
+    font-family: 'ABeeZee';
+}
+.home_container_p{
+    margin-bottom: 1.5em;
+    margin-left: 80px;
+    margin-top: 40px;
+    color: black;
+    text-align: justify;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    max-width: 800px;
+    font-family: 'ABeeZee';
+}
+
+.img5{
+    position: flex;
+    margin-left: 1000px;
+    margin-top: -500px;
+  }  
+  
+.button{
+    position:relative;
+    left: 80px;
+    background-color: #7D2D88; /* cor de fundo */
+    border: none; /* remover borda */
+    color: white; /* cor do texto */
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 10px; 
+    cursor: pointer; 
+    border-radius: 20px; 
+    transition: background-color 0.3s ease; 
+}

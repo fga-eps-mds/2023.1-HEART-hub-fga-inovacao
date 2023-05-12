@@ -1,0 +1,45 @@
+body{
+    background-image: url('./../img/imgfundo.png');
+    background-color: #f8f9fa;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+.carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #f8f9fa;
+  }
+  
+  .carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .carrossel-container {
+    position: relative;
+    margin-left: 1000px;
+    top: -500px;
+  }
+  .home_containerh2{
+    font-size: 3.5em;
+    margin-left: 80px;
+    margin-top: 700px;
+    margin-bottom: .5em;
+    color: #7D2D88;
+    font-family: 'ABeeZee';
+  }
+  .home_container_p2{
+    margin-bottom: 1.5em;
+    margin-left: 80px;
+    margin-top: 40px;
+    color: black;
+    text-align: justify;
+    font-size: 25px;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    max-width: 800px;
+    font-family: 'ABeeZee';
+  }

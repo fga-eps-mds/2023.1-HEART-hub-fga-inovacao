@@ -1,6 +1,6 @@
 import React from 'react';
 import img5 from './../img/img5.png';
-import styles from './sec1.css';
+import styles from './sec1.css'
 
 const Sec1 = () => {
   return (
@@ -27,3 +27,4 @@ const Sec1 = () => {
 };
 
 export default Sec1;
+

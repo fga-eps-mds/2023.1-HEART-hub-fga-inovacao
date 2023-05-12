@@ -11,6 +11,8 @@ body{
     display:flex;
 }
 main{
+    width: 100%;
+    padding: 20px;
     background-image: url('./img/imgfundo.png');
     width: 100vw;
     height: 100vh;
@@ -18,11 +20,12 @@ main{
     font-family: 'ABeeZee';
 }
 .sidebar{
-    background: #ffffff;
-    color: #2d2d2d;
-    height: 100vh;
+    position: sticky;
+    top: 0;
     width: 200px;
-    transition: all 0.5s;
+    height: 100vh;
+    background-color: transparent;
+    color: #000;
 }
 .top_section{
     display: flex;
@@ -32,36 +35,66 @@ main{
 .logo{
     color: #7D2D88;
     margin-left: 10px;
-    font-size: 30px;
-}
-.logo2{
-    color: #7D2D88;
-    margin-left: 10px;
-    font-size: 10px;
+    font-size: 25px;
 }
 .bars{
+    color: #7D2D88;
     display: flex;
-    font-size: 20px;
+    font-size: 35px;
     margin-left: 50px;
+    cursor: pointer;
+}
+.bars:hover{
+    margin: 1px;
+    font-size: 33px;
+}
+.search{
+    outline: none;
+    border: none;
+    background-color: #eaeaea;
+    margin: 15px;
+    display: flex;
+    border-radius: 10px;
+    padding: 15px 15px;
+    font-size: 16px;
+    color: #7D2D88;
+}
+.search-icon {
+    font-size: 18px;
+    color: #000;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+}
+.search-icon:hover{
+    font-size: 20px;
+    color: #000000;
+    transform: translateY(-47%);
+    right: 29px;
+}
+hr {
+    margin: 15px;
 }
 .link{
-    margin: 10px;
+    margin: 15px;
     display: flex;
     border-radius: 10px;
     color: #2d2d2d;
-    padding: 20px 15px;
+    padding: 13px 15px;
     gap: 15px;
-    transition: all 0.5s;
 }
 .link:hover{
-    background:#7D2D88;
+    background-color: #7D2D88;
     color: #fff;
     transition: all 0.5s;
 }
 .active{
-    background: #7D2D88;
+    background-color: #7D2D88;
     color: #fff;
+    
 }
 .icon, .link_text{
-    font-size: 20px;
+    font-size: 18px;
+}
 }

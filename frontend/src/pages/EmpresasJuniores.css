@@ -1,0 +1,84 @@
+.home_container {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 4em;
+}
+.home_container h1{
+    margin: 0;
+    color: #7D2D88;
+    font-size: 2.5em;
+}
+.home_container .carousel{
+    margin-top: 100px;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.home_container .carousel::-webkit-scrollbar{
+    display: none;
+}
+.home_container .carousel .item{
+    background-color: #7D2D88;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 16px;
+    flex: none;
+}
+.home_container .carousel .item .info{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.home_container .carousel .item .info span{
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.home_container .carousel .item .info .nome{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.home_container .carousel .item .info .link{
+    font-size: .8rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.home_container .carousel .item .info .descrição{
+    font-size: .7rem;
+    font-weight: bold;
+    margin: 10px 0;
+    
+}
+.home_container .carousel .item .info .instagram{
+    margin-top: 10px;
+    font-size: .8rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #7D2D88;
+    background-color: white;
+}
+.home_container .buttons{
+    width: 100%;
+    text-align: center;
+}
+.home_container .buttons button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 45px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.home_container .buttons button:first-child .btn{
+    transform: rotate(180deg);
+}

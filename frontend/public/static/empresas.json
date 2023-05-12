@@ -1,1 +1,16 @@
-
+{
+    "professores": [
+      {
+        "nome": "João Silva",
+        "descricao": "Professor de matemática com mais de 10 anos de experiência no ensino médio."
+      },
+      {
+        "nome": "Maria Santos",
+        "descricao": "Professora de história com mestrado em história brasileira e experiência em ensino superior."
+      },
+      {
+        "nome": "Pedro Souza",
+        "descricao": "Professor de ciências com doutorado em biologia e experiência em pesquisa em genética."
+      }
+    ]
+  }

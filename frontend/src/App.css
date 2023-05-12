@@ -1,3 +1,7 @@
+body{
+    width: 1440px;
+    height: 800px;
+}
 *{
     margin:0;
     padding:0;
@@ -9,6 +13,11 @@
 main{
     width: 100%;
     padding: 20px;
+    background-image: url('./img/imgfundo.png');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    font-family: 'ABeeZee';
 }
 .sidebar{
     position: sticky;
@@ -87,4 +96,5 @@ hr {
 }
 .icon, .link_text{
     font-size: 18px;
+}
 }

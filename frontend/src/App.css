@@ -11,16 +11,13 @@ body{
     display:flex;
 }
 main{
-<<<<<<< sidebar2
     width: 100%;
     padding: 20px;
-=======
     background-image: url('./img/imgfundo.png');
     width: 100vw;
     height: 100vh;
     background-size: cover;
     font-family: 'ABeeZee';
->>>>>>> main
 }
 .sidebar{
     position: sticky;
@@ -99,4 +96,5 @@ hr {
 }
 .icon, .link_text{
     font-size: 18px;
+}
 }

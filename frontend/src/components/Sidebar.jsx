@@ -79,7 +79,7 @@ const Sidebar = ({children}) => {
             <div style={{width: isOpen ? "360px" : "80px"}} className="sidebar">
                 <div className="top_section">
                     <h1 style={{display: isOpen ? "block" : "none"}} className="logo">Heart</h1>
-                    <div style={{marginLeft: isOpen ? "140px" : "6px"}} className="bars">
+                    <div style={{marginLeft: isOpen ? "150px" : "6px"}} className="bars">
                         {isOpen ? (
                             <FiX onClick={toggle} />
                         ) : (
@@ -90,7 +90,7 @@ const Sidebar = ({children}) => {
                 <div style={{ position: 'relative', display: 'inline-block' }}>
                 <input
                     className="search"
-                    style={{ width: isOpen ? '256px' : '48px' }}
+                    style={{ width: isOpen ? '272px' : '48px' }}
                     type="text"
                     placeholder={isOpen ? 'Pesquisar' : ''}
                     value={searchValue}

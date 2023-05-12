@@ -8,6 +8,6 @@
 html, 
 body, 
 #root {
-  background-color: #ffffff;
+  background-image: url('./img/Heart - Fundo.png');
   height: 100%;
 }

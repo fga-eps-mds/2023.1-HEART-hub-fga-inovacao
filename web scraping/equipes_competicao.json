@@ -1,52 +1,50 @@
-{
-    "equipes": [
-        {
-            "Nome": "Titans",
-            "Instagram": "https://www.instagram.com/robotictitans/"
-            "Site": "https://linktr.ee/robotictitans"
-            "Descrição": "O projeto Titans é uma equipe de competição composta por estudantes da Universidade de Brasília que busca aplicar, de forma prática, os conhecimentos teóricos adquiridos nos cursos de engenharia, tanto em aspectos de hardware quanto de software e estruturais. Por esse motivo, o projeto inclui alunos de todas as engenharias do campus Gama. A equipe Titans oferece cursos para os estudantes durante as semanas universitárias, além de propagar o conhecimento para fora da universidade, beneficiando alunos de escolas públicas por meio do desenvolvimento de aulas e projetos de robótica. Dessa forma, a equipe busca fomentar nos jovens o desejo pela engenharia e pela universidade. O desenvolvimento desses projetos coloca em prática conceitos de engenharia, empreendedorismo e metodologias organizacionais. O projeto foi iniciado em 30 de novembro de 2016 por alunos e professores da UnB que fundaram a equipe. Atualmente, a equipe conta com 29 membros, incluindo o professor orientador Gerardo Antonio Idrobo Pizo e alunos voluntários de outras universidades."
-        },
-        {
-            "Nome": "EDRA",
-            "Instagram": "https://www.instagram.com/edraunb/"
-            "Site": ""
-            "Descrição": "A Equipe de Robótica Aérea é uma equipe com o objetivo de projetar e construir drones autônomos, fomentando o desenvolvimento tecnológico do Distrito Federal. Além disso, atua na capacitação técnica de estudantes e promove a Universidade de Brasília internacionalmente, através da participação em diversas competições de caráter internacional. A primeira competição da equipe foi a 24 Hours Hover Machine Conceptual Design, promovida pela American Helicopter Society - AHS - International no ano de 2017. No ano seguinte a EDRA participou da Cobruf Drones e em 2019 da International Micro Air Vehicle Conference and Competitions. A equipe é composta por estudantes de engenharia da Universidade de Brasília campus Gama, que trabalham nas áreas de design estrutural, eletrônica, aerodinâmica e propulsão, estabilidade e controle, e software. A pesquisa na área de drones é de fácil aplicação em inúmeros setores, desde entregas e serviços até o uso militar. Nos últimos anos, a pesquisa vem tomando proporções cada vez maiores e englobando as mais diversas inovações, como o uso da inteligência artificial no imageamento. A EDRA contribui para o avanço de um campo de estudo recente, promissor e versátil. Para isso, é necessária a pesquisa contínua e o aperfeiçoamento desta tecnologia."
-        },
-        {
-            "Nome": "UnBaja",
-            "Instagram": "https://www.instagram.com/unbaja/"
-            "Site": "https://beacons.ai/unbaja"
-            "Descrição": "O projeto Baja SAE visa o desenvolvimento de um protótipo monoposto de competição fora de estrada, com o intuito de propiciar capacitação e desenvolvimento prático aos estudantes de engenharia para o mercado de trabalho através de projetos que vão do conceito inicial a construção do protótipo. São projetados sistemas de suspensão, freios, estrutura, transmissão, feito acerto de motores e desenvolvimento ergonômico. Os alunos fazem procedimentos de testes, modelagem e simulações computacionais conforme o regulamento proposto pela SAE (Sociedade de Engenharia Automotiva). Participam de competições enfrentando equipes de outras universidades com intuito de ter a melhor classificação e competir fora do Brasil. O trabalho neste projeto ajuda a desenvolver competências e habilidades professionais como trabalho em equipe, empreendedorismo, inovação. Durante o projeto de extensão os alunos, além de se preparar para a competição, interagem com a comunidade fazendo apresentações sobre seu trabalho para incentivar o ingresso às engenharias, ministram cursos e palestras de caráter técnico, participam da mostra de cursos, entre outros."
-        },
-        {
-            "Nome": "FGR",
-            "Instagram": "https://www.instagram.com/fgr.unb/"
-            "Site": "https://linktr.ee/fgr_unb"
-            "Descrição": ""
-        },
-        {
-            "Nome": "Mamutes do Cerrado",
-            "Instagram": "https://www.instagram.com/mmtsdocerrado/"
-            "Site": "https://mamutesdocerrado.webnode.page/"
-            "Descrição": "A equipe Mamutes do Cerrado Aerodesign é uma equipe de competição que foi criada em 2015 por graduandos de Engenharia Aeroespacial e Eletrônica da Faculdade do Gama, FGA. A equipe participa desde então na categoria Micro da competição SAE Aerodesign, que ocorre anualmente em São José dos Campos e é desenvolvida pela Embraer em conjunto com a SAE. A competição conta com equipes de todo o país e até equipes estrangeiras. Os campeões das categorias presentes na competição são convidados a participar do campeonato mundial que acontece nos Estados Unidos, também anualmente. O regulamento da competição sofre modificações anualmente e a equipe deve então desenvolver um protótipo de aeronave que atenda a requisitos que a cada ano se mostram mais desafiadores, requerendo do time a implementação de avanços tecnológicos contínuos. Nesse contexto, o intuito da equipe é o desenvolvimento de aeronaves desmontáveis controladas por rádio, para participação na competição SAE Aerodesign, categoria Micro, de forma a mostrar o avanço e o desenvolvimento de tecnologias aeronáuticas por parte de seus membros, capacitando-os em todas as fases de um projeto aeronáutico, o que gera valor para cada um dos participantes individualmente e para a Universidade de Brasília, como desenvolvedora de tecnologia na área de aeronáutica. Esse reconhecimento atrai parcerias para a UnB, fortalecendo cada vez mais a instituição. Além disso, a equipe tem por objetivo concomitante o desenvolvimento de atividades envolvendo a comunidade externa, principalmente estudantes de ensino médio, familiarizando-os com o contexto aeronáutico e incentivando-os a seguir carreira na referida área."
-        },
-        {
-            "Nome": "Gama CubeDesign",
-            "Instagram": "https://www.instagram.com/gamacubedesign/"
-            "Site": "https://gamacubedesign.wixsite.com/website"
-            "Descrição": "A equipe de desenvolvimento de nanossatélites da classificação CubeSat, denominada Gama CubeDesign, tem como objetivo geral promover estudos, pesquisas e desenvolvimento de tecnologias espaciais na Universidade de Brasília. Essa equipe é constituída por alunos de graduação de engenharia da Faculdade do Gama, os quais atuam nas áreas de controle de atitude, estruturas e cargas, eletrônica embarcada, energia e software voltado para o desenvolvimento de nanossatélites. Os avanços na tecnologia miniaturizada proporcionam amplas oportunidades para projetos de exploração e pesquisa espacial relacionados a aplicações civis e de defesa. Os pequenos satélites, especialmente os CubeSats, representam uma das inovações que transformaram o setor de satélites, integrando serviços de satélites para diferentes objetivos e abrindo horizontes para novos negócios. O número de missões de pequenos satélites propostas ou lançadas aumentou significativamente nos últimos anos, devido ao crescimento das oportunidades de lançamento, aos avanços tecnológicos e à criação de padrões dedicados que contribuíram para a criação de um novo mercado mundial de desenvolvedores e clientes. Pequenos satélites demonstraram ser adequados para uma série de objetivos diferentes, como investigações científicas, sensoriamento remoto e aplicações de comunicação. No entanto, atender aos requisitos desafiadores colocados por esse tipo de missão requer avanços tecnológicos contínuos."
-        },
-        {
-            "Nome": "Dragonfly",
-            "Instagram": "https://www.instagram.com/dragonflyunb/"
-            "Site": ""
-            "Descrição": ""
-        },
-        {
-            "Nome": "Capital Rocket Team (CRT)",
-            "Instagram": "https://www.instagram.com/capitalrocketteam/"
-            "Site": "http://capitalrocketteam.com/"
-            "Descrição": ""
-        },
-    ]
-}
+[
+    {
+        "nome": "Titans",
+        "site": "https://linktr.ee/robotictitans",
+        "descri\u00e7\u00e3o": "O projeto Titans \u00e9 uma equipe de competi\u00e7\u00e3o composta por estudantes da Universidade de Bras\u00edlia que busca aplicar, de forma pr\u00e1tica, os conhecimentos te\u00f3ricos adquiridos nos cursos de engenharia, tanto em aspectos de hardware quanto de software e estruturais. Por esse motivo, o projeto inclui alunos de todas as engenharias do campus Gama. A equipe Titans oferece cursos para os estudantes durante as semanas universit\u00e1rias, al\u00e9m de propagar o conhecimento para fora da universidade, beneficiando alunos de escolas p\u00fablicas por meio do desenvolvimento de aulas e projetos de rob\u00f3tica. Dessa forma, a equipe busca fomentar nos jovens o desejo pela engenharia e pela universidade. O desenvolvimento desses projetos coloca em pr\u00e1tica conceitos de engenharia, empreendedorismo e metodologias organizacionais. O projeto foi iniciado em 30 de novembro de 2016 por alunos e professores da UnB que fundaram a equipe. Atualmente, a equipe conta com 29 membros, incluindo o professor orientador Gerardo Antonio Idrobo Pizo e alunos volunt\u00e1rios de outras universidades.",
+        "instagram": "https://www.instagram.com/robotictitans/"
+    },
+    {
+        "nome": "EDRA",
+        "site": "",
+        "descri\u00e7\u00e3o": "A Equipe de Rob\u00f3tica A\u00e9rea \u00e9 uma equipe com o objetivo de projetar e construir drones aut\u00f4nomos, fomentando o desenvolvimento tecnol\u00f3gico do Distrito Federal. Al\u00e9m disso, atua na capacita\u00e7\u00e3o t\u00e9cnica de estudantes e promove a Universidade de Bras\u00edlia internacionalmente, atrav\u00e9s da participa\u00e7\u00e3o em diversas competi\u00e7\u00f5es de car\u00e1ter internacional. A primeira competi\u00e7\u00e3o da equipe foi a 24 Hours Hover Machine Conceptual Design, promovida pela American Helicopter Society - AHS - International no ano de 2017. No ano seguinte a EDRA participou da Cobruf Drones e em 2019 da International Micro Air Vehicle Conference and Competitions. A equipe \u00e9 composta por estudantes de engenharia da Universidade de Bras\u00edlia campus Gama, que trabalham nas \u00e1reas de design estrutural, eletr\u00f4nica, aerodin\u00e2mica e propuls\u00e3o, estabilidade e controle, e software. A pesquisa na \u00e1rea de drones \u00e9 de f\u00e1cil aplica\u00e7\u00e3o em in\u00fameros setores, desde entregas e servi\u00e7os at\u00e9 o uso militar. Nos \u00faltimos anos, a pesquisa vem tomando propor\u00e7\u00f5es cada vez maiores e englobando as mais diversas inova\u00e7\u00f5es, como o uso da intelig\u00eancia artificial no imageamento. A EDRA contribui para o avan\u00e7o de um campo de estudo recente, promissor e vers\u00e1til. Para isso, \u00e9 necess\u00e1ria a pesquisa cont\u00ednua e o aperfei\u00e7oamento desta tecnologia.",
+        "instagram": "https://www.instagram.com/edraunb/"
+    },
+    {
+        "nome": "UnBaja",
+        "site": "https://beacons.ai/unbaja",
+        "descri\u00e7\u00e3o": "O projeto Baja SAE visa o desenvolvimento de um prot\u00f3tipo monoposto de competi\u00e7\u00e3o fora de estrada, com o intuito de propiciar capacita\u00e7\u00e3o e desenvolvimento pr\u00e1tico aos estudantes de engenharia para o mercado de trabalho atrav\u00e9s de projetos que v\u00e3o do conceito inicial a constru\u00e7\u00e3o do prot\u00f3tipo. S\u00e3o projetados sistemas de suspens\u00e3o, freios, estrutura, transmiss\u00e3o, feito acerto de motores e desenvolvimento ergon\u00f4mico. Os alunos fazem procedimentos de testes, modelagem e simula\u00e7\u00f5es computacionais conforme o regulamento proposto pela SAE (Sociedade de Engenharia Automotiva). Participam de competi\u00e7\u00f5es enfrentando equipes de outras universidades com intuito de ter a melhor classifica\u00e7\u00e3o e competir fora do Brasil. O trabalho neste projeto ajuda a desenvolver compet\u00eancias e habilidades professionais como trabalho em equipe, empreendedorismo, inova\u00e7\u00e3o. Durante o projeto de extens\u00e3o os alunos, al\u00e9m de se preparar para a competi\u00e7\u00e3o, interagem com a comunidade fazendo apresenta\u00e7\u00f5es sobre seu trabalho para incentivar o ingresso \u00e0s engenharias, ministram cursos e palestras de car\u00e1ter t\u00e9cnico, participam da mostra de cursos, entre outros.",
+        "instagram": "https://www.instagram.com/unbaja/"
+    },
+    {
+        "nome": "FGR",
+        "site": "https://linktr.ee/fgr_unb",
+        "descri\u00e7\u00e3o": "FGR \u00e9 Faculdade do Gama Racing, somos equipe de competi\u00e7\u00e3o que  projeta e constr\u00f3i um carro f\u00f3rmula el\u00e9trico para participar da competi\u00e7\u00e3o F\u00f3rmula SAE Brasil. Nascemos do ensino e da pesquisa na UnB e nossa miss\u00e3o \u00e9 gerar solu\u00e7\u00f5es mais sustent\u00e1veis para o ecossistema, inovando no setor automotivo brasileiro. A equipe \u00e9 a primeira do Centro-Oeste a projetar um formula el\u00e9trico.",
+        "instagram": "https://www.instagram.com/fgr.unb/"
+    },
+    {
+        "nome": "Mamutes do Cerrado",
+        "site": "https://mamutesdocerrado.webnode.page/",
+        "descri\u00e7\u00e3o": "A equipe Mamutes do Cerrado Aerodesign \u00e9 uma equipe de competi\u00e7\u00e3o que foi criada em 2015 por graduandos de Engenharia Aeroespacial e Eletr\u00f4nica da Faculdade do Gama, FGA. A equipe participa desde ent\u00e3o na categoria Micro da competi\u00e7\u00e3o SAE Aerodesign, que ocorre anualmente em S\u00e3o Jos\u00e9 dos Campos e \u00e9 desenvolvida pela Embraer em conjunto com a SAE. A competi\u00e7\u00e3o conta com equipes de todo o pa\u00eds e at\u00e9 equipes estrangeiras. Os campe\u00f5es das categorias presentes na competi\u00e7\u00e3o s\u00e3o convidados a participar do campeonato mundial que acontece nos Estados Unidos, tamb\u00e9m anualmente. O regulamento da competi\u00e7\u00e3o sofre modifica\u00e7\u00f5es anualmente e a equipe deve ent\u00e3o desenvolver um prot\u00f3tipo de aeronave que atenda a requisitos que a cada ano se mostram mais desafiadores, requerendo do time a implementa\u00e7\u00e3o de avan\u00e7os tecnol\u00f3gicos cont\u00ednuos. Nesse contexto, o intuito da equipe \u00e9 o desenvolvimento de aeronaves desmont\u00e1veis controladas por r\u00e1dio, para participa\u00e7\u00e3o na competi\u00e7\u00e3o SAE Aerodesign, categoria Micro, de forma a mostrar o avan\u00e7o e o desenvolvimento de tecnologias aeron\u00e1uticas por parte de seus membros, capacitando-os em todas as fases de um projeto aeron\u00e1utico, o que gera valor para cada um dos participantes individualmente e para a Universidade de Bras\u00edlia, como desenvolvedora de tecnologia na \u00e1rea de aeron\u00e1utica. Esse reconhecimento atrai parcerias para a UnB, fortalecendo cada vez mais a institui\u00e7\u00e3o. Al\u00e9m disso, a equipe tem por objetivo concomitante o desenvolvimento de atividades envolvendo a comunidade externa, principalmente estudantes de ensino m\u00e9dio, familiarizando-os com o contexto aeron\u00e1utico e incentivando-os a seguir carreira na referida \u00e1rea.",
+        "instagram": "https://www.instagram.com/mmtsdocerrado/"
+    },
+    {
+        "nome": "Gama CubeDesign",
+        "site": "https://gamacubedesign.wixsite.com/website",
+        "descri\u00e7\u00e3o": "A equipe de desenvolvimento de nanossat\u00e9lites da classifica\u00e7\u00e3o CubeSat, denominada Gama CubeDesign, tem como objetivo geral promover estudos, pesquisas e desenvolvimento de tecnologias espaciais na Universidade de Bras\u00edlia. Essa equipe \u00e9 constitu\u00edda por alunos de gradua\u00e7\u00e3o de engenharia da Faculdade do Gama, os quais atuam nas \u00e1reas de controle de atitude, estruturas e cargas, eletr\u00f4nica embarcada, energia e software voltado para o desenvolvimento de nanossat\u00e9lites. Os avan\u00e7os na tecnologia miniaturizada proporcionam amplas oportunidades para projetos de explora\u00e7\u00e3o e pesquisa espacial relacionados a aplica\u00e7\u00f5es civis e de defesa. Os pequenos sat\u00e9lites, especialmente os CubeSats, representam uma das inova\u00e7\u00f5es que transformaram o setor de sat\u00e9lites, integrando servi\u00e7os de sat\u00e9lites para diferentes objetivos e abrindo horizontes para novos neg\u00f3cios. O n\u00famero de miss\u00f5es de pequenos sat\u00e9lites propostas ou lan\u00e7adas aumentou significativamente nos \u00faltimos anos, devido ao crescimento das oportunidades de lan\u00e7amento, aos avan\u00e7os tecnol\u00f3gicos e \u00e0 cria\u00e7\u00e3o de padr\u00f5es dedicados que contribu\u00edram para a cria\u00e7\u00e3o de um novo mercado mundial de desenvolvedores e clientes. Pequenos sat\u00e9lites demonstraram ser adequados para uma s\u00e9rie de objetivos diferentes, como investiga\u00e7\u00f5es cient\u00edficas, sensoriamento remoto e aplica\u00e7\u00f5es de comunica\u00e7\u00e3o. No entanto, atender aos requisitos desafiadores colocados por esse tipo de miss\u00e3o requer avan\u00e7os tecnol\u00f3gicos cont\u00ednuos.",
+        "instagram": "https://www.instagram.com/gamacubedesign/"
+    },
+    {
+        "nome": "Dragonfly",
+        "site": "",
+        "descri\u00e7\u00e3o": "Equipe de avia\u00e7\u00e3o experimental, formada por estudantes da Universidade de Bras\u00edlia, com destaque para aeroespacial.",
+        "instagram": "https://www.instagram.com/dragonflyunb/"
+    },
+    {
+        "nome": "Capital Rocket Team (CRT)",
+        "site": "http://capitalrocketteam.com/",
+        "descri\u00e7\u00e3o": "A Capital Rocket Team \u00e9 a equipe de foguetes da Universidade de Bras\u00edlia, cujo objetivo \u00e9 a pesquisa e o desenvolvimento de foguetes experimentais, com vistas \u00e0 participa\u00e7\u00e3o em competi\u00e7\u00f5es universit\u00e1rias de n\u00edvel nacional e internacional.",
+        "instagram": "https://www.instagram.com/capitalrocketteam/"
+    }
+]

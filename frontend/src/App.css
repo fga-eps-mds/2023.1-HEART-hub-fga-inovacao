@@ -1,7 +1,3 @@
-body{
-    width: 1440px;
-    height: 800px;
-}
 *{
     margin:0;
     padding:0;
@@ -13,11 +9,6 @@ body{
 main{
     width: 100%;
     padding: 20px;
-    background-image: url('./img/imgfundo.png');
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    font-family: 'ABeeZee';
 }
 .sidebar{
     position: sticky;
@@ -43,10 +34,6 @@ main{
     font-size: 35px;
     margin-left: 50px;
     cursor: pointer;
-}
-.bars:hover{
-    margin: 1px;
-    font-size: 33px;
 }
 .search{
     outline: none;

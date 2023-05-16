@@ -24,10 +24,11 @@
 .strong{
     color: #7D2D88;
 }
-.first-section p{
-    font-size: 1.2rem;
+.first-section .p-i{
+    font-size: 1.5rem;
     color: black;
     text-align: justify;
+    max-width: 600px;
 }
 .btn-saiba-mais{
     padding: .6rem;
@@ -42,6 +43,9 @@
     text-align: center;
     font-weight: bold;
 }
+.btn-saiba-mais:hover{
+    background-color: #c86cd4;
+}
 .box-img-main{
     max-width: 600px;
 }
@@ -51,11 +55,80 @@
 .second-section{
     height: 100vh;
 }
+.aux{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.unb{
+    font-size: 3rem;
+    color: #7D2D88;
+}
+.aux .p-i2{
+    font-size: 1.5rem;
+    color: black;
+    text-align: justify;
+    max-width: 1300px;
+}
 .third-section{
     height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 650px;
+    text-decoration: none;
+}
+.third-section > div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    min-width: 300px;
+}
+.bloco1{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.li-b1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+}
+.a-b1{
+    color: #7D2D88;
+}
+.p-b1{
+    max-width: 600px;
+    text-align: justify;
+}
+.bloco2{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.li-b2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+}
+.a-b2{
+    color: #7D2D88;
+}
+.p-b2{
+    max-width: 600px;
+    text-align: justify;
 }
 .footer-basic {
     padding:40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     background-color: transparent;
     color:#7D2D88;
 }

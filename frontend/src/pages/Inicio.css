@@ -24,10 +24,11 @@
 .strong{
     color: #7D2D88;
 }
-.first-section p{
-    font-size: 1.2rem;
+.first-section .p-i{
+    font-size: 1.5rem;
     color: black;
     text-align: justify;
+    max-width: 600px;
 }
 .btn-saiba-mais{
     padding: .6rem;
@@ -51,9 +52,84 @@
 .second-section{
     height: 100vh;
 }
-.third-section{
-    height: 100vh;
+.aux{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
 }
+.unb{
+    font-size: 2.5rem;
+    color: #7D2D88;
+}
+.p-i2{
+    font-size: 1.5rem;
+    color: black;
+    text-align: justify;
+    max-width: 1300px;
+}
+.third-section{
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 650px;
+    gap: 2rem;
+    margin-top: 30px;
+}
+.third-section > div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    min-width: 300px;
+}
+.bloco1{
+    flex-direction: column;
+    text-align:justify;
+    display:inline-block;
+    align-items: center;
+    color: #000000;
+    font-size: 25px;
+    line-height: 2.5;
+    text-decoration: none;
+    margin-top: -360px;
+  }
+
+  .bloco2 {
+    flex-direction: column-reverse;
+    text-align:justify;
+    display: inline-block;
+    align-items: center;
+    color: #000000;
+    font-size: 25px;
+    line-height: 2.5;
+    text-decoration: none;
+    margin-top: -350px;
+  }
+
+  ul {
+    color: #7D2D88;
+    display: flex;
+    white-space: nowrap;
+    text-decoration: none;
+    list-style: none;
+    width: 550px;
+    margin-top: 30px;
+  }
+  
+  li {
+    width: 550px;
+    margin-top: 20px;
+
+  }
+  
+  li p {
+    text-align:justify;
+    font-size: 18px;
+    white-space: pre-wrap;
+  }
 .footer-basic {
     padding:40px 0;
     background-color: transparent;

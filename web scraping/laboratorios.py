@@ -1,6 +1,6 @@
 import json
 
-pdi = [
+laboratorios = [
     {
         "nome": "CPL - Chemical Propulsion Laboratory",
         "descrição": "O Laboratório de Propulsão Química (CPL) da Faculdade Gama da Universidade de Brasília iniciou suas atividades em 2013, foi registrado oficialmente em 2015 e faz parte do Laboratório de Ciência e Inovação Aeroespacial (LAICA). O principal objetivo da CPL é consolidar as atividades em Propulsão a Foguetes e Motores a Jato. Em muitas das atividades de pesquisa, os produtos do Laboratório são aplicados na Agência Espacial Brasileira (AEB)."

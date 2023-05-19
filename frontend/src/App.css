@@ -1,3 +1,5 @@
+
+
 *{
     margin:0;
     padding:0;
@@ -8,6 +10,7 @@
 }
 main{
     width: 100%;
+    height: 100%;
     padding: 20px;
 }
 .sidebar{
@@ -78,8 +81,7 @@ hr {
 }
 .active{
     background-color: #7D2D88;
-    color: #fff;
-    
+    color: #fff; 
 }
 .icon, .link_text{
     font-size: 18px;

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Editais.css'   
+import styles from './Editais.css'   
 import { FiGithub,
   FiFigma,
   FiLinkedin,
@@ -12,11 +12,11 @@ const Editais = () => {
             <section className='first-section'>
                 <div>
                     <h1 className='editais'>Editais</h1>
-                    <p>
-                        Na aba de <strong className="strong">Editais</strong> você pode encontrar informações sobre os editais da FGA, que são oportunidades<br /> 
-                        para professores, pesquisadores, estudantes e empresas interessados em colaborar com a instituição em<br /> 
-                        projetos de pesquisa, inovação, empreendedorismo e extensão. Os editais da FGA são elaborados com base<br /> 
-                        nas demandas do mercado e nas políticas de fomento à ciência, tecnologia e inovação. Além disso, os editais<br />
+                    <p className='p-edi'>
+                        Na aba de <strong className="strong">Editais</strong> você pode encontrar informações sobre os editais da FGA, que são oportunidades 
+                        para professores, pesquisadores, estudantes e empresas interessados em colaborar com a instituição em 
+                        projetos de pesquisa, inovação, empreendedorismo e extensão. Os editais da FGA são elaborados com base 
+                        nas demandas do mercado e nas políticas de fomento à ciência, tecnologia e inovação. Além disso, os editais
                         são abertos periodicamente e podem abranger diversas áreas do conhecimento.
                     </p>
                 </div>

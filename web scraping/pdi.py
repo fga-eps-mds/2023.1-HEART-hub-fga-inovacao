@@ -46,3 +46,6 @@ pdi = [
         "descrição": "O Programa BIOGAMA é um programa de extensão que existe a 12 anos no Campus do Gama. O tema central dessa ação extensionista é promover, através de palestras e oficinas realizadas em eventos e feiras locais do Distrito Federal, a informação acerca da conscientização ambiental e do descarte correto e reuso do óleo residual de fritura. Além da transformação dessa matéria-prima em produtos com maior valor agregado (sabão, vela e biodiesel), também se desenvolve diversos conceitos científicos e sociais nos alunos e na comunidade de Brasília. O Programa BIOGAMA conta com o suporte de professores dos Campi Darcy Ribeiro, da FGA e da FUP, através de um arranjo interinstitucional e multidisciplinar, o qual permite o envolvimento de docentes e discentes em diversas áreas do conhecimento como: Engenharia de Energia, Química, Ciências Naturais e Licenciatura em Educação do Campo."
     }
 ]
+
+with open("PDI.json", "w") as f:
+    json.dump(pdi, f, indent=4)

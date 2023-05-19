@@ -42,3 +42,7 @@ laboratorios = [
         "descrição": ": O CPAI, vinculado à Faculdade do Gama (FGA), é multidisciplinar e interinstitucional, atua em pesquisa, desenvolvimento e inovação em tecnologia e ciência da informação, com ênfase em arquitetura da informação."
     }
 ]
+
+
+with open("Laboratorios.json", "w") as f:
+    json.dump(laboratorios, f, indent=4)

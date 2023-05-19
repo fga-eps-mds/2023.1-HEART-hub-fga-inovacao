@@ -3,6 +3,9 @@ import './Inicio.css'
 import HeartDesign from './../img/img5.png';
 import img_2 from '../img/inovacao.png';
 import img_3 from '../img/time.png';
+import img_val from '../img/valores_1.png';
+import img_com from '../img/valores_2.png';
+import img_transf from '../img/valores_3.png';
 import { FiGithub,
   FiFigma,
   FiLinkedin,
@@ -31,6 +34,7 @@ const Inicio = () => {
               <img className="img" src={HeartDesign} alt="logo"/>
           </div>
       </section>
+
       <section className='second-section'>
        <div className='coluna-1'>
         <h1 className='missao'>Missão</h1>
@@ -60,9 +64,44 @@ const Inicio = () => {
           fortalecendo a colaboração entre os diversos atores envolvidos.</p>
         </div>
       </section>
+
       <section className='third-section'>
 
+        <div className="pilares">
+          <h1 className='valores'>Valores</h1>
+          <p className='p-iv'>Três pilares norteiam o trabalho do Ministério nesta rede de inovação</p>
+        </div>
+
+        <div className="coluna-3">
+
+          <div className="Ensino_Pesquisa">
+            <img className='valores_1' src={img_val} alt='valores_1/'/>
+            <h1 className='valores_sub'>Ensino e Pesquisa</h1>
+            <p className='p-iv_sub'> Ensino e Pesquisa no HEART é fundamental para
+             o desenvolvimento de soluções inovadoras e o avanço do conhecimento. Através de parcerias 
+             estratégicas com instituições acadêmicas e de pesquisa, buscamos promover a troca de ideias 
+             e a formação de talentos capacitados. </p>
+          </div>
+
+          <div className="Comunidade_Cooperacao">
+            <img className='valores_2' src={img_com} alt='valores_2'/>
+            <h1 className='valores_sub'>Comunidade e Cooperação</h1>
+            <p className='p-iv_sub'>Incentivamos a integração e a cooperação entre agentes para que as inovações do Hub sejam efetivas 
+              e gerem valor para as cidades, respeitando a pluralidade de pontos de vista e de modos de pensar, 
+              agir e atuar perante os estudantes e a comunidade. </p>
+          </div>
+
+          <div className="Transfereia_Aplicacoes">
+            <img className='valores_3' src={img_transf} alt='valores_3'/>
+            <h1 className='valores_sub'>Transferênia e Aplicações</h1>
+            <p className='p-iv_sub'>Estimulamos a troca de experiências que gerem valor para as cidades e para os agentes do Hub 
+              de Inovação, assegurando a transparência da iniciativa e a imparcialidade na promoção das 
+              melhores práticas</p>
+          </div>
+        </div>
+
       </section>
+
       <div class="footer-basic">
         <footer>
             <div class="social">

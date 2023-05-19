@@ -56,9 +56,6 @@
     align-items: center;
     min-height: 650px;
 }
-.third-section{
-    height: 100vh;
-}
 .footer-basic {
     padding:40px 0;
     background-color: transparent;
@@ -169,4 +166,71 @@
 }
 .img_3{
     width: 100%;
+}
+.third-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.coluna-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 80px;
+}
+.pilares{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.valores {
+    font-size: 4rem;
+    color: #7D2D88;
+    text-align: center;
+}
+
+.p-iv {
+    font-size: 1.3rem;
+    color: black;
+    text-align: justify;
+    max-width: 800px;
+    left: 100vh;
+}
+
+.valores_sub {
+    font-size: 1.8rem;
+    color: #7D2D88;
+}
+
+.p-iv_sub {
+    font-size: 1.3rem;
+    color: black;
+    text-align: justify;
+    max-width: 400px;
+    left: 100vh;
+}
+.Ensino_Pesquisa{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 20px;
+    align-items: center;
+}
+.Comunidade_Cooperacao{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 20px;
+    align-items: center;
+}
+.Transfereia_Aplicacoes{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 20px;
+    align-items: center;
 }

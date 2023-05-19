@@ -1,6 +1,8 @@
 import React from 'react';
 import './Inicio.css'   
 import HeartDesign from './../img/img5.png';
+import img_2 from '../img/inovacao.png';
+import img_3 from '../img/time.png';
 import { FiGithub,
   FiFigma,
   FiLinkedin,
@@ -30,7 +32,33 @@ const Inicio = () => {
           </div>
       </section>
       <section className='second-section'>
-
+       <div className='coluna-1'>
+        <h1 className='missao'>Missão</h1>
+          <p className='p-ii'>
+          A missão do <strong className='heart'>HEART</strong>  é impulsionar a transformação social e o desenvolvimento sustentável nas cidades 
+          brasileiras, por meio da conexão e articulação de agentes públicos, privados e do terceiro setor. 
+          Nosso objetivo é criar uma rede de troca de experiências inovadoras, reunindo boas práticas e 
+          promovendo o intercâmbio de conhecimentos. Através de projetos, capacitações e parcerias 
+          estratégicas, buscamos impulsionar o potencial criativo e empreendedor da comunidade acadêmica e 
+          externa. Nossa visão é construir um futuro mais sustentável e resiliente, colaborando para a melhoria 
+          contínua das cidades e para o bem-estar da sociedade como um todo.</p>
+            <div className='box-img_time'>
+              <img className="img_2" src={img_2} alt="Fga"/>
+            </div>
+          </div>
+          <div className='coluna-2'>
+            <div className="box-img_inovacao">
+              <img className='img_3' src={img_3} alt='jardim'/>
+            </div>
+            <h1 className='visao'>Visão</h1>
+          <p className='p-iii'>
+          A visão do <strong className='heart'>HEART</strong> é ser um ponto central de inovação e colaboração, conectando agentes públicos, privados e do 
+          terceiro setor em uma rede dinâmica. Nossa missão é impulsionar o desenvolvimento sustentável e a transformação 
+          social nas cidades brasileiras. Por meio de projetos, parcerias estratégicas e capacitações, buscamos promover 
+          um futuro resiliente e próspero para todos. Com foco no potencial criativo e empreendedor da comunidade acadêmica 
+          e externa, o HEART visa construir um ambiente propício para soluções inovadoras, melhorando a qualidade de vida e 
+          fortalecendo a colaboração entre os diversos atores envolvidos.</p>
+        </div>
       </section>
       <section className='third-section'>
 

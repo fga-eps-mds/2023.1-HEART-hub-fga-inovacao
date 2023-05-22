@@ -12,12 +12,12 @@ const Disciplinas = () => {
             <section className='first-section'>
                 <div>
                     <h1 className='disciplinas'>Disciplinas</h1>
-                    <p>
-                        Na aba de <strong className='strong'>Disciplinas</strong>, é possível encontrar informações sobre as disciplinas oferecidas<br /> 
-                        pela FGA, instituição de ensino superior que oferece cursos nas áreas de Engenharia e Tecnologia. <br /> 
-                        As disciplinas da FGA são elaboradas com base nas necessidades do mercado de trabalho e nas <br /> 
-                        tendências e inovações em cada área de atuação. Além disso, a instituição conta com uma equipe <br />
-                        de professores altamente qualificados e experientes, que buscam oferecer um ensino de qualidade <br />
+                    <p className='p-d'>
+                        Na aba de <strong className='strong'>Disciplinas</strong>, é possível encontrar informações sobre as disciplinas oferecidas 
+                        pela FGA, instituição de ensino superior que oferece cursos nas áreas de Engenharia e Tecnologia.  
+                        As disciplinas da FGA são elaboradas com base nas necessidades do mercado de trabalho e nas  
+                        tendências e inovações em cada área de atuação. Além disso, a instituição conta com uma equipe 
+                        de professores altamente qualificados e experientes, que buscam oferecer um ensino de qualidade 
                         e atualizado.
                     </p>
                 </div>

@@ -24,10 +24,11 @@
 .strong{
     color: #7D2D88;
 }
-.first-section p{
-    font-size: 1.2rem;
+.first-section .p-edi{
+    font-size: 1.5rem;
     color: black;
     text-align: justify;
+    max-width: 600px;
 }
 .second-section{
     height: 100vh;

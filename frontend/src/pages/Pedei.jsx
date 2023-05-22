@@ -10,13 +10,13 @@ const Pedei = () => {
     return (
         <section className='section'>
             <section className='first-section'>
-                <div>
+                <div className='div-p'>
                     <h1 className='pedei'>P&D&I</h1>
-                    <p>
-                        A <strong className='strong'>FGA</strong> é uma instituição que busca promover a inovação e o empreendedorismo,<br /> 
-                        estabelecendo uma conexão entre o ambiente acadêmico, as organizações e a sociedade.<br /> 
-                        Para alcançar esse objetivo, a FGA mantém diversas iniciativas e programas disponíveis para<br />
-                        facilitar e estimular o desenvolvimento de ideias e soluções que tragam benefícios para a<br />
+                    <p className='p-p'>
+                        A <strong className='strong'>FGA</strong> é uma instituição que busca promover a inovação e o empreendedorismo, 
+                        estabelecendo uma conexão entre o ambiente acadêmico, as organizações e a sociedade. 
+                        Para alcançar esse objetivo, a FGA mantém diversas iniciativas e programas disponíveis para
+                        facilitar e estimular o desenvolvimento de ideias e soluções que tragam benefícios para a
                         sociedade.
                     </p>
                 </div>

@@ -1,9 +1,12 @@
 import React from 'react';
 import './Contatos.css'   
+import Card from './Card';
+
 import { FiGithub,
   FiFigma,
   FiLinkedin,
-  FiInstagram
+  FiInstagram,
+  FiPhone
 } from "react-icons/fi";
 
 const Contatos = () => {
@@ -11,8 +14,28 @@ const Contatos = () => {
         <section className='section'>
             <section className='first-section'>
                 <div>
-                    <h1 className='contatos'>Contatos</h1>
+                    <h1 className='contatos'></h1>
+                    <div className="card-container">
+            <Card 
+            title="Meios de contato" 
+            description="" 
+            color="#8E4694"
+            icon={<FiPhone/>} // Adicione o ícone desejado aqui
+                    />
+            <Card 
+            title="Card 2" 
+            description= "" 
+            color="#f5f5f5" 
+            newTitle="Entre em Contato"/>
+             
+            <Card 
+            title="Redes Sociais" 
+            description="" 
+            color="#8E4694"/>
+        </div>
+                    
                 </div>
+                
             </section>
             <div class="footer-basic">
                 <footer>

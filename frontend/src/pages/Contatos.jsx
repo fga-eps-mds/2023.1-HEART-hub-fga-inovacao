@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contatos.css'   
 import Card from './Card';
+import img_01 from '../img/grupo.jpeg';
 
 import { FiGithub,
   FiFigma,
@@ -37,6 +38,107 @@ const Contatos = () => {
                 </div>
                 
             </section>
+
+            <section className='second-section'>
+
+            <div class="team-container">
+          <div class="team-member">
+          <div class="member-content">
+          <img className="img_01" src={img_01} alt="contato"/>
+          <div class="member-details">
+            <h3>Nome da Pessoa 1</h3>
+            <div class="social-media">
+              <a href="link-do-linkedin1" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="link-do-github1" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="team-member">
+          <div class="member-content">
+          <img className="img_01" src={img_01} alt="contato"/>
+          <div class="member-details">
+            <h3>Nome da Pessoa 2</h3>
+            <div class="social-media">
+              <a href="link-do-linkedin1" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="link-do-github1" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            </div>
+          </div>
+          </div>
+
+                  <div class="team-member">
+          <div class="member-content">
+          <img className="img_01" src={img_01} alt="contato"/>
+          <div class="member-details">
+            <h3>Nome da Pessoa 3</h3>
+            <div class="social-media">
+              <a href="link-do-linkedin1" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="link-do-github1" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            </div>
+          </div>
+          </div>
+
+
+                  <div class="team-member">
+          <div class="member-content">
+          <img className="img_01" src={img_01} alt="contato"/>
+          <div class="member-details">
+            <h3>Nome da Pessoa 4</h3>
+            <div class="social-media">
+              <a href="link-do-linkedin1" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="link-do-github1" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            </div>
+          </div>
+          </div>
+
+                  <div class="team-member">
+          <div class="member-content">
+          <img className="img_01" src={img_01} alt="contato"/>
+          <div class="member-details">
+            <h3>Nome da Pessoa 5</h3>
+            <div class="social-media">
+              <a href="link-do-linkedin1" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="link-do-github1" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            </div>
+          </div>
+          </div>
+
+                  <div class="team-member">
+          <div class="member-content">
+          <img className="img_01" src={img_01} alt="contato"/>
+          <div class="member-details">
+            <h3>Nome da Pessoa 6</h3>
+            <div class="social-media">
+              <a href="link-do-linkedin1" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="link-do-github1" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="team-member">
+          <div class="member-content">
+          <img className="img_01" src={img_01} alt="contato"/>
+          <div class="member-details">
+            <h3>Nome da Pessoa 7</h3>
+            <div class="social-media">
+              <a href="link-do-linkedin1" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="link-do-github1" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            </div>
+          </div>
+          </div>
+        
+  </div>
+
+
+            </section>
+
             <div class="footer-basic">
                 <footer>
                     <div class="social">

@@ -18,8 +18,14 @@
     min-width: 300px;
 }
 .equipes{
-    font-size: 4rem;
+    font-size: 3rem;
     color: #7D2D88;
+}
+.resumo{
+    font-size: 1.5rem;
+    color: black;
+    text-align: justify;
+    max-width: 600px;
 }
 .footer-basic {
     padding:40px 0;

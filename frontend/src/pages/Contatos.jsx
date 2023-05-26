@@ -4,10 +4,11 @@ import Card from './Card';
 import img_01 from '../img/grupo.jpeg';
 
 import { FiGithub,
+  FiUsers,
   FiFigma,
   FiLinkedin,
   FiInstagram,
-  FiPhone
+  FiPhone,
 } from "react-icons/fi";
 
 const Contatos = () => {
@@ -40,16 +41,18 @@ const Contatos = () => {
             </section>
 
             <section className='second-section'>
+            <h1 className='missao'>Nossa Equipe</h1>
 
             <div class="team-container">
           <div class="team-member">
           <div class="member-content">
           <img className="img_01" src={img_01} alt="contato"/>
           <div class="member-details">
-            <h3>Nome da Pessoa 1</h3>
+            <h3>Esther Sena</h3>
             <div class="social-media">
-              <a href="link-do-linkedin1" target="_blank"><i class="fab fa-linkedin"></i></a>
-              <a href="link-do-github1" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://br.linkedin.com/"><i className="fab fa-linkedin"><FiLinkedin/></i></a>
+              <a href="https://br.sonychannel.com/home" ><i className="fab fa-linkedin"><FiUsers/></i></a>
+              <a href="https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao" target="_blank"> <i className="fab fa-github"><FiGithub/></i></a>
             </div>
             </div>
           </div>
@@ -59,10 +62,11 @@ const Contatos = () => {
           <div class="member-content">
           <img className="img_01" src={img_01} alt="contato"/>
           <div class="member-details">
-            <h3>Nome da Pessoa 2</h3>
+            <h3>Mariiana Siqueira</h3>
             <div class="social-media">
-              <a href="link-do-linkedin1" target="_blank"><i class="fab fa-linkedin"></i></a>
-              <a href="link-do-github1" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://br.linkedin.com/"><i className="fab fa-linkedin"><FiLinkedin/></i></a>
+              <a href="https://br.sonychannel.com/home" ><i className="fab fa-linkedin"><FiUsers/></i></a>
+              <a href="https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao" target="_blank"> <i className="fab fa-github"><FiGithub/></i></a>
             </div>
             </div>
           </div>
@@ -72,10 +76,11 @@ const Contatos = () => {
           <div class="member-content">
           <img className="img_01" src={img_01} alt="contato"/>
           <div class="member-details">
-            <h3>Nome da Pessoa 3</h3>
+            <h3>Izabella Alves</h3>
             <div class="social-media">
-              <a href="link-do-linkedin1" target="_blank"><i class="fab fa-linkedin"></i></a>
-              <a href="link-do-github1" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://br.linkedin.com/"><i className="fab fa-linkedin"><FiLinkedin/></i></a>
+              <a href="https://br.sonychannel.com/home" ><i className="fab fa-linkedin"><FiUsers/></i></a>
+              <a href="https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao" target="_blank"> <i className="fab fa-github"><FiGithub/></i></a>
             </div>
             </div>
           </div>
@@ -86,10 +91,11 @@ const Contatos = () => {
           <div class="member-content">
           <img className="img_01" src={img_01} alt="contato"/>
           <div class="member-details">
-            <h3>Nome da Pessoa 4</h3>
+            <h3>Artur Ricardo Silva</h3>
             <div class="social-media">
-              <a href="link-do-linkedin1" target="_blank"><i class="fab fa-linkedin"></i></a>
-              <a href="link-do-github1" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://br.linkedin.com/"><i className="fab fa-linkedin"><FiLinkedin/></i></a>
+              <a href="https://br.sonychannel.com/home" ><i className="fab fa-linkedin"><FiUsers/></i></a>
+              <a href="https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao" target="_blank"> <i className="fab fa-github"><FiGithub/></i></a>
             </div>
             </div>
           </div>
@@ -99,10 +105,11 @@ const Contatos = () => {
           <div class="member-content">
           <img className="img_01" src={img_01} alt="contato"/>
           <div class="member-details">
-            <h3>Nome da Pessoa 5</h3>
+            <h3>Lucas Oliveira</h3>
             <div class="social-media">
-              <a href="link-do-linkedin1" target="_blank"><i class="fab fa-linkedin"></i></a>
-              <a href="link-do-github1" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://br.linkedin.com/"><i className="fab fa-linkedin"><FiLinkedin/></i></a>
+              <a href="https://br.sonychannel.com/home" ><i className="fab fa-linkedin"><FiUsers/></i></a>
+              <a href="https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao" target="_blank"> <i className="fab fa-github"><FiGithub/></i></a>
             </div>
             </div>
           </div>
@@ -112,10 +119,11 @@ const Contatos = () => {
           <div class="member-content">
           <img className="img_01" src={img_01} alt="contato"/>
           <div class="member-details">
-            <h3>Nome da Pessoa 6</h3>
+            <h3>Lucas Ribeiro</h3>
             <div class="social-media">
-              <a href="link-do-linkedin1" target="_blank"><i class="fab fa-linkedin"></i></a>
-              <a href="link-do-github1" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://br.linkedin.com/"><i className="fab fa-linkedin"><FiLinkedin/></i></a>
+              <a href="https://br.sonychannel.com/home" ><i className="fab fa-linkedin"><FiUsers/></i></a>
+              <a href="https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao" target="_blank"> <i className="fab fa-github"><FiGithub/></i></a>
             </div>
             </div>
           </div>
@@ -125,10 +133,11 @@ const Contatos = () => {
           <div class="member-content">
           <img className="img_01" src={img_01} alt="contato"/>
           <div class="member-details">
-            <h3>Nome da Pessoa 7</h3>
+            <h3>Lucas Victor Ferreira</h3>
             <div class="social-media">
-              <a href="link-do-linkedin1" target="_blank"><i class="fab fa-linkedin"></i></a>
-              <a href="link-do-github1" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://br.linkedin.com/"><i className="fab fa-linkedin"><FiLinkedin/></i></a>
+              <a href="https://br.sonychannel.com/home" ><i className="fab fa-linkedin"><FiUsers/></i></a>
+              <a href="https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao" target="_blank"> <i className="fab fa-github"><FiGithub/></i></a>
             </div>
             </div>
           </div>

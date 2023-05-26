@@ -32,3 +32,6 @@ editais = [
 
 ]
 
+with open("EditaisACESSO.json", "w") as  f:
+    json.dump(editais, f, indent=4)
+    

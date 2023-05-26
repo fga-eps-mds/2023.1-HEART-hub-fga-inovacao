@@ -1,88 +1,101 @@
-
-
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     text-decoration: none;
 }
-.container{
-    display:flex;
+
+.container {
+    display: flex;
 }
-main{
+
+main {
     width: 100%;
     height: 100%;
-    padding: 20px;
+    padding: 1.25rem;
 }
-.sidebar{
+
+.sidebar {
     position: sticky;
     top: 0;
-    width: 200px;
+    width: 12.5rem;
     height: 100vh;
     background-color: transparent;
     color: #000;
 }
-.top_section{
+
+.top_section {
     display: flex;
     align-items: center;
-    padding: 20px 15px;
+    padding: 1.25rem 0.9375rem;
 }
-.logo{
+
+.logo {
     color: #7D2D88;
-    margin-left: 10px;
-    font-size: 25px;
+    margin-left: 0.625rem;
+    font-size: 1.5625rem;
 }
-.bars{
+
+.bars {
     color: #7D2D88;
     display: flex;
-    font-size: 35px;
-    margin-left: 50px;
+    font-size: 2.1875rem;
+    margin-left: 3.125rem;
     cursor: pointer;
 }
-.search{
+
+.search {
     outline: none;
     border: none;
     background-color: #eaeaea;
-    margin: 15px;
+    margin: 0.9375rem;
     display: flex;
-    border-radius: 10px;
-    padding: 15px 15px;
-    font-size: 16px;
+    border-radius: 0.625rem;
+    padding: 0.9375rem 0.9375rem;
+    font-size: 1rem;
     color: #7D2D88;
 }
+
 .search-icon {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #000;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 30px;
+    right: 1.875rem;
 }
-.search-icon:hover{
-    font-size: 20px;
+
+.search-icon:hover {
+    font-size: 1.25rem;
     color: #000000;
     transform: translateY(-47%);
-    right: 29px;
+    right: 1.8125rem;
 }
+
 hr {
-    margin: 15px;
+    margin: 0.9375rem;
 }
-.link{
-    margin: 15px;
+
+.link {
+    margin: 0.9375rem;
     display: flex;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     color: #2d2d2d;
-    padding: 13px 15px;
-    gap: 15px;
+    padding: 0.8125rem 0.9375rem;
+    gap: 0.9375rem;
 }
-.link:hover{
+
+.link:hover {
     background-color: #7D2D88;
     color: #fff;
     transition: all 0.5s;
 }
-.active{
+
+.active {
     background-color: #7D2D88;
-    color: #fff; 
+    color: #fff;
 }
-.icon, .link_text{
-    font-size: 18px;
+
+.icon,
+.link_text {
+    font-size: 1.125rem;
 }

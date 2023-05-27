@@ -46,7 +46,7 @@ const Contatos = () => {
 
                   <div className="title">
                   <FiClock className='iconc1'/> <a href='https://fga.unb.br/unb-gama/contato'>Horário comercial
-                    <p className='iconp1'>Seg-Sex: 10 horas - 18 horas</p>
+                    <p className='iconp1'>Seg-Sex: 08 horas - 18 horas</p>
                     </a>
                   </div>
                 </>

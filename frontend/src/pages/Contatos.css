@@ -119,10 +119,13 @@
 
 .member-details {
     text-align: left;
+    align-items: center;
 }
 
 h3 {
     margin-bottom: 0.5rem; /* Convertendo 5px para rem */
+    margin-left: 1.5rem;
+    
 }
 
 .social-media a {
@@ -134,23 +137,15 @@ h3 {
     border-radius: 50%;
     margin: 1rem; 
     margin-right: 1rem; 
-    color: #fff;
-    background-color: #333;
-    font-size: 2rem; /* Convertendo 20px para rem */
+    color:  #7D2D88;
+    background-color: #f0f0f0;
+    font-size: 1.5rem; /* Convertendo 20px para rem */
     transition: background-color 0.3s ease;
-    box-shadow: 0.5rem 0.5rem 0.5rem  rgba(0, 0, 0, 0.212);
+    box-shadow: 0.5rem 0.5rem 0.5rem  rgba(113, 1, 141, 0.678);
 }
 
-.social-media a:hover {
-    background-color: #000;
-}
-
-.social-media a i {
-    vertical-align: middle;
-}
 
   
-
   .footer-basic {
     padding: 40px 0;
     background-color: transparent;

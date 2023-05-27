@@ -50,9 +50,9 @@ const Contatos = () => {
           <div class="member-details">
             <h3>Esther Sena</h3>
             <div class="social-media">
-            <a href="https://br.linkedin.com/"><i className="fab fa-linkedin"><FiLinkedin/></i></a>
+            <a href="https://www.linkedin.com/in/esther-sena-martins-003b021b3/"><i className="fab fa-linkedin"><FiLinkedin/></i></a>
               <a href="https://br.sonychannel.com/home" ><i className="fab fa-linkedin"><FiUsers/></i></a>
-              <a href="https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao" target="_blank"> <i className="fab fa-github"><FiGithub/></i></a>
+              <a href="https://github.com/esmsena" target="_blank"> <i className="fab fa-github"><FiGithub/></i></a>
             </div>
             </div>
           </div>
@@ -121,8 +121,8 @@ const Contatos = () => {
           <div class="member-details">
             <h3>Lucas Ribeiro</h3>
             <div class="social-media">
-              <a href="https://br.linkedin.com/"><i className="fab fa-linkedin"><FiLinkedin/></i></a>
-              <a href="https://br.sonychannel.com/home" ><i className="fab fa-linkedin"><FiUsers/></i></a>
+              <a href="https://br.linkedin.com/"><i className="linkedin"><FiLinkedin/></i></a>
+              <a href="https://br.sonychannel.com/home" ><i className="linkedin"><FiUsers/></i></a>
               <a href="https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao" target="_blank"> <i className="fab fa-github"><FiGithub/></i></a>
             </div>
             </div>

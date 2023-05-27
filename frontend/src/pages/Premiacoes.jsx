@@ -1,17 +1,17 @@
 import React from 'react';
-import './Disciplinas.css'   
+import './Premiacoes.css'   
 import { FiGithub,
   FiFigma,
   FiLinkedin,
   FiInstagram
 } from "react-icons/fi";
 
-const Disciplinas = () => {
+const Premiacoes = () => {
     return (
         <section className='section'>
             <section className='first-section'>
                 <div>
-                    <h1 className='disciplinas'>Disciplinas</h1>
+                    <h1 className='premiacoes'>Premiações</h1>
                     <p className='p-d'>
                         Na aba de <strong className='strong'>Disciplinas</strong>, é possível encontrar informações sobre as disciplinas oferecidas 
                         pela FGA, instituição de ensino superior que oferece cursos nas áreas de Engenharia e Tecnologia.  
@@ -68,4 +68,4 @@ const Disciplinas = () => {
     );
 };
 
-export default Disciplinas;
+export default Premiacoes;

@@ -4,7 +4,7 @@ import { FiHome,
     FiUsers,
     FiAward,
     FiCalendar,
-    FiBookOpen,
+    FiDribbble,
     FiPhone,
     FiMenu,
     FiCpu,
@@ -34,7 +34,7 @@ const Sidebar = ({children}) => {
 
     const menuItem=[
         {
-            path:"/",
+            path:"/2023.1-HEART-hub-fga-inovacao",
             name:"Inicio",
             icon:<FiHome/>
         },
@@ -56,12 +56,12 @@ const Sidebar = ({children}) => {
         {
             path:"/equipesdecompetição",
             name:"Equipes de Competição",
-            icon:<FiAward/>
+            icon:<FiDribbble/>
         },
         {
-            path:"/disciplinas",
-            name:"Disciplinas",
-            icon:<FiBookOpen/>
+            path:"/premiações",
+            name:"Premiações",
+            icon:<FiAward/>
         },
         {
             path:"/editais",
@@ -78,8 +78,8 @@ const Sidebar = ({children}) => {
     return (
         <div className="container">
             <div style={{width: isOpen ? "360px" : "80px"}} className="sidebar">
-                <div className="top_section">
-                    <h1 style={{display: isOpen ? "block" : "none"}} className="logo">Heart</h1>
+                <div className="top_section">   
+                    <a href="/2023.1-HEART-hub-fga-inovacao"><h1 style={{display: isOpen ? "block" : "none"}} className="logo">Heart</h1></a>
                     <div style={{marginLeft: isOpen ? "150px" : "6px"}} className="bars">
                         {isOpen ? (
                             <FiX onClick={toggle} />

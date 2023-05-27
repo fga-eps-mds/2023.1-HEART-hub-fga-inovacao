@@ -7,7 +7,7 @@ import img_val from '../img/valores_1.png';
 import img_com from '../img/valores_2.png';
 import img_transf from '../img/valores_3.png';
 import img_logo from '../img/logo-unb.png';
-import img_fga from '../img/fga.png'
+import img_fga from '../img/fga.png';
 import { FiGithub,
   FiFigma,
   FiLinkedin,

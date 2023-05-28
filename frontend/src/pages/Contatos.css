@@ -1,80 +1,129 @@
 .section {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-  
-  .first-section {
-    height: 100vh;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    min-height: 40rem;
-  }
-  
-  .first-section > div {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    min-width: 18rem;
-  }
-  
-  .contatos {
-    font-size: 4rem;
-    color: #7D2D88;
-  }
-  
-  .card-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1.25rem;
-    flex-wrap: wrap;
-  }
-  
-  .card {
-    flex: 0 0 calc(33.33% - 20px);
-    margin: 10px;
-    width: 450px;
-    height: 450px;
-    padding: 20px;
-    color: #A96AA9;
-    text-align: center;
-    font-size: 18px;
-  }
-  
-  .card.hovered {
-    transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
-  
-  .card-inputs {
-    margin-top: 1rem;
-    display: grid;
-    width: 100%;
-    gap: 1rem;
-  }
-  
-  .card-input {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-  }
-  
-  .card-button {
-    margin-top: 2rem;
-    align-items: center;
-    background-color: #8E4694;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    font-size: 18px;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
 
+.first-section {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 40rem;
+}
+
+.first-section > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  min-width: 18rem;
+}
+
+.contatos {
+  font-size: 4rem;
+  color: #7D2D88;
+}
+
+/* classe que estiliza a forma como os cards são distribuidos na tela e a margem dos mesmos*/
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.25rem;
+  flex-wrap: wrap;
+}
+
+/* classe que estiliza as propriedades dos cards*/
+.card {
+  flex: 0 0 calc(33.33% - 20px);
+  margin: 10px;
+  width: 450px;
+  height: 450px;
+  padding: 20px;
+  color: #A96AA9;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* classe que estiliza a animação dos cards na tela*/
+.card.hovered {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Classe que estiliza o alinhamento do grupo de inputs do formularios do card "Entre em contato"*/
+.card-inputs {
+  margin-top: 1rem;
+  display: grid;
+  width: 100%;
+  gap: 1rem;
+}
+/* Classe que estiliza as caracteristicas dos inputs do card "Entre em contato"*/
+.card-input {
+  text-align: center;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Classe que estiliza o botão do card "Entre em contato"*/
+.card-button {
+  margin-top: 1rem;
+align-items: center;
+background-color: #8E4694;
+color: white;
+border: none;
+border-radius: 1rem;
+font-size: 1.2rem; /* Aumenta o tamanho da fonte para 1.2rem */
+padding: 0.8rem 1.6rem; 
+cursor: pointer;
+}
+
+/* Classe que estiliza os titulos do primeiro card responsável pelos meios de contato */
+.title {
+  color: white;
+  font-size: 1rem;
+  gap:3rem;
+  cursor: pointer;
+}
+.title a{
+  color: inherit;
+  text-decoration: none;
+} 
+
+/* Classe responsável pela estilização dos icones do primeiro card responsável pelos meios de contato*/
+.iconc1{
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.iconc1 a {
+  color: inherit;
+  text-decoration: none;
+} 
+
+/*Classe responsável pela estilização dos paragrafos do primeiro card responsável pelos meios de contato*/
+.iconp1{
+  color:white;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+/* Classe responsável pela estilização dos icones do card 3 responsável pelos links das reddes sociais*/
+.iconc3{
+  color: white;
+  cursor: pointer;
+  font-size: 2rem;
+  align-items: center;
+  gap: 3rem;
+}
+
+.iconc3 a {
+  color: inherit;
+  text-decoration: none;
+}
   .second-section {
     height: 100vh;
     display: flex;
@@ -261,6 +310,13 @@ h3 {
       height: 25px;
       line-height: 25px;
     }
+
+    .card {
+      flex-basis: 100%;
+      width: auto;
+      height: auto;
+    }
+  
   }
     
   

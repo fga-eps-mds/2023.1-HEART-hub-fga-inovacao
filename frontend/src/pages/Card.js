@@ -66,5 +66,4 @@ card-content, renderizamos o icone recebido, exibimos o titulo("NewTitle" se est
 ver definido, se nã usamos "title") e se New title for igual a "ente em contato"
 renderizamos um formulário de contato*/}
 
-
 export default Card;

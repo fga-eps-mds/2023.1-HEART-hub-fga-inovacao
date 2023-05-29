@@ -101,9 +101,10 @@
 }
 
 .card__name-ej{
-  font-size: 1.rem;
+  font-size: 1.5rem;
   font-weight: 500;
   position: relative;
+  top: .2em;
 }
 .card__eng-ej{
   color: var(--color);

@@ -1,11 +1,12 @@
-.section{
+.section {
     display: flex;
     width: 100%;
     height: 100%;
     flex-direction: column;
     gap: 2rem;
 }
-.first-section{
+
+.first-section {
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -13,275 +14,324 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.first-section > div{
+
+.first-section > div {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    min-width: 300px;
+    min-width: 18.75rem;
 }
-.quemsomos{
+
+.quemsomos {
     font-size: 4rem;
     color: #7D2D88;
 }
-.strong{
+
+.strong {
     color: #7D2D88;
 }
-.first-section .p-i{
+
+.first-section .p-i {
     font-size: 1.3rem;
     color: black;
     text-align: justify;
-    max-width: 600px;
+    max-width: 37.5rem;
 }
-.btn-saiba-mais{
-    padding: .6rem;
-    font-size: .9rem;
-    border-radius: 30px;
+
+.btn-saiba-mais {
+    padding: 0.6rem;
+    font-size: 0.9rem;
+    border-radius: 1.875rem;
     cursor: pointer;
-    transition: .4s;
+    transition: 0.4s;
     text-decoration: none;
-    width: 150px;
+    width: 9.375rem;
     color: white;
     background-color: #7D2D88;
     text-align: center;
     font-weight: bold;
 }
-.btn-saiba-mais:hover{
+
+.btn-saiba-mais:hover {
     background-color: #c86cd4;
 }
-.box-img-main{
-    max-width: 414px;
+
+.box-img-main {
+    max-width: 25.875rem;
 }
-.img{
+
+.img {
     width: 100%;
 }
-.second-section{
+
+.second-section {
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    min-height: 650px;
+    min-height: 40.625rem;
 }
-.coluna-1{
+
+.coluna-1 {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    min-width: 300px;
+    min-width: 18.75rem;
 }
-.missao{
+
+.missao {
     font-size: 4rem;
     color: #7D2D88;
 }
-.heart{
+
+.heart {
     color: #7D2D88;
     font-size: 1.4rem;
 }
-.p-ii{
+
+.p-ii {
     font-size: 1.3rem;
     color: black;
     text-align: justify;
-    max-width: 400px;
+    max-width: 25rem;
     left: 100vh;
 }
-.box-img_time{
-    max-width: 550px;
+
+.box-img_time {
+    max-width: 34.375rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.img_2{
+
+.img_2 {
     width: 100%;
-    max-width: 400px;
+    max-width: 25rem;
 }
-.coluna-2{
+
+.coluna-2 {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    min-width: 300px;
+    min-width: 18.75rem;
 }
-.visao{
+
+.visao {
     font-size: 4rem;
     color: #7D2D88;
-    
 }
-.p-iii{
+
+.p-iii {
     font-size: 1.3rem;
     color: black;
     text-align: justify;
-    max-width: 400px;
+    max-width: 25rem;
     left: 100vh;
 }
-.box-img_inovacao{
-    max-width: 550px;
+
+.box-img_inovacao {
+    max-width: 34.375rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.img_3{
+
+.img_3 {
     width: 100%;
-    max-width: 400px;
+    max-width: 25rem;
 }
+
 .third-section {
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 1.875rem;
 }
+
 .coluna-3 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 40px;
+    gap: 2.5rem;
 }
-.pilares{
+
+.pilares {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 1.875rem;
 }
+
 .valores {
-    margin-top: 200px;
+    margin-top: 12.5rem;
     font-size: 4rem;
     color: #7D2D88;
     text-align: center;
 }
+
 .p-iv {
     font-size: 1.3rem;
     color: black;
     text-align: justify;
-    max-width: 800px;
+    max-width: 50rem;
     left: 100vh;
 }
+
 .valores_sub {
     font-size: 1.44rem;
     color: #7D2D88;
-    max-width: 300px;
+    max-width: 18.75rem;
 }
-.valores_1{
-    max-width: 300px;
+
+.valores_1 {
+    max-width: 18.75rem;
 }
+
 .p-iv_sub {
     font-size: 1.3rem;
     color: black;
     text-align: justify;
-    max-width: 300px;
+    max-width: 18.75rem;
     left: 100vh;
 }
-.Ensino_Pesquisa{
+
+.Ensino_Pesquisa {
     display: flex;
     flex-direction: column;
-    max-width: 300px;
-    gap: 20px;
+    max-width: 18.75rem;
+    gap: 1.25rem;
     align-items: center;
 }
-.Comunidade_Cooperacao{
+
+.Comunidade_Cooperacao {
     display: flex;
     flex-direction: column;
-    max-width: 300px;
-    gap: 20px;
+    max-width: 18.75rem;
+    gap: 1.25rem;
     align-items: center;
 }
-.Transfereia_Aplicacoes{
+
+.Transfereia_Aplicacoes {
     display: flex;
     flex-direction: column;
-    max-width: 300px;
-    gap: 20px;
+    max-width: 18.75rem;
+    gap: 1.25rem;
     align-items: center;
 }
+
 .fourth-section {
-    margin-top: 250px;
+    margin-top: 15.625rem;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 70px;
+    gap: 4.375rem;
 }
+
 .bloco-titulo {
     align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 4.375rem;
 }
+
 .unb-titulo {
     font-size: 2.5rem;
     color: #7D2D88;
 }
+
 .historia-titulo {
     font-size: 1.3rem;
     text-align: justify;
-    max-width: 1090px;
+    max-width: 68.125rem;
 }
+
 .blocos {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
-    gap: 150px;
+    gap: 9.375rem;
 }
+
 .bloco1 {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
-    gap: 20px;
+    max-width: 25rem;
+    gap: 1.25rem;
 }
+
 .li-b1 {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
     list-style-type: none;
 }
+
 .a-b1 {
     font-size: 1.4rem;
     color: #7D2D88;
 }
+
 .p-b1 {
     font-size: 1.3rem;
     text-align: justify;
 }
+
 .bloco2 {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
-    gap: 20px;
+    max-width: 25rem;
+    gap: 1.25rem;
 }
+
 .li-b2 {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
     list-style-type: none;
 }
+
 .a-b2 {
     font-size: 1.4rem;
     color: #7D2D88;
 }
+
 .p-b2 {
     font-size: 1.3rem;
     text-align: justify;
 }
+
 @media (max-width:785px){
-    .section{
-        padding: 100px 2%;
+    .section {
+        padding: 6.25rem 2%;
         flex-direction: column;
         text-align: center;
         overflow: hidden;
     }
-    .botão{
+
+    .botão {
         align-items: center;
     }
-    .first-section .p-i{
+
+    .first-section .p-i {
         font-size: 1.3rem;
         color: black;
         text-align: inherit;
     }
+
     .unb-titulo {
         font-size: 3rem;
     }
+
     .historia-titulo {
         font-size: 1.3rem;
         text-align: inherit;
     }
+
     .blocos {
         display: flex;
         flex-direction: column;
@@ -289,36 +339,42 @@
         flex-wrap: wrap;
         gap: none;
     }
+
     .bloco1 {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        max-width: 800px;
-        gap: 50px;
+        max-width: 50rem;
+        gap: 3.125rem;
     }
+
     .li-b1 {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 1.25rem;
         list-style-type: none;
     }
+
     .p-b1 {
         font-size: 1.3rem;
         text-align: inherit;
     }
+
     .bloco2 {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        max-width: 800px;
-        gap: 50px;
+        max-width: 50rem;
+        gap: 3.125rem;
     }
+
     .li-b2 {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 1.25rem;
         list-style-type: none;
     }
+
     .p-b2 {
         font-size: 1.3rem;
         text-align: inherit;
@@ -373,33 +429,10 @@
 .footer-basic .social > a:hover {
     opacity:0.9;
 }
-.texto_footer{
-    margin-top:15px;
-    text-align:center;
-    font-size:18px;
-    color:#7D2D88;
-    margin-bottom:0;
-}
 .footer-basic .copyright {
     margin-top:15px;
     text-align:center;
     font-size:13px;
     color:#7D2D88;
     margin-bottom:0;
-}
-.logo_unb{
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-}
-.img_logo{
-    max-width: 10vh;
-    margin-top: 1.5rem;
-    justify-content: center;
-}
-.fga{
-    max-width: 18vh;
-    margin-top: 1.5rem;
-    justify-content: center;
-
 }

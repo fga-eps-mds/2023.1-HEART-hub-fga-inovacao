@@ -1,3 +1,4 @@
+
 .section {
   display: flex;
   flex-direction: column;
@@ -129,6 +130,7 @@ cursor: pointer;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+
     min-height: 40rem; /* Convertendo 650px para rem */
     padding: 2rem; /* Adicionando um espaçamento interno */
 }
@@ -197,21 +199,21 @@ h3 {
   
   .footer-basic {
     padding: 40px 0;
+
     background-color: transparent;
-    color: #A96AA9;
-  }
-  
-  .footer-basic ul {
-    padding: 0;
-    list-style: none;
-    text-align: center;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 0;
-  }
-  
-  .footer-basic li {
+    color:#7D2D88;
+}
+.footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+.footer-basic li {
     display: inline;
+
     padding: 0 10px;
   }
   
@@ -319,4 +321,4 @@ h3 {
   
   }
     
-  
+ 

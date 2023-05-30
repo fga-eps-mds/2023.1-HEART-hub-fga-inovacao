@@ -283,6 +283,18 @@ h3 {
       height: auto;
     }
   
+    @media screen and (max-width: 768px) {
+      .second-section > div {
+        width: 45%;
+      }
+    }
+    
+    @media screen and (max-width: 480px) {
+      .second-section > div {
+        width: 100%;
+      }
+    }
+    
     .team-container {
       grid-template-columns: 1fr;
       gap: 2rem;
@@ -320,5 +332,8 @@ h3 {
     }
   
   }
+    
+ 
+
     
  

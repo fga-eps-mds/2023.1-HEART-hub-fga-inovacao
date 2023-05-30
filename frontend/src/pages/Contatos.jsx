@@ -2,6 +2,8 @@ import React from 'react';
 import './Contatos.css'   
 import Card from './Card';
 import img_01 from '../img/grupo.jpeg';
+import img_02 from '../img/fotoIzabella.jpeg';
+import img_03 from '../img/fotEsther.jpeg';
 
 import { FiGithub,
   FiUsers,
@@ -135,7 +137,7 @@ rede social diferente*/}
             <div class="team-container">
           <div class="team-member">
           <div class="member-content">
-          <img className="img_01" src={img_01} alt="contato"/>
+          <img className="img_02" src={img_02} alt="contato"/>
           <div class="member-details">
             <h3>Esther Sena</h3>
             <div class="social-media">
@@ -163,7 +165,7 @@ rede social diferente*/}
 
                   <div class="team-member">
           <div class="member-content">
-          <img className="img_01" src={img_01} alt="contato"/>
+          <img className="img_03" src={img_03} alt="contato"/>
           <div class="member-details">
             <h3>Izabella Alves</h3>
             <div class="social-media">

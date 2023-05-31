@@ -23,7 +23,7 @@ const Contatos = () => {
   return (
     <section className='section'>
 
-    <section className='first-section'>
+      <section className='first-section'>
         <div>
           <h1 className='contatos'></h1>
           <div className="card-container">
@@ -51,7 +51,9 @@ const Contatos = () => {
 
                   <div className="title">
                   <FiClock className='iconc1'/> <a href='https://fga.unb.br/unb-gama/contato'>Horário comercial
-                    <p className='iconp1'>Seg-Sex: 10 horas - 18 horas</p>
+                    <p className='iconp1'>Seg-Sex: 08 horas - 18 horas <br></br>
+                    e 14 horas-18 horas</p>
+
                     </a>
                   </div>
                 </>
@@ -129,6 +131,11 @@ rede social diferente*/}
           </div>
         </div>
       </section>
+      {/* Resto do código */}
+    </section>
+  );
+};
+=======
   
 
             <section className='second-section'>
@@ -281,5 +288,6 @@ rede social diferente*/}
     </section>
     );
   };
+
 
 export default Contatos;

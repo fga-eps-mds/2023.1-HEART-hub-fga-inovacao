@@ -146,57 +146,117 @@ cursor: pointer;
 .team-member {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: #ffffff;
-    padding: 0.5rem 0.5rem; /* Convertendo 10px 20px para rem */
-    border-radius: 1rem; /* Convertendo 10px para rem */
-    margin-bottom: 1rem; /* Adicionando espaçamento inferior */
-    box-shadow: 0.5rem 0.5rem 0.5rem  rgba(0, 0, 0, 0.3);
-}
-
-.member-content {
-    display: flex;
-    align-items: center;
-}
-
-.img_01 {
-    width: 6rem; /* Convertendo 100px para rem */
-    height: 6rem; /* Convertendo 100px para rem */
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 2rem; /* Convertendo 20px para rem */
-}
-
-.member-details {
-    text-align: left;
-    align-items: center;
-}
-
-h3 {
-    margin-bottom: 0.5rem; /* Convertendo 5px para rem */
-    margin-left: 1.5rem;
-    
-}
-
-.social-media a {
-    display: inline-block;
-    width: 3rem; /* Convertendo 40px para rem */
-    height: 3rem; /* Convertendo 40px para rem */
-    line-height: 4rem; /* Convertendo 40px para rem */
-    text-align: center;
-    border-radius: 50%;
-    margin: 1rem; 
-    margin-right: 1rem; 
-    color:  #7D2D88;
-    background-color: #f0f0f0;
-    font-size: 1.5rem; /* Convertendo 20px para rem */
-    transition: background-color 0.3s ease;
-    box-shadow: 0.5rem 0.5rem 0.5rem  rgba(113, 1, 141, 0.678);
-}
-
-
+    gap: 2rem;
+    min-width: 18rem;
+  }
   
+  .contatos {
+    font-size: 4rem;
+    color: #7D2D88;
+  }
+  
+/* classe que estiliza a forma como os cards são distribuidos na tela e a margem dos mesmos*/
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.25rem;
+    flex-wrap: wrap;
+  }
+  
+  /* classe que estiliza as propriedades dos cards*/
+  .card {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    width: 450px;
+    height: 450px;
+    padding: 20px;
+    color: #A96AA9;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  /* classe que estiliza a animação dos cards na tela*/
+  .card.hovered {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Classe que estiliza o alinhamento do grupo de inputs do formularios do card "Entre em contato"*/
+  .card-inputs {
+    margin-top: 1rem;
+    display: grid;
+    width: 100%;
+    gap: 1rem;
+  }
+/* Classe que estiliza as caracteristicas dos inputs do card "Entre em contato"*/
+  .card-input {
+    text-align: center;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  /* Classe que estiliza o botão do card "Entre em contato"*/
+  .card-button {
+    margin-top: 1rem;
+  align-items: center;
+  background-color: #8E4694;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.2rem; /* Aumenta o tamanho da fonte para 1.2rem */
+  padding: 0.8rem 1.6rem; 
+  cursor: pointer;
+  }
+
+  /* Classe que estiliza os titulos do primeiro card responsável pelos meios de contato */
+  .title {
+    color: white;
+    font-size: 1rem;
+    gap:3rem;
+    cursor: pointer;
+  }
+  .title a{
+    color: inherit;
+    text-decoration: none;
+  } 
+
+/* Classe responsável pela estilização dos icones do primeiro card responsável pelos meios de contato*/
+  .iconc1{
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  .iconc1 a {
+    color: inherit;
+    text-decoration: none;
+  } 
+
+/*Classe responsável pela estilização dos paragrafos do primeiro card responsável pelos meios de contato*/
+  .iconp1{
+    color:white;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+/* Classe responsável pela estilização dos icones do card 3 responsável pelos links das reddes sociais*/
+  .iconc3{
+    color: white;
+    cursor: pointer;
+    font-size: 2rem;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .iconc3 a {
+    color: inherit;
+    text-decoration: none;
+  }
+ 
+  /* Classes responsável pela estilização do footer da pagina*/
   .footer-basic {
     padding: 40px 0;
 

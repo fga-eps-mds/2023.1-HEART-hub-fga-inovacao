@@ -43,8 +43,8 @@ trario, a classe cardClassName será apenas 'card'. */}
         {newTitle === "Entre em Contato" && (
           <div className="card-inputs">
             <input className="card-input" type="text" placeholder="Nome" />
-            <input className="card-input" type="e-mail" placeholder="E-mail" />
-            <input className="card-input" type="tel" placeholder="Telefone" />
+            <input className="card-input" type="email" placeholder="E-mail" />
+            <input className="card-input" type="number" placeholder="Telefone" />
             <input className="card-input" type="text" placeholder="Assunto" />
             <textarea
               className="card-input card-textarea"

@@ -1,32 +1,82 @@
-[
+[    
     {
-        "nome": "Eletrojun",
-        "link": "http://www.eletrojun.com.br",
+        "logo": "https://i.imgur.com/S9kU1CR.png/eletronjun.jpg",
+        "nome": "EletronJun",
+        "engenharia": "Engenharia Eletrônica",
+        "link": "http://www.eletronjun.com.br",
         "descricao": "A EletronJun \u00e9 a pioneira entre as empresas-juniores dos cursos de engenharia da Faculdade do Gama, sendo gerida por alunos da mesma. Foca-se em aliar a teoria estudada em sala de aula com pr\u00e1ticas em diversas \u00e1reas tanto na pr\u00f3pria engenharia em si quanto em gest\u00e3o e admnistra\u00e7\u00e3o, visando colaborar com a capacita\u00e7\u00e3o do estudante para atuar nas mais diversas \u00e1reas que est\u00e3o dispon\u00edveis no mercado de trabalho.",
         "instagram": "https://instagram.com/eletronjun?igshid=YmMyMTA2M2Y="
     },
     {
+        "logo": "https://i.imgur.com/CVmiad4.png/230x230/orc.jpg",
         "nome": "Orc'estra",
+        "engenharia": "Engenharia de Software",
         "link": "http://www.orcestra.com.br",
         "descricao": "A Orc'estra \u00e9 uma empresa j\u00fanior, formada e gerida por alunos de Engenharia de Software da Universidade de Bras\u00edlia - Faculdade  Gama, criada para que esses alunos possam colocar em pr\u00e1tica tudo o que aprendem em suas aulas, al\u00e9m de ter um primeiro contato com o mercado de trabalho.",
         "instagram": "https://instagram.com/orcgamificacao?igshid=NTc4MTIwNjQ2YQ=="
     },
     {
+        "logo": "https://i.imgur.com/kfp6gGS.png/matriz.jpg",
         "nome": "Matriz Energia",
+        "engenharia": "Engenharia de Energia",
         "link": "http://www.matrizenergia.com",
         "descricao": "A Matriz Engenharia de Energia nasceu em 2015 com o ideal de trazer a seus clientes produtos e servi\u00e7os exclusivos na \u00e1rea de energia e sustentabilidade, voltada \u00e0 redu\u00e7\u00e3o de custos com energia, visando buscar a excel\u00eancia e superar suas expectativas.",
         "instagram": "https://instagram.com/matrizenergia?igshid=YmMyMTA2M2Y="
     },
     {
+        "logo": "https://i.imgur.com/xe6bC5D.png/zenit.jpg",
         "nome": "Zenit Aerospace",
+        "engenharia": "Engenharia Aeroespacial",
         "link": "http://www.zenitaerospace.com",
         "descricao": "A Zenit Aerospace \u00e9 uma empresa j\u00fanior formada por alunos de gradua\u00e7\u00e3o da Universidade de Bras\u00edlia (UnB), que possuem o desejo comum de promover o avan\u00e7o da tecnologia aeroespacial no Brasil e no mundo.",
         "instagram": "https://instagram.com/zenitaerospace?igshid=YmMyMTA2M2Y="
     },
     {
+        "logo": "https://i.imgur.com/mCDR8oK.jpeg/engrena.jpg",
         "nome": "Engrena",
-        "link": "http://www.engrenaengenharia.com",
+        "engenharia": "Engenharia Automotiva",
+        "link": "https://web.facebook.com/engrenaengenharia/?locale=pt_BR&_rdc=1&_rdr",
+        "descricao": "A Engrena: Solu\u00e7\u00f5es em Engenharia \u00e9 a primeira e \u00fanica empresa j\u00fanior de Engenharia Automotiva do Brasil. Criada por estudantes da Universidade de Bras\u00edlia - Faculdade do Gama com o objetivo de colocar em pr\u00e1tica o aprendizado em sala, prestam servi\u00e7os de qualidade a seus clientes e promovem um aprendizado focado no mercado de trabalho automobil\u00edstico, colaborando para uma melhor atua\u00e7\u00e3o nas diversas \u00e1reas das engenharias - em especial, a automotiva.",
+        "instagram": "https://instagram.com/engrenaengenharia?igshid=NTc4MTIwNjQ2YQ=="
+    },
+    {
+        "logo": "https://i.imgur.com/S9kU1CR.png/eletronjun.jpg",
+        "nome": "EletronJun",
+        "engenharia": "Engenharia Eletrônica",
+        "link": "http://www.eletronjun.com.br",
+        "descricao": "A EletronJun \u00e9 a pioneira entre as empresas-juniores dos cursos de engenharia da Faculdade do Gama, sendo gerida por alunos da mesma. Foca-se em aliar a teoria estudada em sala de aula com pr\u00e1ticas em diversas \u00e1reas tanto na pr\u00f3pria engenharia em si quanto em gest\u00e3o e admnistra\u00e7\u00e3o, visando colaborar com a capacita\u00e7\u00e3o do estudante para atuar nas mais diversas \u00e1reas que est\u00e3o dispon\u00edveis no mercado de trabalho.",
+        "instagram": "https://instagram.com/eletronjun?igshid=YmMyMTA2M2Y="
+    },
+    {
+        "logo": "https://i.imgur.com/CVmiad4.png/230x230/orc.jpg",
+        "nome": "Orc'estra",
+        "engenharia": "Engenharia de Software",
+        "link": "http://www.orcestra.com.br",
+        "descricao": "A Orc'estra \u00e9 uma empresa j\u00fanior, formada e gerida por alunos de Engenharia de Software da Universidade de Bras\u00edlia - Faculdade  Gama, criada para que esses alunos possam colocar em pr\u00e1tica tudo o que aprendem em suas aulas, al\u00e9m de ter um primeiro contato com o mercado de trabalho.",
+        "instagram": "https://instagram.com/orcgamificacao?igshid=NTc4MTIwNjQ2YQ=="
+    },
+    {
+        "logo": "https://i.imgur.com/kfp6gGS.png/matriz.jpg",
+        "nome": "Matriz Energia",
+        "engenharia": "Engenharia de Energia",
+        "link": "http://www.matrizenergia.com",
+        "descricao": "A Matriz Engenharia de Energia nasceu em 2015 com o ideal de trazer a seus clientes produtos e servi\u00e7os exclusivos na \u00e1rea de energia e sustentabilidade, voltada \u00e0 redu\u00e7\u00e3o de custos com energia, visando buscar a excel\u00eancia e superar suas expectativas.",
+        "instagram": "https://instagram.com/matrizenergia?igshid=YmMyMTA2M2Y="
+    },
+    {
+        "logo": "https://i.imgur.com/xe6bC5D.png/zenit.jpg",
+        "nome": "Zenit Aerospace",
+        "engenharia": "Engenharia Aeroespacial",
+        "link": "http://www.zenitaerospace.com",
+        "descricao": "A Zenit Aerospace \u00e9 uma empresa j\u00fanior formada por alunos de gradua\u00e7\u00e3o da Universidade de Bras\u00edlia (UnB), que possuem o desejo comum de promover o avan\u00e7o da tecnologia aeroespacial no Brasil e no mundo.",
+        "instagram": "https://instagram.com/zenitaerospace?igshid=YmMyMTA2M2Y="
+    },
+    {
+        "logo": "https://i.imgur.com/mCDR8oK.jpeg/engrena.jpg",
+        "nome": "Engrena",
+        "engenharia": "Engenharia Automotiva",
+        "link": "https://web.facebook.com/engrenaengenharia/?locale=pt_BR&_rdc=1&_rdr",
         "descricao": "A Engrena: Solu\u00e7\u00f5es em Engenharia \u00e9 a primeira e \u00fanica empresa j\u00fanior de Engenharia Automotiva do Brasil. Criada por estudantes da Universidade de Bras\u00edlia - Faculdade do Gama com o objetivo de colocar em pr\u00e1tica o aprendizado em sala, prestam servi\u00e7os de qualidade a seus clientes e promovem um aprendizado focado no mercado de trabalho automobil\u00edstico, colaborando para uma melhor atua\u00e7\u00e3o nas diversas \u00e1reas das engenharias - em especial, a automotiva.",
         "instagram": "https://instagram.com/engrenaengenharia?igshid=NTc4MTIwNjQ2YQ=="
     }
-]  
+]

@@ -51,7 +51,7 @@ trario, a classe cardClassName será apenas 'card'. */}
               rows={3} // Definir o número de linhas desejado
               placeholder="Mensagem"
             />
-            <button className="card-button">Enviar Mensagem</button>
+            <button className="card-button">Enviar mensagem</button>
           </div>
         )}
       </div>
@@ -66,6 +66,4 @@ card-content, renderizamos o icone recebido, exibimos o titulo("NewTitle" se est
 ver definido, se nã usamos "title") e se New title for igual a "ente em contato"
 renderizamos um formulário de contato*/}
 
-
 export default Card;
-

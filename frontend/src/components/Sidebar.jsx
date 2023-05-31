@@ -4,7 +4,7 @@ import { FiHome,
     FiUsers,
     FiAward,
     FiCalendar,
-    FiBookOpen,
+    FiDribbble,
     FiPhone,
     FiMenu,
     FiCpu,
@@ -34,7 +34,7 @@ const Sidebar = ({children}) => {
 
     const menuItem=[
         {
-            path:"/",
+            path:"/2023.1-HEART-hub-fga-inovacao",
             name:"Inicio",
             icon:<FiHome/>
         },
@@ -56,12 +56,12 @@ const Sidebar = ({children}) => {
         {
             path:"/equipesdecompetição",
             name:"Equipes de Competição",
-            icon:<FiAward/>
+            icon:<FiDribbble/>
         },
         {
-            path:"/disciplinas",
-            name:"Disciplinas",
-            icon:<FiBookOpen/>
+            path:"/premiações",
+            name:"Premiações",
+            icon:<FiAward/>
         },
         {
             path:"/editais",
@@ -78,8 +78,8 @@ const Sidebar = ({children}) => {
     return (
         <div className="container">
             <div style={{width: isOpen ? "360px" : "80px"}} className="sidebar">
-                <div className="top_section">
-                    <h1 style={{display: isOpen ? "block" : "none"}} className="logo">Heart</h1>
+                <div className="top_section">   
+                    <a href="/2023.1-HEART-hub-fga-inovacao"><h1 style={{display: isOpen ? "block" : "none"}} className="logo">Heart</h1></a>
                     <div style={{marginLeft: isOpen ? "150px" : "6px"}} className="bars">
                         {isOpen ? (
                             <FiX onClick={toggle} />
@@ -92,7 +92,7 @@ const Sidebar = ({children}) => {
                 <input
                     className="search"
                     style={{ width: isOpen ? '272px' : '48px' }}
-                    type="text"
+                    type="search"
                     placeholder={isOpen ? 'Pesquisar' : ''}
                     value={searchValue}
                     onChange={(e) => setSearchValue(e.target.value)}
@@ -107,7 +107,6 @@ const Sidebar = ({children}) => {
                     </div>
                 )}
                 </div>
-                <hr style={{ borderColor: '#eaeaea'}}/>
                 {
                     menuItem.map((item, index)=>
                     <NavLink to ={item.path} key={index} className="link" activeclassName="active">
@@ -116,7 +115,6 @@ const Sidebar = ({children}) => {
                     </NavLink>
                     )
                 }
-                <hr style={{ borderColor: '#eaeaea'}}/>
             </div>
             <main>{children}</main>
         </div>

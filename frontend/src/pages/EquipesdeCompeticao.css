@@ -33,7 +33,6 @@
 .swiper-slide {
   transition-duration: 300ms;
 }
-
 .swiper-slide-active {
   transform: scale(1.2); 
   z-index: 1; 

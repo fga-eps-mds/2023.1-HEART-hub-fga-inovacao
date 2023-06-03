@@ -16,6 +16,11 @@ import { NavLink } from 'react-router-dom';
 
 const Sidebar = ({children}) => {
 
+    const handleInputChange = (e) => {
+        e.preventDefault();
+        console.log('handleInputChange', e.target.value);
+    }
+
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => setIsOpen (!isOpen);
@@ -93,9 +98,12 @@ const Sidebar = ({children}) => {
                     className="search"
                     style={{ width: isOpen ? '272px' : '48px' }}
                     type="search"
-                    placeholder={isOpen ? 'Pesquisar' : ''}
+                    placeholder={isOpen ? 'Digite uma palavra-chave' : ''}
                     value={searchValue}
-                    onChange={(e) => setSearchValue(e.target.value)}
+                    onChange={(e) => {
+                        setSearchValue(e.target.value);
+                        handleInputChange(e);
+                    }}
                     readOnly={!isOpen}
                 />
                 {!isOpen && searchValue === '' && (

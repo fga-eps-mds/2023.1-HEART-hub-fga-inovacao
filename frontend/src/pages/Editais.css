@@ -88,3 +88,34 @@
     color:#7D2D88;
     margin-bottom:0;
 }
+.card_editais{
+    width: 20rem;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 2rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 2rem;
+    gap: 1rem;
+  }
+.img_pas{
+    width: 15rem;
+    
+  }
+.titulo-pas{
+    font-size: 1.4rem;
+    color: #7D2D88;
+    text-align: justify;
+  }
+.descricao_pas{
+    text-align: justify;
+    gap: 0rem;
+  }
+.scrollable-text{
+    min-height: 10rem; 
+    max-width: 14rem;
+    overflow: auto;
+  }

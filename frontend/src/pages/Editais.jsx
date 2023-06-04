@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Editais.css'   
-import img_pas from '../img/pas.jpg';
+import img_pas from '../img/pas.png';
+import img_enem from '../img/enem.png';
+import vestibular from '../img/vestibular.png'
+import img_tf from '../img/tf.png'
 import { FiGithub,
   FaFileAlt,
   FiLink,
@@ -11,11 +14,7 @@ import { FiGithub,
 } from "react-icons/fi";
 
 const Editais = () => {
-  const [selectedOption, setSelectedOption] = useState('');
 
-  const handleSelectChange = (event) => {
-    setSelectedOption(event.target.value);
-  };
     return (
       
         <section className='section'>
@@ -57,8 +56,8 @@ const Editais = () => {
 
 
             <div className="card_editais">
-              <img className='img_pas' src={img_pas} alt="Card Image" />
-              <h1 className='titulo-pas'>ACESSO PAS - UnB</h1>
+              <img className='img_pas' src={img_enem} alt="Card Image" />
+              <h1 className='titulo-pas'>ACESSO ENEM - UnB</h1>
               <div className='scrollable-text'>
               <p className='descricao_pas'>O Programa de Avaliação Seriada (PAS) é um processo seletivo da Universidade de Brasília (UnB), 
                 realizado ao longo dos três anos do ensino médio regular. Atualmente, a Universidade destina a 
@@ -79,8 +78,8 @@ const Editais = () => {
 
 
             <div className="card_editais">
-              <img className='img_pas' src={img_pas} alt="Card Image" />
-              <h1 className='titulo-pas'>ACESSO PAS - UnB</h1>
+              <img className='img_pas' src={vestibular} alt="Card Image" />
+              <h1 className='titulo-pas'>VESTIBULAR - UnB</h1>
               <div className='scrollable-text'>
               <p className='descricao_pas'>O Programa de Avaliação Seriada (PAS) é um processo seletivo da Universidade de Brasília (UnB), 
                 realizado ao longo dos três anos do ensino médio regular. Atualmente, a Universidade destina a 
@@ -100,8 +99,8 @@ const Editais = () => {
             </div>
 
             <div className="card_editais">
-              <img className='img_pas' src={img_pas} alt="Card Image" />
-              <h1 className='titulo-pas'>ACESSO PAS - UnB</h1>
+              <img className='img_pas' src={img_tf} alt="Card Image" />
+              <h1 className='titulo-pas'>TRANSFERÊNCIA - UnB</h1>
               <div className='scrollable-text'>
               <p className='descricao_pas'>O Programa de Avaliação Seriada (PAS) é um processo seletivo da Universidade de Brasília (UnB), 
                 realizado ao longo dos três anos do ensino médio regular. Atualmente, a Universidade destina a 

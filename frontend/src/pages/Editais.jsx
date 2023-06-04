@@ -35,13 +35,60 @@ const Editais = () => {
                 metade das vagas em todos os seus cursos aos aprovados no Programa, abrindo as portas da Instituição 
                 para os estudantes do ensino médio de forma gradual e progressiva.</p>
               </div>
-                <h2>Ano do edital:</h2> 
+                <h2 className='titulo-pas'>Ano do edital:</h2> 
+                <p>"Subprograma 2022-2024"</p>
+                
+                <label htmlFor=""></label>
+                <h2>Edital:</h2>
+                <p></p>
+              <button><a href="#">Botão</a></button> 
+            </div>
+            <div className="card_editais">
+              <img className='img_pas' src={img_pas} alt="Card Image" />
+              <h1 className='titulo-pas'>ACESSO PAS - UnB</h1>
+              <div className='scrollable-text'>
+              <p className='descricao_pas'>O Programa de Avaliação Seriada (PAS) é um processo seletivo da Universidade de Brasília (UnB), 
+                realizado ao longo dos três anos do ensino médio regular. Atualmente, a Universidade destina a 
+                metade das vagas em todos os seus cursos aos aprovados no Programa, abrindo as portas da Instituição 
+                para os estudantes do ensino médio de forma gradual e progressiva.</p>
+              </div>
+                <h2 className='titulo-pas'>Ano do edital:</h2> 
                 <p>"Subprograma 2022-2024"</p>
                 <h2>Edital:</h2>
                 <p></p>
               <button><a href="#">Botão</a></button> 
             </div>
-            
+            <div className="card_editais">
+              <img className='img_pas' src={img_pas} alt="Card Image" />
+              <h1 className='titulo-pas'>ACESSO PAS - UnB</h1>
+              <div className='scrollable-text'>
+              <p className='descricao_pas'>O Programa de Avaliação Seriada (PAS) é um processo seletivo da Universidade de Brasília (UnB), 
+                realizado ao longo dos três anos do ensino médio regular. Atualmente, a Universidade destina a 
+                metade das vagas em todos os seus cursos aos aprovados no Programa, abrindo as portas da Instituição 
+                para os estudantes do ensino médio de forma gradual e progressiva.</p>
+              </div>
+                <h2 className='titulo-pas'>Ano do edital:</h2> 
+                <p>"Subprograma 2022-2024"</p>
+                <h2>Edital:</h2>
+                <p></p>
+              <button><a href="#">Botão</a></button> 
+            </div>
+            <div className="card_editais">
+              <img className='img_pas' src={img_pas} alt="Card Image" />
+              <h1 className='titulo-pas'>ACESSO PAS - UnB</h1>
+              <div className='scrollable-text'>
+              <p className='descricao_pas'>O Programa de Avaliação Seriada (PAS) é um processo seletivo da Universidade de Brasília (UnB), 
+                realizado ao longo dos três anos do ensino médio regular. Atualmente, a Universidade destina a 
+                metade das vagas em todos os seus cursos aos aprovados no Programa, abrindo as portas da Instituição 
+                para os estudantes do ensino médio de forma gradual e progressiva.</p>
+              </div>
+                <h2 className='titulo-pas'>Ano do edital:</h2> 
+                <p>"Subprograma 2022-2024"</p>
+                <h2>Edital:</h2>
+                <p></p>
+              <button><a href="#">Botão</a></button> 
+            </div>+
+
             </section>
             <section className='third-section'>
         

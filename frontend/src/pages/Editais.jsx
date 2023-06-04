@@ -4,6 +4,7 @@ import img_pas from '../img/pas.jpg';
 import { FiGithub,
   FaFileAlt,
   FiLink,
+  FiHand,
   FiFigma,
   FiLinkedin,
   FiInstagram
@@ -31,8 +32,8 @@ const Editais = () => {
                 </div>
             </section>
 
-            
             <section className='second-section'>
+
             <div className="card_editais">
               <img className='img_pas' src={img_pas} alt="Card Image" />
               <h1 className='titulo-pas'>ACESSO PAS - UnB</h1>
@@ -44,10 +45,29 @@ const Editais = () => {
               </div>
                 <h1 className='titulo-pas'>ANO DO EDITAL:</h1> 
                 <div className='label-editais'>
-                  <select id="mySelect" value={selectedOption} onChange={handleSelectChange}>
-                    <option value="">Selecione</option>
-                    <option value="option1">Subprograma 2022-2024</option>
-                  </select>
+                <p>Subprograma 2022-2024</p> 
+                </div>
+                {/* <h1 className='titulo-pas'>EDITAL:</h1> */}
+                {/* <FiInstagram href="#"/>  */}
+                <div className='button_editais'>
+                  <button className='button-edital-1'>Edital</button>
+                  <button className='button-edital-1'>Edital</button>
+                </div>
+            </div>
+
+
+            <div className="card_editais">
+              <img className='img_pas' src={img_pas} alt="Card Image" />
+              <h1 className='titulo-pas'>ACESSO PAS - UnB</h1>
+              <div className='scrollable-text'>
+              <p className='descricao_pas'>O Programa de Avaliação Seriada (PAS) é um processo seletivo da Universidade de Brasília (UnB), 
+                realizado ao longo dos três anos do ensino médio regular. Atualmente, a Universidade destina a 
+                metade das vagas em todos os seus cursos aos aprovados no Programa, abrindo as portas da Instituição 
+                para os estudantes do ensino médio de forma gradual e progressiva.</p>
+              </div>
+                <h1 className='titulo-pas'>ANO DO EDITAL:</h1> 
+                <div className='label-editais'>
+                <p>Subprograma 2022-2024</p> 
                 </div>
                 {/* <h1 className='titulo-pas'>EDITAL:</h1> */}
                 {/* <FiInstagram href="#"/>  */}
@@ -69,10 +89,7 @@ const Editais = () => {
               </div>
                 <h1 className='titulo-pas'>ANO DO EDITAL:</h1> 
                 <div className='label-editais'>
-                  <select id="mySelect" value={selectedOption} onChange={handleSelectChange}>
-                    <option value="">Selecione</option>
-                    <option value="option1">Subprograma 2022-2024</option>
-                  </select>
+                <p>Subprograma 2022-2024</p> 
                 </div>
                 {/* <h1 className='titulo-pas'>EDITAL:</h1> */}
                 {/* <FiInstagram href="#"/>  */}
@@ -81,7 +98,6 @@ const Editais = () => {
                   <button className='button-edital-1'>Edital </button>
                 </div>
             </div>
-
 
             <div className="card_editais">
               <img className='img_pas' src={img_pas} alt="Card Image" />
@@ -94,35 +110,7 @@ const Editais = () => {
               </div>
                 <h1 className='titulo-pas'>ANO DO EDITAL:</h1> 
                 <div className='label-editais'>
-                  <select id="mySelect" value={selectedOption} onChange={handleSelectChange}>
-                    <option value="">Selecione</option>
-                    <option value="option1">Subprograma 2022-2024</option>
-                  </select>
-                </div>
-                {/* <h1 className='titulo-pas'>EDITAL:</h1> */}
-                {/* <FiInstagram href="#"/>  */}
-                <div className='button_editais'>
-                  <button className='button-edital-1'>Edital</button>
-                  <button className='button-edital-1'>Edital </button>
-                </div>
-            </div>
-
-
-            <div className="card_editais">
-              <img className='img_pas' src={img_pas} alt="Card Image" />
-              <h1 className='titulo-pas'>ACESSO PAS - UnB</h1>
-              <div className='scrollable-text'>
-              <p className='descricao_pas'>O Programa de Avaliação Seriada (PAS) é um processo seletivo da Universidade de Brasília (UnB), 
-                realizado ao longo dos três anos do ensino médio regular. Atualmente, a Universidade destina a 
-                metade das vagas em todos os seus cursos aos aprovados no Programa, abrindo as portas da Instituição 
-                para os estudantes do ensino médio de forma gradual e progressiva.</p>
-              </div>
-                <h1 className='titulo-pas'>ANO DO EDITAL:</h1> 
-                <div className='label-editais'>
-                  <select id="mySelect" value={selectedOption} onChange={handleSelectChange}>
-                    <option value="">Selecione</option>
-                    <option value="option1">Subprograma 2022-2024</option>
-                  </select>
+                <p>Subprograma 2022-2024</p> 
                 </div>
                 {/* <h1 className='titulo-pas'>EDITAL:</h1> */}
                 {/* <FiInstagram href="#"/>  */}

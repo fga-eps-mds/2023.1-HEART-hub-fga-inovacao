@@ -32,10 +32,10 @@
 }
 .second-section{
     height: 100vh;
-    /* display: flex;
+    display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    align-items: center; */
+    align-items: center;
 
 }
 .third-section{
@@ -51,13 +51,13 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 0 2rem;
-    gap: 1rem;
+    gap: 1rem 2rem;
+    text-align: justify;
   }
 .img_pas{
     width: 15rem;
-    
   }
+
 .titulo-pas{
     font-size: 1.4rem;
     color: #7D2D88;
@@ -72,6 +72,23 @@
     max-width: 14rem;
     overflow: auto;
   }
+.label-editais{
+    font-size: 1rem;
+}
+.button_editais{
+    display: flex;
+    gap: 2rem;
+}
+.button-edital-1{
+    color: white;
+    background-color: #7D2D88;
+    border: 2px solid #7D2D88;
+    border-radius: 2rem;
+    padding: 0.2rem 1.5rem;
+    font-size: 16px;
+    cursor: pointer;
+  
+}
 .footer-basic {
     padding:40px 0;
     background-color: transparent;

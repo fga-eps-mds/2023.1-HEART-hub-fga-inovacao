@@ -3,7 +3,7 @@ import './Pedei.css';
 import { FiLink,
   FiGithub,
   FiFigma,
-  FiLinkedin,
+  FiLinkedin, 
 } from "react-icons/fi";
 
 const Pedei = () => {

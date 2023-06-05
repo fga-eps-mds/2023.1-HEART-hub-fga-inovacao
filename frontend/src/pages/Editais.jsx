@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import styles from './Editais.css'   
 import img_pas from '../img/pas.png';
 import img_enem from '../img/enem.png';
-import vestibular from '../img/vestibular.png'
-import img_tf from '../img/tf.png'
+import vestibular from '../img/vestibular.png';
+import img_tf from '../img/tf.png';
+import img_libras from '../img/libra.png';
 import { FiGithub,
   FaFileAlt,
   FiLink,
@@ -12,6 +13,7 @@ import { FiGithub,
   FiLinkedin,
   FiInstagram
 } from "react-icons/fi";
+
 
 const Editais = () => {
 
@@ -50,7 +52,9 @@ const Editais = () => {
                 {/* <FiInstagram href="#"/>  */}
                 <div className='button_editais'>
                   <button className='button-edital-1'>Edital</button>
-                  <button className='button-edital-1'>Edital</button>
+                  <button className='button-edital-1'>
+                    Edital <img className='libras' src={img_libras} alt="libras" />
+                  </button>
                 </div>
             </div>
 
@@ -72,9 +76,12 @@ const Editais = () => {
                 {/* <FiInstagram href="#"/>  */}
                 <div className='button_editais'>
                   <button className='button-edital-1'>Edital</button>
-                  <button className='button-edital-1'>Edital </button>
+                  <button className='button-edital-1'>
+                    Edital <img className='libras' src={img_libras} alt="libras" />
+                  </button>
                 </div>
             </div>
+
 
 
             <div className="card_editais">
@@ -94,9 +101,12 @@ const Editais = () => {
                 {/* <FiInstagram href="#"/>  */}
                 <div className='button_editais'>
                   <button className='button-edital-1'>Edital</button>
-                  <button className='button-edital-1'>Edital </button>
+                  <button className='button-edital-1'>
+                    Edital <img className='libras' src={img_libras} alt="libras" />
+                  </button>
                 </div>
             </div>
+
 
             <div className="card_editais">
               <img className='img_pas' src={img_tf} alt="Card Image" />
@@ -115,9 +125,14 @@ const Editais = () => {
                 {/* <FiInstagram href="#"/>  */}
                 <div className='button_editais'>
                   <button className='button-edital-1'>Edital</button>
-                  <button className='button-edital-1'>Edital </button>
+                  <button className='button-edital-1'>
+                    Edital <img className='libras' src={img_libras} alt="libras" />
+                  </button>
                 </div>
             </div>
+
+
+
             </section>
 
             <section className='third-section'>

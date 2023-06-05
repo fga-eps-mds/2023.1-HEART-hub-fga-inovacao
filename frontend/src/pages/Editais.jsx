@@ -5,6 +5,7 @@ import img_enem from '../img/enem.png';
 import vestibular from '../img/vestibular.png';
 import img_tf from '../img/tf.png';
 import img_libras from '../img/libra.png';
+import img_1 from '../img/img-ed.png'
 import { FiGithub,
   FaFileAlt,
   FiLink,
@@ -26,7 +27,7 @@ const Editais = () => {
     return (
       
         <section className='section'>
-            {/* <section className='first-section'>
+            <section className='first-section'>
                 <div>
                     <h1 className='editais'>Editais</h1>
                     <p className='p-edi'>
@@ -37,7 +38,10 @@ const Editais = () => {
                         são abertos periodicamente e podem abranger diversas áreas do conhecimento.
                     </p>
                 </div>
-            </section> */}
+                <div>
+                  <img className='img_1' src={img_1} alt="edital" />
+                </div>
+            </section>
 
             <section className='second-section'>
               
@@ -49,6 +53,7 @@ const Editais = () => {
               <div className="card_editais">
                 <img className='img_pas' src={logo} alt="Card Image" />
               <h1 className='titulo-pas'>{nome}</h1>
+              <br />
               <div className='scrollable-text'>
                 <p className='descricao_pas'>
                   {descricao}
@@ -78,9 +83,11 @@ const Editais = () => {
 
         
             </section>
-            {/* <div class="footer-basic">
+            <div class="footer-basic">
                 <footer>
                     <div class="social">
+                      <br/>
+                      <br />
                       <a href="https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao">
                         <i class="icon ion-social-instagram">
                           <FiGithub/>
@@ -113,7 +120,7 @@ const Editais = () => {
                     </ul>
                     <p class="copyright">Heart - HUB FGA Inovação © 2023</p>
                 </footer>
-            </div> */}
+            </div>
         </section>
     );
 };

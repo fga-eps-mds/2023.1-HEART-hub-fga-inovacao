@@ -16,11 +16,17 @@ import { FiGithub,
 
 
 const Editais = () => {
+  const [editaisData, setEditaisData] = useState([]);
+  useEffect(() => {
+      fetch('http://localhost:3000/2023.1-HEART-hub-fga-inovacao/static/EditaisACESSO.json')
+        .then((response) => response.json())
+        .then((data) => setEditaisData(data));
+    }, []);
 
     return (
       
         <section className='section'>
-            <section className='first-section'>
+            {/* <section className='first-section'>
                 <div>
                     <h1 className='editais'>Editais</h1>
                     <p className='p-edi'>
@@ -31,114 +37,48 @@ const Editais = () => {
                         são abertos periodicamente e podem abranger diversas áreas do conhecimento.
                     </p>
                 </div>
-            </section>
+            </section> */}
 
             <section className='second-section'>
+              
 
-            <div className="card_editais">
-              <img className='img_pas' src={img_pas} alt="Card Image" />
-              <h1 className='titulo-pas'>ACESSO PAS - UnB</h1>
+            <div className='card-grid-ed'>
+            {editaisData.map((item, index) => {
+            const { logo, nome, descricao, ano, edital, libras } = item;
+            return (
+              <div className="card_editais">
+                <img className='img_pas' src={logo} alt="Card Image" />
+              <h1 className='titulo-pas'>{nome}</h1>
               <div className='scrollable-text'>
-              <p className='descricao_pas'>O Programa de Avaliação Seriada (PAS) é um processo seletivo da Universidade de Brasília (UnB), 
-                realizado ao longo dos três anos do ensino médio regular. Atualmente, a Universidade destina a 
-                metade das vagas em todos os seus cursos aos aprovados no Programa, abrindo as portas da Instituição 
-                para os estudantes do ensino médio de forma gradual e progressiva.</p>
+                <p className='descricao_pas'>
+                  {descricao}
+                </p>
+                <br />
               </div>
+              <br />
                 <h1 className='titulo-pas'>ANO DO EDITAL:</h1> 
+                <br />
                 <div className='label-editais'>
-                <p>Subprograma 2022-2024</p> 
+                <p>{ano}</p> 
+                <br />
                 </div>
-                {/* <h1 className='titulo-pas'>EDITAL:</h1> */}
-                {/* <FiInstagram href="#"/>  */}
                 <div className='button_editais'>
-                  <button className='button-edital-1'>Edital</button>
-                  <button className='button-edital-1'>
+                  <a href={edital} className='button-edital-1'>Edital</a>
+                  <a href={libras} className='button-edital-1'>
                     Edital <img className='libras' src={img_libras} alt="libras" />
-                  </button>
+                  </a>
                 </div>
+                <br />
+                </div>
+            );
+            })}
             </div>
+            
 
 
-            <div className="card_editais">
-              <img className='img_pas' src={img_enem} alt="Card Image" />
-              <h1 className='titulo-pas'>ACESSO ENEM - UnB</h1>
-              <div className='scrollable-text'>
-              <p className='descricao_pas'>O Programa de Avaliação Seriada (PAS) é um processo seletivo da Universidade de Brasília (UnB), 
-                realizado ao longo dos três anos do ensino médio regular. Atualmente, a Universidade destina a 
-                metade das vagas em todos os seus cursos aos aprovados no Programa, abrindo as portas da Instituição 
-                para os estudantes do ensino médio de forma gradual e progressiva.</p>
-              </div>
-                <h1 className='titulo-pas'>ANO DO EDITAL:</h1> 
-                <div className='label-editais'>
-                <p>Subprograma 2022-2024</p> 
-                </div>
-                {/* <h1 className='titulo-pas'>EDITAL:</h1> */}
-                {/* <FiInstagram href="#"/>  */}
-                <div className='button_editais'>
-                  <button className='button-edital-1'>Edital</button>
-                  <button className='button-edital-1'>
-                    Edital <img className='libras' src={img_libras} alt="libras" />
-                  </button>
-                </div>
-            </div>
-
-
-
-            <div className="card_editais">
-              <img className='img_pas' src={vestibular} alt="Card Image" />
-              <h1 className='titulo-pas'>VESTIBULAR - UnB</h1>
-              <div className='scrollable-text'>
-              <p className='descricao_pas'>O Programa de Avaliação Seriada (PAS) é um processo seletivo da Universidade de Brasília (UnB), 
-                realizado ao longo dos três anos do ensino médio regular. Atualmente, a Universidade destina a 
-                metade das vagas em todos os seus cursos aos aprovados no Programa, abrindo as portas da Instituição 
-                para os estudantes do ensino médio de forma gradual e progressiva.</p>
-              </div>
-                <h1 className='titulo-pas'>ANO DO EDITAL:</h1> 
-                <div className='label-editais'>
-                <p>Subprograma 2022-2024</p> 
-                </div>
-                {/* <h1 className='titulo-pas'>EDITAL:</h1> */}
-                {/* <FiInstagram href="#"/>  */}
-                <div className='button_editais'>
-                  <button className='button-edital-1'>Edital</button>
-                  <button className='button-edital-1'>
-                    Edital <img className='libras' src={img_libras} alt="libras" />
-                  </button>
-                </div>
-            </div>
-
-
-            <div className="card_editais">
-              <img className='img_pas' src={img_tf} alt="Card Image" />
-              <h1 className='titulo-pas'>TRANSFERÊNCIA - UnB</h1>
-              <div className='scrollable-text'>
-              <p className='descricao_pas'>O Programa de Avaliação Seriada (PAS) é um processo seletivo da Universidade de Brasília (UnB), 
-                realizado ao longo dos três anos do ensino médio regular. Atualmente, a Universidade destina a 
-                metade das vagas em todos os seus cursos aos aprovados no Programa, abrindo as portas da Instituição 
-                para os estudantes do ensino médio de forma gradual e progressiva.</p>
-              </div>
-                <h1 className='titulo-pas'>ANO DO EDITAL:</h1> 
-                <div className='label-editais'>
-                <p>Subprograma 2022-2024</p> 
-                </div>
-                {/* <h1 className='titulo-pas'>EDITAL:</h1> */}
-                {/* <FiInstagram href="#"/>  */}
-                <div className='button_editais'>
-                  <button className='button-edital-1'>Edital</button>
-                  <button className='button-edital-1'>
-                    Edital <img className='libras' src={img_libras} alt="libras" />
-                  </button>
-                </div>
-            </div>
-
-
-
-            </section>
-
-            <section className='third-section'>
         
             </section>
-            <div class="footer-basic">
+            {/* <div class="footer-basic">
                 <footer>
                     <div class="social">
                       <a href="https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao">
@@ -173,7 +113,7 @@ const Editais = () => {
                     </ul>
                     <p class="copyright">Heart - HUB FGA Inovação © 2023</p>
                 </footer>
-            </div>
+            </div> */}
         </section>
     );
 };

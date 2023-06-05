@@ -34,15 +34,16 @@
 }
 
 /* classe que estiliza as propriedades dos cards*/
-.card {
+.card  {
   flex: 0 0 calc(33.33% - 20px);
   margin: 10px;
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 400px;
   padding: 20px;
   color: #A96AA9;
   text-align: center;
   font-size: 18px;
+  border-radius: 30px;
 }
 
 /* classe que estiliza a animação dos cards na tela*/
@@ -70,9 +71,15 @@
   outline: none;
 }
 
+.card-inputcard-textarea{
+  resize: none;
+  text-align: center;
+}
+
 /* Classe que estiliza o botão do card "Entre em contato"*/
 .card-button {
   margin-top: 1rem;
+  margin: auto;
 align-items: center;
 background-color: #8E4694;
 color: white;

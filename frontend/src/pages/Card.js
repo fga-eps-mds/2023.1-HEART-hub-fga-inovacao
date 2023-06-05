@@ -47,7 +47,7 @@ trario, a classe cardClassName será apenas 'card'. */}
             <input className="card-input" type="number" placeholder="Telefone" />
             <input className="card-input" type="text" placeholder="Assunto" />
             <textarea
-              className="card-input card-textarea"
+              className="card-inputcard-textarea"
               rows={3} // Definir o número de linhas desejado
               placeholder="Mensagem"
             />

@@ -1,13 +1,31 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './Editais.css'   
+import img_pas from '../img/pas.png';
+import img_enem from '../img/enem.png';
+import vestibular from '../img/vestibular.png';
+import img_tf from '../img/tf.png';
+import img_libras from '../img/libra.png';
+import img_1 from '../img/img-ed.png'
 import { FiGithub,
+  FaFileAlt,
+  FiLink,
+  FiHand,
   FiFigma,
   FiLinkedin,
   FiInstagram
 } from "react-icons/fi";
 
+
 const Editais = () => {
+  const [editaisData, setEditaisData] = useState([]);
+  useEffect(() => {
+      fetch('http://localhost:3000/2023.1-HEART-hub-fga-inovacao/static/EditaisACESSO.json')
+        .then((response) => response.json())
+        .then((data) => setEditaisData(data));
+    }, []);
+
     return (
+      
         <section className='section'>
             <section className='first-section'>
                 <div>
@@ -20,16 +38,56 @@ const Editais = () => {
                         são abertos periodicamente e podem abranger diversas áreas do conhecimento.
                     </p>
                 </div>
+                <div>
+                  <img className='img_1' src={img_1} alt="edital" />
+                </div>
             </section>
+
             <section className='second-section'>
-        
-            </section>
-            <section className='third-section'>
+              
+
+            <div className='card-grid-ed'>
+            {editaisData.map((item, index) => {
+            const { logo, nome, descricao, ano, edital, libras } = item;
+            return (
+              <div className="card_editais">
+                <img className='img_pas' src={logo} alt="Card Image" />
+              <h1 className='titulo-pas'>{nome}</h1>
+              <br />
+              <div className='scrollable-text'>
+                <p className='descricao_pas'>
+                  {descricao}
+                </p>
+                <br />
+              </div>
+              <br />
+                <h1 className='titulo-pas'>ANO DO EDITAL:</h1> 
+                <br />
+                <div className='label-editais'>
+                <p>{ano}</p> 
+                <br />
+                </div>
+                <div className='button_editais'>
+                  <a href={edital} className='button-edital-1'>Edital</a>
+                  <a href={libras} className='button-edital-1'>
+                    Edital <img className='libras' src={img_libras} alt="libras" />
+                  </a>
+                </div>
+                <br />
+                </div>
+            );
+            })}
+            </div>
+            
+
+
         
             </section>
             <div class="footer-basic">
                 <footer>
                     <div class="social">
+                      <br/>
+                      <br />
                       <a href="https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao">
                         <i class="icon ion-social-instagram">
                           <FiGithub/>

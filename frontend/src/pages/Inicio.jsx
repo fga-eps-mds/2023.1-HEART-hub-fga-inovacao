@@ -42,7 +42,7 @@ const Inicio = () => {
         </div>
       </section>
 
-      <section className='second-section'>
+      <section className='second-section-inicio'>
        <div className='coluna-1'>
         <h1 className='missao'>Missão</h1>
           <p className='p-ii'>

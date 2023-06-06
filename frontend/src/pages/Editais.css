@@ -4,7 +4,7 @@
     gap: 2rem;
   }
 .first-section{
-    height: 100vh;
+    height: 70vh;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -25,6 +25,9 @@
     font-size: 4rem;
     color: #7D2D88;
 }
+.mao-virada{
+    rotate: 180deg;
+}
 .strong{
     color: #7D2D88;
 }
@@ -35,6 +38,7 @@
     max-width: 600px;
 }
 .second-section{
+    height: 100%;
     margin: 5rem;
     display: flex;
     flex-direction: column;
@@ -44,45 +48,56 @@
 .third-section{
     height: 100vh;
 }
+.div-editais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    min-width: 18.75rem;
+    height: 20vh;
+  }
+  
+  .editais{
+    font-size: 4rem;
+    color: var(--color);
+  }
 .card-grid-ed{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 3rem 0;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 3rem 0;
 }
 .card_editais{
-    width: 20rem;
-    right: 70rem;
-    flex: 0 0 calc(30% 30% -20px);
-    max-width: calc(30% - 6rem);
+    flex: 0 0 calc(33.33% 33.33% -20px);
+    max-width: calc(33.33% - 6rem);
     border-radius: 1rem;
     box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
     display: flex;
     flex-direction: column;
-
     background-color: white;
-    height: fit-content;
     align-items: center;
     transition: transform .4s ease-in-out;
   }
+.card_editais:hover{
+    transform: scale(1.08);
+}
 .img_pas{
-    width: 14rem;
+    width: 100%;
+  border-radius: 1rem 1rem 0 0;
   }
 
 .titulo-pas{
-    font-size: 1.2rem;
-    color: #7D2D88;
-    text-align: justify;
+    margin: 0.5rem 5%;
+  font-size: 1.5rem;
+  color:#7D2D88;
   }
 .descricao_pas{
-    text-align: justify;
-    gap: 0rem;
-  }
-  .scrollable-text{
-    max-height: 12rem; 
-    max-width: 14rem;
-    overflow: auto;
-    cursor: pointer;
+    margin: 0.5rem 5%;
+  color: #7D2D88;
+  max-height: 9rem;
+  text-align: justify;
+  overflow: hidden;
+  overflow-y: scroll;
   }
 
 .button_editais{
@@ -90,17 +105,14 @@
     gap: 2rem;
 }
 .button-edital-1{
-    color: white;
-    background-color: #7D2D88;
-    border: 2px solid #7D2D88;
-    border-radius: 2rem;
-    padding: 0.2rem 1.5rem;
-    font-size: 16px;
-    cursor: pointer;
-}
-.libras{
-    height: 0.8rem;
-    width: 0.8rem;
+    text-align: center;
+  width: 50%;
+  border-radius: 1.875rem;
+  padding: 0.5rem 1rem;
+  background-color: #7D2D88;
+  color: white;
+  text-decoration: none;
+  margin: 1rem 0.5rem;
 }
 .footer-basic {
     padding:40px 0;

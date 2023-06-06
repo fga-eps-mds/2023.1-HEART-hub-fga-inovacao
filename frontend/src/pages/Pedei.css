@@ -37,10 +37,6 @@
   height: 20vh;
 }
 
-.lab{
-  font-size: 4rem;
-  color: var(--color);
-}
 
 .card-grid {
   display: flex;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Card = ({ title, description, color, newTitle,icon }) => {
+const Cardcontato = ({ title, description, color, newTitle,icon }) => {
   const [isHovered, setIsHovered] = useState(false);
 {/*Acima definimos o componente card como uma função do componente react
 que está recebendo as propriedades de titulo,descrição e etc, importamos 
@@ -16,11 +16,11 @@ o useState, que é uma função que retorna uma array com dois elementos */}
 {/*Acima definimos duas funções que vão ser chamadas quando o mouse entra e
 sai dos cards, respectivamente */}
 
-  const cardStyle = {
+  const cardcontatoStyle = {
     backgroundColor: color,
   };
 
-  const cardClassName = `card ${isHovered ? 'hovered' : ''}`;
+  const cardcontatoClassName = `cardcontato ${isHovered ? 'hovered' : ''}`;
 {/*Acima definimos o objeto cardStyle que contém a propriedade de cor. Em seguida, 
 definimos a classe CSS do elemento Card com base no estado isHovered.Se isHovered 
 for verdadeiro, adicionamos a classe CSS 'hovered' à classe cardClassName,caso con-
@@ -28,8 +28,8 @@ trario, a classe cardClassName será apenas 'card'. */}
 
   return (
     <div
-      className={cardClassName}
-      style={cardStyle}
+      className={cardcontatoClassName}
+      style={cardcontatoStyle}
       
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
@@ -67,5 +67,5 @@ ver definido, se nã usamos "title") e se New title for igual a "ente em contato
 renderizamos um formulário de contato*/}
 
 
-export default Card;
+export default Cardcontato;
 

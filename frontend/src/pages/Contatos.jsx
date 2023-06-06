@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contatos.css'   
-import Card from './Card';
+import Card from './Card-contato';
 import imagem_01 from '../img/grupo.jpeg';
 import imagem_02 from '../img/fotoEsther.jpeg';
 import imagem_03 from '../img/fotoIzabella.jpeg';
@@ -20,6 +20,7 @@ import { FiGithub,
   FiTwitter,
   FiFacebook
 } from "react-icons/fi";
+import Cardcontato from './Card-contato';
 
 
 const Contatos = () => {
@@ -31,10 +32,12 @@ const Contatos = () => {
           <h1 className='contatos'></h1>
           <div className="card-container">
 
-            <Card
+            <Cardcontato
               title={
                 <>
                   <div className="title">
+              
+                   <br />
                   <FiPhone className='iconc1'/> <a href='https://fga.unb.br/unb-gama/contato'>
                   Ligue para nós
                     <p className='iconp1'>+55 (61) 3107-8901/ +55 (61) 3107-8907 </p> 
@@ -65,7 +68,7 @@ const Contatos = () => {
 titulo,descrção e cor, nesse card temos, cada secção tem um icone, um link e 
 um parágrafo de texto descritivo*/}
 
-            <Card 
+            <Card
               title="Card 2" 
               description="" 
               color="#f5f5f5" 
@@ -74,7 +77,7 @@ um parágrafo de texto descritivo*/}
 {/*Acima temos o segundo componete, que é o card do meio, a função dele é conter
 o formulário para envio de mensagens para o site */}
 
-            <Card 
+            <Card
               title="" 
               description="" 
               color="#8E4694"

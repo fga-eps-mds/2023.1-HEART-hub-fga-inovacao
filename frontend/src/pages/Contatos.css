@@ -34,7 +34,7 @@
 }
 
 /* classe que estiliza as propriedades dos cards*/
-.card  {
+.cardcontato{
   flex: 0 0 calc(33.33% - 20px);
   margin: 10px;
   width: 400px;
@@ -47,7 +47,7 @@
 }
 
 /* classe que estiliza a animação dos cards na tela*/
-.card.hovered {
+.cardcontato.hovered {
   transform: scale(1.1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
@@ -74,6 +74,7 @@
 .card-inputcard-textarea{
   resize: none;
   text-align: center;
+  border-color:#ccc;
 }
 
 /* Classe que estiliza o botão do card "Entre em contato"*/

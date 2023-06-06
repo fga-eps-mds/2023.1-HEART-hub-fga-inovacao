@@ -28,6 +28,11 @@
   max-width: 63.313rem;
 }
 
+.lab{
+  font-size: 3.5rem;
+  color: var(--color);
+}
+
 .div-lab{
   display: flex;
   flex-direction: column;

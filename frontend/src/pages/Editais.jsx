@@ -14,6 +14,8 @@ import { FiGithub,
   FiLinkedin,
   FiInstagram
 } from "react-icons/fi";
+import { TbHandStop } from "react-icons/tb";
+
 
 
 const Editais = () => {
@@ -44,8 +46,9 @@ const Editais = () => {
             </section>
 
             <section className='second-section'>
-              
-
+            <div className='div-editais'>
+              <h1 className='editais'>Editais da UnB</h1>
+            </div>
             <div className='card-grid-ed'>
             {editaisData.map((item, index) => {
             const { logo, nome, descricao, ano, edital, libras } = item;
@@ -53,28 +56,23 @@ const Editais = () => {
               <div className="card_editais">
                 <img className='img_pas' src={logo} alt="Card Image" />
               <h1 className='titulo-pas'>{nome}</h1>
-              <br />
               <div className='scrollable-text'>
                 <p className='descricao_pas'>
                   {descricao}
                 </p>
-                <br />
-              </div>
-              <br />
-                <h1 className='titulo-pas'>ANO DO EDITAL:</h1> 
-                <br />
-                <div className='label-editais'>
-                <p>{ano}</p> 
-                <br />
                 </div>
+                <h1 className='titulo-pas'>Ano do Ddital:</h1> 
+                  <div className='label-editais'>
+                <p>{ano}</p> 
+                  </div>
                 <div className='button_editais'>
                   <a href={edital} className='button-edital-1'>Edital</a>
                   <a href={libras} className='button-edital-1'>
-                    Edital <img className='libras' src={img_libras} alt="libras" />
+                    <TbHandStop />
+                    <TbHandStop className='mao-virada'/> 
                   </a>
                 </div>
-                <br />
-                </div>
+                  </div>
             );
             })}
             </div>
@@ -87,8 +85,7 @@ const Editais = () => {
                 <footer>
                     <div class="social">
                       <br/>
-                      <br />
-                      <a href="https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao">
+                              <a href="https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao">
                         <i class="icon ion-social-instagram">
                           <FiGithub/>
                         </i>

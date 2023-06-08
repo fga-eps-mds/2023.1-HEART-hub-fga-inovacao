@@ -1,0 +1,35 @@
+name: Heart
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Python tests
+        run: |
+          cd testes
+          pip install -r requirements.txt
+          pytest
+
+      - name: Build React app
+        run: |
+          cd frontend
+          npm ci
+          npm run build
+

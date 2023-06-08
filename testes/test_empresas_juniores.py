@@ -17,7 +17,7 @@ def test_number_of_cards_and_empty_cards():
 
         card_elements = driver.find_elements(By.CLASS_NAME, "card")
     
-        assert len(card_elements) == 10, "Expected 10 card elements, but found a different number."
+        assert len(card_elements) == 12, "Expected 12 card elements, but found a different number."
     
         empty_card_count = 0
         for card_element in card_elements:

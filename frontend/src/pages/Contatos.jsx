@@ -123,7 +123,7 @@ const Contatos = () => {
           </div>
         </div>
       </section> */}
-
+      <section className='first-section'></section>
       <section className='second-section'>
         <div className='titiulo_contatos'>
           <h1>Nossa Equipe</h1>

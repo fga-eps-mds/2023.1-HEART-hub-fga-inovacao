@@ -11,11 +11,11 @@ const Pedei = () => {
   const [iniciativasData, setIniciativasData] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/2023.1-HEART-hub-fga-inovacao/static/Laboratorios.json')
+    fetch('https://api.npoint.io/45be5e7e4f7d5c9b35f6')
       .then((response) => response.json())
       .then((data) => setLaboratoriosData(data));
 
-    fetch('http://localhost:3000/2023.1-HEART-hub-fga-inovacao/static/PDI.json')
+    fetch('https://api.npoint.io/fff2295cb9f88f82255f')
       .then((response) => response.json())
       .then((data) => setIniciativasData(data));
   }, []);

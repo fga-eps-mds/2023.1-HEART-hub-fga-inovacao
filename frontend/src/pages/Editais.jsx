@@ -21,7 +21,7 @@ import { TbHandStop } from "react-icons/tb";
 const Editais = () => {
   const [editaisData, setEditaisData] = useState([]);
   useEffect(() => {
-      fetch('http://localhost:3000/2023.1-HEART-hub-fga-inovacao/static/EditaisACESSO.json')
+      fetch('https://api.npoint.io/8201418ef1b7ce995d3b')
         .then((response) => response.json())
         .then((data) => setEditaisData(data));
     }, []);

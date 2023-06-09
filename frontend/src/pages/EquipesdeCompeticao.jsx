@@ -14,7 +14,7 @@ const EquipesdeCompeticao = () => {
   const carousel = useRef(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/2023.1-HEART-hub-fga-inovacao/static/EquipesCompeticao.json')
+    fetch('https://api.npoint.io/421d6b318180149b53e9')
       .then((response) => response.json())
       .then((data) => setData(data));
   }, []);

@@ -14,7 +14,7 @@ const Professores = () => {
   const carousel = useRef(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/2023.1-HEART-hub-fga-inovacao/static/Professores.json')
+    fetch('https://api.npoint.io/9ea98043cb263c676a90')
       .then((response) => response.json())
       .then((data) => setData(data));
   }, []);

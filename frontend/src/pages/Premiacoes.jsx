@@ -10,7 +10,7 @@ const Premiacoes = () => {
   const [premiacoesData, setPremiacoesData] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/2023.1-HEART-hub-fga-inovacao/static/premiacoes.json')
+    fetch('https://api.npoint.io/60a296c20325f11a68bc')
       .then((response) => response.json())
       .then((data) => setPremiacoesData(data));
   }, []);

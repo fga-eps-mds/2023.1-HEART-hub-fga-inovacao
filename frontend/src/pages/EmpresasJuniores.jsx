@@ -14,7 +14,7 @@ const EmpresasJuniores = () => {
   const carousel = useRef(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/2023.1-HEART-hub-fga-inovacao/static/EmpresasJuniores.json')
+    fetch('https://api.npoint.io/732cc9f14d87bfc496d0')
       .then((response) => response.json())
       .then((data) => setData(data));
   }, []);

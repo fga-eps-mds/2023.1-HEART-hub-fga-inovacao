@@ -1,10 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Contatos.css'   
 import Card from './Card';
 import img_01 from '../img/grupo.jpeg';
-import img_02 from '../img/fotoIzabella.jpeg';
-import img_03 from '../img/fotoEsther.jpeg';
-
 import { FiGithub,
   FiUsers,
   FiFigma,
@@ -15,14 +12,22 @@ import { FiGithub,
   FiClock,
   FiMail,
   FiTwitter,
-  FiFacebook
+  FiFacebook,
+  FiFile
 } from "react-icons/fi";
-{/*Importação de todos os componentes e estilos necessários para esta página*/}
+
 
 const Contatos = () => {
-  return (
+  const [contatosData, setContatosData] = useState([]);
+  useEffect(() => {
+      fetch('http://localhost:3000/2023.1-HEART-hub-fga-inovacao/static/Contatos.json')
+        .then((response) => response.json())
+        .then((data) => setContatosData(data));
+    }, []);
+
+    return (
     <section className='section'>
-      <section className='first-section'>
+      {/* <section className='first-section'>
         <div>
           <h1 className='contatos'></h1>
           <div className="card-container">
@@ -117,38 +122,32 @@ const Contatos = () => {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className='second-section'>
-        <h1 className='missao'>Nossa Equipe</h1>
-        <div className="team-container">
-          <div className="team-member">
-            <div className="member-content">
-            <img className="member-image" src="img/membro1.jpg" alt="Membro 1" />
-
-<h3 className="member-name">Membro 1</h3>
-<p className="member-role">Cargo do Membro 1</p>
-</div>
-</div>
-
-<div className="team-member">
-        <div className="member-content">
-          <img className="member-image" src="img/membro2.jpg" alt="Membro 2" />
-          <h3 className="member-name">Membro 2</h3>
-          <p className="member-role">Cargo do Membro 2</p>
+        <div className='titiulo_contatos'>
+          <h1>Nossa Equipe</h1>
         </div>
-      </div>
-
-      <div className="team-member">
-        <div className="member-content">
-          <img className="member-image" src="img/membro3.jpg" alt="Membro 3" />
-          <h3 className="member-name">Membro 3</h3>
-          <p className="member-role">Cargo do Membro 3</p>
+        <div className='card_contatos'>
+          {contatosData.map((item, index) => {
+            const { foto, nome, linkdin, github, gitpage } = item;
+            return (
+              <div className='card-grid-contatos' key={index}>
+                <img className='foto_contatos' src={foto} alt="imagem grupo" />
+                <h1 className='nome_contatos'>{nome}</h1>
+                <h2 className='curso'>Front-end</h2>
+                <div className='icons-contatos'>
+                  <a href={linkdin}><FiLinkedin /></a>
+                  <a href={github}><FiGithub /></a>
+                  <a href="#"><FiMail /></a>
+                  <a href={gitpage}><FiFile /></a>
+                </div>
+              </div>
+            );
+          })}
         </div>
-      </div>
-    </div>
-  </section>
-</section>
+      </section>
+    </section>
 );
 };
 

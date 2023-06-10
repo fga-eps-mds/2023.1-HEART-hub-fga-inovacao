@@ -26,14 +26,14 @@ const Contatos = () => {
 
     return (
     <section className='section'>
-      
+
       <section className='first-section'>
         <div className='card-informações-contatos'>
-          <FiPhone className='titulo_card'/><h1><a className='titulo_card' href="https://fga.unb.br/unb-gama/contato">LIGUE PARA NÓS</a></h1>
+          <FiPhone className='sub_titulo_card-icon'/><h1><a className='titulo_card' href="https://fga.unb.br/unb-gama/contato">LIGUE PARA NÓS</a></h1>
           <h2 className='sub_titulo_card'>+55 (61) 98162-2021 / +55 (61) 99341-1334 </h2>
-          <FiMapPin className='titulo_card'/><h1><a className='titulo_card' href="https://abre.ai/geFp">LOCALIZAÇÃO</a></h1>
+          <FiMapPin className='sub_titulo_card-icon'/><h1><a className='titulo_card' href="https://abre.ai/geFp">LOCALIZAÇÃO</a></h1>
           <h2 className='sub_titulo_card'>St. Leste Projeção A - Gama Leste, Brasília - DF, 72444-240</h2>
-          <FiClock className='titulo_card'/><h1><a className='titulo_card' href="https://fga.unb.br/unb-gama/contato">HORÁRIO COMERCIAL</a></h1>
+          <FiClock className='sub_titulo_card-icon'/><h1><a className='titulo_card' href="https://fga.unb.br/unb-gama/contato">HORÁRIO COMERCIAL</a></h1>
           <h2 className='sub_titulo_card'>Seg - Sex: 10 horas - 18 horas</h2>
         </div>
 
@@ -42,7 +42,7 @@ const Contatos = () => {
           <form className='formulario'>
             <div className="form-group-1">
               <label htmlFor="nome" className="label"></label>
-              <input id="nome" type="email" className="input" placeholder="Nome" />
+              <input id="nome" type="nome" className="input" placeholder="Nome" />
               <label htmlFor="email" className="label"></label>
               <input id="email" type="email" className="input" placeholder="E-mail" />
             </div>
@@ -61,27 +61,16 @@ const Contatos = () => {
         </div>
 
         <div className='card-rede-socias-contato'>
-          <h1 className='titulo_card-2'>Entre em contato</h1>
-          <form className='formulario'>
-            <div className="form-group-1">
-              <label htmlFor="nome" className="label"></label>
-              <input id="nome" type="email" className="input" placeholder="Nome" />
-              <label htmlFor="email" className="label"></label>
-              <input id="email" type="email" className="input" placeholder="E-mail" />
-            </div>
-            <div className="form-group-1">
-              <label htmlFor="telefone" className="label"></label>
-              <input id="telefone" type="tel" className="input" placeholder="Telefone"/>
-              <label htmlFor="assunto" className="label"></label>
-              <input id="assunto" type="text" className="input" placeholder="Assunto"/>
-            </div>
-            <div className="form-group">
-              <label htmlFor="mensagem" className="sub_titulo_card-2"><h2>Mensagem:</h2></label>
-              <textarea id="mensagem" className="input mensagem-input"></textarea>
-            </div>
-            <button type="submit" className="submit-button">Enviar Mensagem</button>
-          </form>
+          <div className='card-icon-social-contatos'>
+            <a className='titulocontatos' href='https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao'><FiGithub className='color-icon'/></a>
+            <a className='titulocontatos' href='https://instagram.com/unb_oficial?igshid=MzRlODBiNWFlZA=='><FiInstagram className='color-icon'/></a>
+            <a className='titulocontatos' href='https://www.linkedin.com/school/universidade-de-bras-lia/'><FiLinkedin className='color-icon'/></a>
+            <a className='titulocontatos' href='https://fga.unb.br/unb-gama/contato'><FiMail className='color-icon'/></a>
+            <a className='titulocontatos' href='https://twitter.com/unb_oficial'><FiTwitter className='color-icon'/></a>
+            <a className='titulocontatos' href='https://m.facebook.com/unbgama'><FiFacebook className='color-icon'/></a>                    
+          </div>
         </div>
+
       </section>
 
 

@@ -23,14 +23,19 @@
     color: white;
     text-align: center;
 }
+.sub_titulo_card-icon{
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
 .sub_titulo_card-2{
     font-size: 1rem;
     color: #7D2D88;
     text-align: center;
 }
 .card-informações-contatos{
-    height: 35rem;
-    width: 23rem;
+    height: 38rem;
+    width: 25rem;
     border-radius: 1rem;
     box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
     display: flex;
@@ -45,7 +50,7 @@
     transform: scale(1.08);
 }
 .card-mensagem-contatos{
-    height: 35rem;
+    height: 40rem;
     width: 25rem;
     border-radius: 1rem;
     box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
@@ -55,7 +60,7 @@
     align-items: center;
     transition: transform .4s ease-in-out;
     padding: 3rem;
-    gap: 10rem; 
+
     text-align: center;
 }
 .card-mensagem-contatos:hover{
@@ -99,8 +104,8 @@
     font-size: 0.9rem;
 }
 .card-rede-socias-contato{
-    height: 35rem;
-    width: 23rem;
+    height: 38rem;
+    width: 25rem;
     border-radius: 1rem;
     box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
     display: flex;
@@ -108,8 +113,19 @@
     background-color: #7D2D88;
     align-items: center;
     transition: transform .4s ease-in-out;
-    padding: 3rem;
+    padding: 5rem;
     gap: 1.5rem; 
+}
+.card-rede-socias-contato:hover{
+    transform: scale(1.08);
+}
+.card-icon-social-contatos {
+    font-size: 2.5rem;
+    display: contents;
+}
+.color-icon{
+    color: white;
+    bottom: 0,1rem;
 }
 .second-section{
     height: 100%;

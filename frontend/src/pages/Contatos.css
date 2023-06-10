@@ -9,7 +9,107 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    min-height: 650px;
+}
+.titulo_card{
+    font-size: 1.5rem;
+    color: white;
+}
+.titulo_card-2{
+    font-size: 1.5rem;
+    color: #7D2D88;
+}
+.sub_titulo_card{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+.sub_titulo_card-2{
+    font-size: 1rem;
+    color: #7D2D88;
+    text-align: center;
+}
+.card-informações-contatos{
+    height: 35rem;
+    width: 23rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
+    background-color: #7D2D88;
+    align-items: center;
+    transition: transform .4s ease-in-out;
+    padding: 3rem;
+    gap: 1.5rem; 
+}
+.card-informações-contatos:hover{
+    transform: scale(1.08);
+}
+.card-mensagem-contatos{
+    height: 35rem;
+    width: 25rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    align-items: center;
+    transition: transform .4s ease-in-out;
+    padding: 3rem;
+    gap: 10rem; 
+    text-align: center;
+}
+.card-mensagem-contatos:hover{
+    transform: scale(1.08);
+}
+.formulario{
+    display: contents;
+}
+.form-group {
+    display:contents;
+    gap: rem;
+}
+.form-group-1{
+    display:flex;
+    gap: 0.4rem;
+}
+.label {
+    display: block;
+}
+  
+.input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 2rem;
+    border: 1px solid #7D2D88;
+    display: flex;
+}
+  
+.mensagem-input {
+    height: 120px;
+    resize: vertical;
+}
+  
+.submit-button {
+    padding: 0.7rem 1.5rem;
+    border-radius: 3rem;
+    background-color: #7D2D88;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.card-rede-socias-contato{
+    height: 35rem;
+    width: 23rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
+    background-color: #7D2D88;
+    align-items: center;
+    transition: transform .4s ease-in-out;
+    padding: 3rem;
+    gap: 1.5rem; 
 }
 .second-section{
     height: 100%;
@@ -59,7 +159,7 @@
     font-size: 1.5rem;
     color: black;
 }
-.icons-contatos{
+.icons-contatos_sec-2{
     font-size:24px;
     color: #7D2D88;
     display:flex;

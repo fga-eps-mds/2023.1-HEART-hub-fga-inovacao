@@ -26,103 +26,65 @@ const Contatos = () => {
 
     return (
     <section className='section'>
-      {/* <section className='first-section'>
-        <div>
-          <h1 className='contatos'></h1>
-          <div className="card-container">
-            <Card
-              title={
-                <>
-                  <div className="title">
-                    <FiPhone className='iconc1'/> <a href='https://fga.unb.br/unb-gama/contato'>
-                      Ligue para nós
-                      <p className='iconp1'>+55 (61) 3107-8901/ +55 (61) 3107-8907 </p> 
-                    </a>
-                  </div>
-                  <br />
-
-                  <div className="title">
-                    <FiMapPin className='iconc1' /><a href='https://abre.ai/geFp'> Localização
-                      <p className='iconp1'>St.Leste Projeção A- Gama Leste, <br />
-                        Brasília-DF,72444-240</p>
-                    </a>
-                  </div>
-
-                  <br />
-
-                  <div className="title">
-                    <FiClock className='iconc1'/> <a href='https://fga.unb.br/unb-gama/contato'>Horário comercial
-                      <p className='iconp1'>Seg-Sex: 08 horas - 18 horas <br />
-                      e 14 horas-18 horas</p>
-                    </a>
-                  </div>
-                </>
-              }
-              description=""
-              color="#8E4694"
-            />
-
-            <Card 
-              title="Card 2" 
-              description="" 
-              color="#f5f5f5" 
-              newTitle="Entre em Contato"
-            />
-
-            <Card 
-              title="" 
-              description="" 
-              color="#8E4694"
-              icon={
-                <>
-                  <div className='iconc3'>
-                    <a href='https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao'>
-                      <FiGithub/>
-                    </a>
-                  </div>
-                    
-                  <br />
-
-                  <div className='iconc3'>
-                    <a href='https://instagram.com/unb_oficial?igshid=MzRlODBiNWFlZA=='>
-                      <FiInstagram />
-                    </a>
-                  </div>
-                  <br />
-
-                  <div className='iconc3'>
-                    <a href='https://www.linkedin.com/school/universidade-de-bras-lia/'>
-                      <FiLinkedin /> 
-                    </a>
-                  </div>
-                  <br />
-                  
-                  <div className='iconc3'>
-                    <a href='https://fga.unb.br/unb-gama/contato'>
-                      <FiMail /> 
-                    </a>
-                  </div>
-                  <br />
-                    
-                  <div className='iconc3'>
-                    <a href='https://twitter.com/unb_oficial'>
-                      <FiTwitter /> 
-                    </a>
-                  </div>
-                  <br />
-                      
-                  <div className='iconc3'>
-                    <a href='https://m.facebook.com/unbgama'>
-                      <FiFacebook/>
-                    </a>
-                  </div>
-                </>
-              }
-            />
-          </div>
+      
+      <section className='first-section'>
+        <div className='card-informações-contatos'>
+          <FiPhone className='titulo_card'/><h1><a className='titulo_card' href="https://fga.unb.br/unb-gama/contato">LIGUE PARA NÓS</a></h1>
+          <h2 className='sub_titulo_card'>+55 (61) 98162-2021 / +55 (61) 99341-1334 </h2>
+          <FiMapPin className='titulo_card'/><h1><a className='titulo_card' href="https://abre.ai/geFp">LOCALIZAÇÃO</a></h1>
+          <h2 className='sub_titulo_card'>St. Leste Projeção A - Gama Leste, Brasília - DF, 72444-240</h2>
+          <FiClock className='titulo_card'/><h1><a className='titulo_card' href="https://fga.unb.br/unb-gama/contato">HORÁRIO COMERCIAL</a></h1>
+          <h2 className='sub_titulo_card'>Seg - Sex: 10 horas - 18 horas</h2>
         </div>
-      </section> */}
-      <section className='first-section'></section>
+
+        <div className='card-mensagem-contatos'>
+          <h1 className='titulo_card-2'>Entre em contato</h1>
+          <form className='formulario'>
+            <div className="form-group-1">
+              <label htmlFor="nome" className="label"></label>
+              <input id="nome" type="email" className="input" placeholder="Nome" />
+              <label htmlFor="email" className="label"></label>
+              <input id="email" type="email" className="input" placeholder="E-mail" />
+            </div>
+            <div className="form-group-1">
+              <label htmlFor="telefone" className="label"></label>
+              <input id="telefone" type="tel" className="input" placeholder="Telefone"/>
+              <label htmlFor="assunto" className="label"></label>
+              <input id="assunto" type="text" className="input" placeholder="Assunto"/>
+            </div>
+            <div className="form-group">
+              <label htmlFor="mensagem" className="sub_titulo_card-2"><h2>Mensagem:</h2></label>
+              <textarea id="mensagem" className="input mensagem-input"></textarea>
+            </div>
+            <button type="submit" className="submit-button">Enviar Mensagem</button>
+          </form>
+        </div>
+
+        <div className='card-rede-socias-contato'>
+          <h1 className='titulo_card-2'>Entre em contato</h1>
+          <form className='formulario'>
+            <div className="form-group-1">
+              <label htmlFor="nome" className="label"></label>
+              <input id="nome" type="email" className="input" placeholder="Nome" />
+              <label htmlFor="email" className="label"></label>
+              <input id="email" type="email" className="input" placeholder="E-mail" />
+            </div>
+            <div className="form-group-1">
+              <label htmlFor="telefone" className="label"></label>
+              <input id="telefone" type="tel" className="input" placeholder="Telefone"/>
+              <label htmlFor="assunto" className="label"></label>
+              <input id="assunto" type="text" className="input" placeholder="Assunto"/>
+            </div>
+            <div className="form-group">
+              <label htmlFor="mensagem" className="sub_titulo_card-2"><h2>Mensagem:</h2></label>
+              <textarea id="mensagem" className="input mensagem-input"></textarea>
+            </div>
+            <button type="submit" className="submit-button">Enviar Mensagem</button>
+          </form>
+        </div>
+      </section>
+
+
       <section className='second-section'>
         <div className='titiulo_contatos'>
           <h1>Nossa Equipe</h1>
@@ -135,7 +97,7 @@ const Contatos = () => {
                 <img className='foto_contatos' src={foto} alt="imagem grupo" />
                 <h1 className='nome_contatos'>{nome}</h1>
                 <h2 className='curso'>{função}</h2>
-                <div className='icons-contatos'>
+                <div className='icons-contatos_sec-2'>
                   <a href={linkdin}><FiLinkedin /></a>
                   <a href={github}><FiGithub /></a>
                   <a href={email}><FiMail /></a>

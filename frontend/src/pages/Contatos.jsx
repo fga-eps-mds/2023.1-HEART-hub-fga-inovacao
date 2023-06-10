@@ -129,16 +129,16 @@ const Contatos = () => {
         </div>
         <div className='card_contatos'>
           {contatosData.map((item, index) => {
-            const { foto, nome, linkdin, github, gitpage } = item;
+            const { foto, nome, linkdin, função, github, gitpage, email } = item;
             return (
               <div className='card-grid-contatos' key={index}>
                 <img className='foto_contatos' src={foto} alt="imagem grupo" />
                 <h1 className='nome_contatos'>{nome}</h1>
-                <h2 className='curso'>Front-end</h2>
+                <h2 className='curso'>{função}</h2>
                 <div className='icons-contatos'>
                   <a href={linkdin}><FiLinkedin /></a>
                   <a href={github}><FiGithub /></a>
-                  <a href="#"><FiMail /></a>
+                  <a href={email}><FiMail /></a>
                   <a href={gitpage}><FiFile /></a>
                 </div>
               </div>

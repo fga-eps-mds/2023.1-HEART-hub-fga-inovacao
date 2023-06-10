@@ -15,7 +15,6 @@ import { FiGithub,
   FiFile
 } from "react-icons/fi";
 
-
 const Contatos = () => {
   const [contatosData, setContatosData] = useState([]);
   useEffect(() => {

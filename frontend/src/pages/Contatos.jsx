@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Contatos.css'   
-import img_01 from '../img/grupo.jpeg';
+
 import { FiGithub,
   FiUsers,
   FiFigma,
@@ -29,11 +29,17 @@ const Contatos = () => {
 
       <section className='first-section'>
         <div className='card-informações-contatos'>
-          <FiPhone className='sub_titulo_card-icon'/><h1><a className='titulo_card' href="https://fga.unb.br/unb-gama/contato">LIGUE PARA NÓS</a></h1>
+          <div className='Telefone'>
+            <FiPhone className='sub_titulo_card-icon'/><h1><a className='titulo_card' href="https://fga.unb.br/unb-gama/contato">LIGUE PARA NÓS</a></h1>
+          </div>
           <h2 className='sub_titulo_card'>+55 (61) 98162-2021 / +55 (61) 99341-1334 </h2>
-          <FiMapPin className='sub_titulo_card-icon'/><h1><a className='titulo_card' href="https://abre.ai/geFp">LOCALIZAÇÃO</a></h1>
+          <div className='Telefone'>
+            <FiMapPin className='sub_titulo_card-icon'/><h1><a className='titulo_card' href="https://abre.ai/geFp">LOCALIZAÇÃO</a></h1>
+          </div>
           <h2 className='sub_titulo_card'>St. Leste Projeção A - Gama Leste, Brasília - DF, 72444-240</h2>
-          <FiClock className='sub_titulo_card-icon'/><h1><a className='titulo_card' href="https://fga.unb.br/unb-gama/contato">HORÁRIO COMERCIAL</a></h1>
+          <div className='Telefone'>
+            <FiClock className='sub_titulo_card-icon'/><h1><a className='titulo_card' href="https://fga.unb.br/unb-gama/contato">HORÁRIO COMERCIAL</a></h1>
+          </div>
           <h2 className='sub_titulo_card'>Seg - Sex: 10 horas - 18 horas</h2>
         </div>
 
@@ -54,7 +60,7 @@ const Contatos = () => {
             </div>
             <div className="form-group">
               <label htmlFor="mensagem" className="sub_titulo_card-2"><h2>Mensagem:</h2></label>
-              <textarea id="mensagem" className="input mensagem-input"></textarea>
+              <textarea id="mensagem" className="input mensagem-input" placeholder="Digite sua mensagem..."></textarea>
             </div>
             <button type="submit" className="submit-button">Enviar Mensagem</button>
           </form>
@@ -70,9 +76,7 @@ const Contatos = () => {
             <a className='titulocontatos' href='https://m.facebook.com/unbgama'><FiFacebook className='color-icon'/></a>                    
           </div>
         </div>
-
       </section>
-
 
       <section className='second-section'>
         <div className='titiulo_contatos'>
@@ -138,5 +142,4 @@ const Contatos = () => {
         </section>
     );
 };
-
 export default Contatos;

@@ -9,9 +9,10 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
+    padding: 3rem;
 }
 .titulo_card{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
 }
 .titulo_card-2{
@@ -24,7 +25,7 @@
     text-align: center;
 }
 .sub_titulo_card-icon{
-    font-size: 4rem;
+    font-size: 2rem;
     color: white;
     text-align: center;
 }
@@ -48,6 +49,11 @@
 }
 .card-informações-contatos:hover{
     transform: scale(1.08);
+}
+.Telefone{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
 }
 .card-mensagem-contatos{
     height: 40rem;

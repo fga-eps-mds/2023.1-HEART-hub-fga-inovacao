@@ -43,7 +43,7 @@ const Contatos = () => {
         email: email
       }
   
-      emailjs.send("service_sz0vl0p", "template_ff5wgzk", templateParams, "G3wXmoOJmYmqu82Qa")
+      emailjs.send("service_phx2lwg", "template_p7dpp2r", templateParams, "Id2o82f1r7LPUALfj")
         .then((response) => {
           alert("Email enviado com sucesso!");
           console.log("EMAIL ENVIADO", response.status, response.text);

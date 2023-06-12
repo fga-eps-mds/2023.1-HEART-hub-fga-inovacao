@@ -46,41 +46,38 @@ const Editais = () => {
             </section>
 
             <section className='second-section'>
-            <div className='div-editais'>
-              <h1 className='editais'>Editais da UnB</h1>
-            </div>
-            <div className='card-grid-ed'>
-            {editaisData.map((item, index) => {
-            const { logo, nome, descricao, ano, edital, libras } = item;
-            return (
-              <div className="card_editais">
-                <img className='img_pas' src={logo} alt="Card Image" />
-              <h1 className='titulo-pas'>{nome}</h1>
-              <div className='scrollable-text'>
-                <p className='descricao_pas'>
-                  {descricao}
-                </p>
-                </div>
-                <h1 className='titulo-pas'>Ano do Ddital:</h1> 
-                  <div className='label-editais'>
-                <p>{ano}</p> 
-                  </div>
-                <div className='button_editais'>
-                  <a href={edital} className='button-edital-1'>Edital</a>
-                  <a href={libras} className='button-edital-1'>
-                    <TbHandStop />
-                    <TbHandStop className='mao-virada'/> 
-                  </a>
-                </div>
-                  </div>
-            );
-            })}
-            </div>
-            
-
-
-        
+              <div className='div-editais'>
+                <h1 className='editais'>Editais da UnB</h1>
+              </div>
+              <div className='card-grid-ed'>
+                {editaisData.map((item, index) => {
+                  const { logo, nome, descricao, ano, edital, libras } = item;
+                  return (
+                    <div className="card_editais" key={index}>
+                      <img className='img_pas' src={logo} alt="Card Image" />
+                      <h1 className='titulo-pas'>{nome}</h1>
+                      <div className='scrollable-text'>
+                        <p className='descricao_pas'>
+                          {descricao}
+                        </p>
+                      </div>
+                      <h1 className='titulo-pas'>Ano do Edital:</h1>
+                      <div className='label-editais'>
+                        <p>{ano}</p>
+                      </div>
+                      <div className='button_editais'>
+                        <a href={edital} className='button-edital-1'>Edital</a>
+                        <a href={libras} className='button-edital-1'>
+                          <TbHandStop />
+                          <TbHandStop className='mao-virada' />
+                        </a>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
             </section>
+
             <div class="footer-basic">
                 <footer>
                     <div class="social">

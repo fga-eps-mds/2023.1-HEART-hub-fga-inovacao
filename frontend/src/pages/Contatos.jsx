@@ -94,10 +94,6 @@ const Contatos = () => {
               <FiMail className='icons-pins' />
               <p>hearthubfga@gmail.com</p>
             </div>
-            <div className="information">
-              <FiPhone className='icons-pins' />
-              <p>+55 61 9 9341-1334</p>
-            </div>
           </div>
 
           <div className="social-media">

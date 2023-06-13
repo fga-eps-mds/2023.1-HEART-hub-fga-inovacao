@@ -1,19 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import './Contatos.css'   
-
 import { FiGithub,
-  FiUsers,
   FiFigma,
   FiLinkedin,
   FiInstagram,
   FiPhone,
   FiMapPin,
-  FiClock,
   FiMail,
-  FiTwitter,
   FiFacebook,
   FiFile
 } from "react-icons/fi";
+import { TbLoader2 } from "react-icons/tb";
+import emailjs from 'emailjs-com';
 
 const Contatos = () => {
   const [contatosData, setContatosData] = useState([]);
@@ -22,60 +20,164 @@ const Contatos = () => {
         .then((response) => response.json())
         .then((data) => setContatosData(data));
     }, []);
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [telefone, setTelefone] = useState('');
+    const [mensagem, setMensagem] = useState('');
+    const [isLoading, setIsLoading] = useState(false);
+  
+    function sendEmail(e) {
+      e.preventDefault();
+  
+      if (name === '' || email === '' || telefone === '' || mensagem === '') {
+        alert("Preencha todos os campos");
+        return;
+      }
+  
+      setIsLoading(true);
+  
+      const templateParams = {
+        from_name: name,
+        mensagem: mensagem,
+        telefone: telefone,
+        email: email
+      }
+  
+      emailjs.send("service_phx2lwg", "template_p7dpp2r", templateParams, "Id2o82f1r7LPUALfj")
+        .then((response) => {
+          alert("Email enviado com sucesso!");
+          console.log("EMAIL ENVIADO", response.status, response.text);
+          setName('');
+          setEmail('');
+          setTelefone('');
+          setMensagem('');
+          setIsLoading(false);
+        })
+        .catch((err) => {
+          alert("Erro ao enviar o email. Por favor, tente novamente.");
+          console.log("ERRO: ", err);
+          setIsLoading(false);
+        });
+    }
+  
+    const [inputFocus, setInputFocus] = useState(false);
+  
+    const handleFocus = () => {
+      setInputFocus(true);
+    };
+  
+    const handleBlur = (e) => {
+      if (e.target.value === '') {
+        setInputFocus(false);
+      }
+    };
 
     return (
     <section className='section'>
+        <div className="container-contatos">
+      <img src="img/shape.png" className="square" alt="" />
+      <div className="form">
+        <div className="contact-info">
+          <h3 className="title">Fale conosco</h3>
+          <p className="text">
+            Fique à vontade para entrar em contato conosco! Estamos disponíveis para responder suas perguntas, fornecer informações adicionais ou ajudá-lo(a) da melhor maneira possível. Estamos ansiosos para ouvir de você!
+          </p>
 
-      <section className='first-section'>
-        <div className='card-informações-contatos'>
-          <div className='Telefone'>
-            <FiPhone className='sub_titulo_card-icon'/><h1><a className='titulo_card' href="https://fga.unb.br/unb-gama/contato">LIGUE PARA NÓS</a></h1>
+          <div className="info">
+            <div className="information">
+              <FiMapPin className='icons-pins-i' />
+              <a className='link-a' href='https://www.google.com/maps/place/UnB+-+Campus+Gama/@-15.98961,-48.0443975,15z/data=!4m2!3m1!1s0x0:0x447f05b6f05fa281?sa=X&ved=2ahUKEwjFzo_58LH_AhX2jZUCHZIMAY0Q_BJ6BAhfEAg'>
+                St. Leste Projeção A - Gama Leste, Brasília - DF, 72444-240
+              </a>
+            </div>
+            <div className="information">
+              <FiMail className='icons-pins' />
+              <p>hearthubfga@gmail.com</p>
+            </div>
+            <div className="information">
+              <FiPhone className='icons-pins' />
+              <p>+55 61 9 9341-1334</p>
+            </div>
           </div>
-          <h2 className='sub_titulo_card'>+55 (61) 98162-2021 / +55 (61) 99341-1334 </h2>
-          <div className='Telefone'>
-            <FiMapPin className='sub_titulo_card-icon'/><h1><a className='titulo_card' href="https://abre.ai/geFp">LOCALIZAÇÃO</a></h1>
+
+          <div className="social-media">
+            <p>Conecte-se conosco:</p>
+            <div className="social-icons">
+              <a className='icon-ct' href="#">
+                <FiFacebook />
+              </a>
+              <a className='icon-ct' href="#">
+                <FiLinkedin />
+              </a>
+              <a className='icon-ct' href="#">
+                <FiInstagram />
+              </a>
+            </div>
           </div>
-          <h2 className='sub_titulo_card'>St. Leste Projeção A - Gama Leste, Brasília - DF, 72444-240</h2>
-          <div className='Telefone'>
-            <FiClock className='sub_titulo_card-icon'/><h1><a className='titulo_card' href="https://fga.unb.br/unb-gama/contato">HORÁRIO COMERCIAL</a></h1>
-          </div>
-          <h2 className='sub_titulo_card'>Seg - Sex: 10 horas - 18 horas</h2>
         </div>
 
-        <div className='card-mensagem-contatos'>
-          <h1 className='titulo_card-2'>Entre em contato</h1>
-          <form className='formulario'>
-            <div className="form-group-1">
-              <label htmlFor="nome" className="label"></label>
-              <input id="nome" type="nome" className="input" placeholder="Nome" />
-              <label htmlFor="email" className="label"></label>
-              <input id="email" type="email" className="input" placeholder="E-mail" />
+        <div className="contact-form">
+          <form onSubmit={sendEmail}>
+            <h3 className="title">Contate-nos</h3>
+            <div className={`input-container ${inputFocus ? 'focus' : ''}`}>
+              <input
+                type="text"
+                name="name"
+                className="input"
+                onFocus={handleFocus}
+                onBlur={handleBlur}
+                onChange={(e) => setName(e.target.value)}
+                value={name}
+              />
+              <label htmlFor="">Nome</label>
+              <span>Nome</span>
             </div>
-            <div className="form-group-1">
-              <label htmlFor="telefone" className="label"></label>
-              <input id="telefone" type="tel" className="input" placeholder="Telefone"/>
-              <label htmlFor="assunto" className="label"></label>
-              <input id="assunto" type="text" className="input" placeholder="Assunto"/>
+            <div className={`input-container ${inputFocus ? 'focus' : ''}`}>
+              <input
+                type="email"
+                name="email"
+                className="input"
+                onFocus={handleFocus}
+                onBlur={handleBlur}
+                onChange={(e) => setEmail(e.target.value)}
+                value={email}
+              />
+              <label htmlFor="">Email</label>
+              <span>Email</span>
             </div>
-            <div className="form-group">
-              <label htmlFor="mensagem" className="sub_titulo_card-2"><h2>Mensagem:</h2></label>
-              <textarea id="mensagem" className="input mensagem-input" placeholder="Digite sua mensagem..."></textarea>
+            <div className={`input-container ${inputFocus ? 'focus' : ''}`}>
+              <input
+                type="tel"
+                name="phone"
+                className="input"
+                onFocus={handleFocus}
+                onBlur={handleBlur}
+                onChange={(e) => setTelefone(e.target.value)}
+                value={telefone}
+              />
+              <label htmlFor="">Telefone</label>
+              <span>Telefone</span>
             </div>
-            <button type="submit" className="submit-button">Enviar Mensagem</button>
+            <div className={`input-container textarea ${inputFocus ? 'focus' : ''}`}>
+              <textarea
+                name="message"
+                className="input"
+                onFocus={handleFocus}
+                onBlur={handleBlur}
+                onChange={(e) => setMensagem(e.target.value)}
+                value={mensagem}
+              ></textarea>
+              <label htmlFor="">Mensagem</label>
+              <span>Mensagem</span>
+            </div>
+            <button type="submit" className="btn" disabled={isLoading}>
+              {isLoading ? <TbLoader2 className="loading-icon" /> : "Enviar"}
+            </button>
           </form>
         </div>
-
-        <div className='card-rede-socias-contato'>
-          <div className='card-icon-social-contatos'>
-            <a className='titulocontatos' href='https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao'><FiGithub className='color-icon'/></a>
-            <a className='titulocontatos' href='https://instagram.com/unb_oficial?igshid=MzRlODBiNWFlZA=='><FiInstagram className='color-icon'/></a>
-            <a className='titulocontatos' href='https://www.linkedin.com/school/universidade-de-bras-lia/'><FiLinkedin className='color-icon'/></a>
-            <a className='titulocontatos' href='https://fga.unb.br/unb-gama/contato'><FiMail className='color-icon'/></a>
-            <a className='titulocontatos' href='https://twitter.com/unb_oficial'><FiTwitter className='color-icon'/></a>
-            <a className='titulocontatos' href='https://m.facebook.com/unbgama'><FiFacebook className='color-icon'/></a>                    
-          </div>
-        </div>
-      </section>
+      </div>
+    </div>
+ 
 
       <section className='second-section'>
         <div className='titiulo_contatos'>
@@ -92,7 +194,6 @@ const Contatos = () => {
                 <div className='icons-contatos_sec-2'>
                   <a href={linkdin}><FiLinkedin /></a>
                   <a href={github}><FiGithub /></a>
-                  <a href={email}><FiMail /></a>
                   <a href={gitpage}><FiFile /></a>
                 </div>
               </div>

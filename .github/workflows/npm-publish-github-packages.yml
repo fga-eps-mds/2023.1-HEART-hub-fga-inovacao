@@ -15,6 +15,11 @@ jobs:
         
       - name: Set up Chrome
         uses: browser-actions/setup-chrome@v1
+        with:
+          options: |
+            args:
+              - --no-sandbox
+              - --disable-dev-shm-usage
 
       - name: Set up Node.js
         uses: actions/setup-node@v2

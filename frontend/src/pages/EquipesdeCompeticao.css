@@ -151,7 +151,11 @@
 }
 
 .footer-basic {
+  bottom: 0;
   padding:40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   background-color: transparent;
   color:#7D2D88;
 }
@@ -195,10 +199,33 @@
 .footer-basic .social > a:hover {
   opacity:0.9;
 }
+.texto_footer{
+  margin-top:15px;
+  text-align:center;
+  font-size:18px;
+  color:#7D2D88;
+  margin-bottom:0;
+}
 .footer-basic .copyright {
   margin-top:15px;
   text-align:center;
   font-size:13px;
   color:#7D2D88;
   margin-bottom:0;
+}
+.logo_unb{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.img_logo{
+  max-width: 10vh;
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+.fga{
+  max-width: 18vh;
+  margin-top: 1.5rem;
+  justify-content: center;
+
 }

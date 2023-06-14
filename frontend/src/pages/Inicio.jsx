@@ -6,6 +6,8 @@ import img_3 from '../img/time.png';
 import img_val from '../img/valores_1.png';
 import img_com from '../img/valores_2.png';
 import img_transf from '../img/valores_3.png';
+import img_logo from '../img/logo-unb.png';
+import img_fga from '../img/fga.png';
 import { FiGithub,
   FiFigma,
   FiLinkedin,
@@ -151,7 +153,7 @@ const Inicio = () => {
       </section> 
 
       <section>
-        <div className="footer-basic">
+      <div className="footer-basic">
           <footer>
             <div className="social">
               <a href="https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao">
@@ -174,6 +176,7 @@ const Inicio = () => {
                   <FiInstagram/>
                 </i>
               </a>
+            <p className='texto_footer'>Este HUB é referente à Universidade de Brasília - Campus Gama</p>
             </div>
               <ul className="list-inline">
                 <li className="list-inline-item"><a href="pedei">P&D&I</a></li>
@@ -185,6 +188,14 @@ const Inicio = () => {
                 <li className="list-inline-item"><a href="contatos">Contatos</a></li>
               </ul>
             <p className="copyright">Heart - HUB FGA Inovação © 2023</p>
+            <div className='logo_unb'>
+            <a href="https://www.unb.br/">
+              <img className="img_logo" src={img_logo} alt="logo"/>
+            </a>
+            <a href="https://fga.unb.br/">
+              <img className='fga' src={img_fga} alt='fga'/>
+            </a>
+            </div>
           </footer>
         </div>
       </section>

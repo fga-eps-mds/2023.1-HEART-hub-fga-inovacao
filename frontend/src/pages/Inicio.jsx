@@ -19,6 +19,8 @@ import { FiUsers,
   FiBookOpen,
   FiCpu,
   FiBriefcase,
+  FiDribbble
+  
 } from "react-icons/fi";
 
 const Inicio = () => {
@@ -121,31 +123,31 @@ const Inicio = () => {
             <ul className='bloco1'>
               <li className='li-b1'>
                 <a className='a-b1' href="pedei"><FiCpu/> P&D&I</a> 
-                <p className='p-b1'>Conheça as diversas iniciativas para o estimulo da inovação.</p>
+                <p className='p-b1'>Conheça as diversas iniciativas para o estimulo da pesquisa e inovação na FGA</p>
               </li>
               <li className='li-b1'>
                 <a className='a-b1' href="professores"><FiUsers/> Professores</a> 
-                <p className='p-b1'>Consulte os pesquisadores e grupos de pesquisa da UnB.</p>
+                <p className='p-b1'>Consulte os pesquisadores e grupos de pesquisa da FGA</p>
               </li>
               <li className='li-b1' >
                 <a className='a-b1' href="empresasjuniores"><FiBriefcase/> Empresas</a>
-                <p className='p-b1'>Conheça as empresas criadas por iniciativas de alunos e ex alunos da UnB.</p>
+                <p className='p-b1'>Conheça as empresas criadas por iniciativas de alunos e ex alunos da FGA</p>
               </li>
             </ul>
           </div>
           <div>
             <ul className='bloco2'>
               <li className='li-b2'>
-                <a className='a-b2' href="equipesdecompetição"><FiAward/> Equipes de Competição.</a>
-                <p className='p-b2'>Tenha acesso as disciplinas ligadas a tecnologia e empreendedorismo da UnB.</p>
+                <a className='a-b2' href="equipesdecompetição"><FiDribbble/> Equipes de Competição.</a>
+                <p className='p-b2'>Tenha acesso a todas as equipes de competição da FGA</p>
               </li>
               <li className='li-b2'>
-                <a className='a-b2' href="disciplinas"><FiBookOpen/> Disciplinas</a>
-                <p className='p-b2'>Fique por dentro de tudo que está rolando na UnB através dos editais abertos.</p>
+                <a className='a-b2' href="disciplinas"><FiAward/> Premiações</a>
+                <p className='p-b2'>Fique por dentro de algumas das premiações que nosso campus já recebeu</p>
               </li>
               <li className='li-b2'>
                 <a className='a-b2' href="editais"><FiCalendar/> Editais</a>
-                <p className='p-b2'>Tenha acesso aos meios de contato disponivel para falar com a UnB.</p>
+                <p className='p-b2'>Tenha acesso a todos os editais referentes ao nosso campus bem como algumas páginas de apoio ligadas a FGA direta ou indiretamente</p>
               </li>
             </ul> 
           </div>

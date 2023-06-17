@@ -51,7 +51,8 @@ jobs:
 
       - name: Start ChromeDriver
         run: |
-          chromedriver --port=3000 --url-base=/
+          chromedriver --port=9515 --url-base=/
+
 
       - name: Run the PyTest script
         run: |

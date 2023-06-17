@@ -35,21 +35,21 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.9'
-          
+
       - name: Install software
         run: |
-          cd testes
-          sudo apt-get install -y chromium-browser
-        
-      - name: Install the necessary packages
+          sudo apt-get update
+          sudo apt-get install -y chromium-chromedriver
+
+      - name: Install necessary packages
         run: |
-          cd testes
-          pip install requests webdriver-manager selenium pytest
-        
-      - name: Run the PytTest script
+          pip install requests selenium pytest
+
+      - name: Run the PyTest script
         run: |
           cd testes
           pytest -rA
+
 
       - name: Build React app
         run: |

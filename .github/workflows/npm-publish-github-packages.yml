@@ -40,10 +40,18 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y chromium-chromedriver
+          LATEST_CHROMEDRIVER_VERSION=$(curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE)
+          curl -o /tmp/chromedriver.zip "https://chromedriver.storage.googleapis.com/$LATEST_CHROMEDRIVER_VERSION/chromedriver_linux64.zip"
+          sudo unzip /tmp/chromedriver.zip -d /usr/local/bin/
+          sudo chmod +x /usr/local/bin/chromedriver
 
       - name: Install necessary packages
         run: |
           pip install requests selenium pytest
+
+      - name: Start ChromeDriver
+        run: |
+          chromedriver --port=4444 --url-base=/
 
       - name: Run the PyTest script
         run: |

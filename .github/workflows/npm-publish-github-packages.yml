@@ -31,11 +31,25 @@ jobs:
           cd frontend
           npm install
 
-      - name: Run Python tests
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+          
+      - name: Install software
         run: |
           cd testes
-          pip install -r requirements.txt
-          pytest
+          sudo apt-get install -y chromium-browser
+        
+      - name: Install the necessary packages
+        run: |
+          cd testes
+          pip install requests webdriver-manager selenium pytest
+        
+      - name: Run the PytTest script
+        run: |
+          cd testes
+          pytest -rA
 
       - name: Build React app
         run: |

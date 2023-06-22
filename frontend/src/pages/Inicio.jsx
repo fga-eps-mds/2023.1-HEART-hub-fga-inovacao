@@ -118,7 +118,7 @@ const Inicio = () => {
               </li>
               <li className='li-b1'>
                 <a className='a-b1' href="professores"><FiUsers/> Professores</a> 
-                <p className='p-b1'>Consulte os pesquisadores e grupos de pesquisa da FGA</p>
+                <p className='p-b1'>Consulte os profeessores da FGA</p>
               </li>
               <li className='li-b1' >
                 <a className='a-b1' href="empresasjuniores"><FiBriefcase/> Empresas</a>
@@ -132,8 +132,8 @@ const Inicio = () => {
                 <a className='a-b2' href="equipesdecompetição"><FiDribbble/> Equipes de Competição.</a>
                 <p className='p-b2'>Tenha acesso a todas as equipes de competição da FGA</p>
               </li>
-              <li className='li-b2'>
-                <a className='a-b2' href="disciplinas"><FiAward/> Premiações</a>
+               <li className='li-b2'>
+                <a className='a-b2' href="premiações"><FiAward/> Premiações</a>
                 <p className='p-b2'>Fique por dentro de algumas das premiações que nosso campus já recebeu</p>
               </li>
               <li className='li-b2'>

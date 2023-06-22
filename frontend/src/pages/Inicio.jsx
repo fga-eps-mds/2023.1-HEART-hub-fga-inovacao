@@ -79,10 +79,9 @@ const Inicio = () => {
           <div className="Ensino_Pesquisa">
             <img className='valores_1' src={img_val} alt='valores_1/'/>
             <h1 className='valores_sub'>Ensino e Pesquisa</h1>
-            <p className='p-iv_sub'> Ensino e Pesquisa no HEART é fundamental para
-             o desenvolvimento de soluções inovadoras e o avanço do conhecimento. Através de parcerias 
-             estratégicas com instituições acadêmicas e de pesquisa, buscamos promover a troca de ideias 
-             e a formação de talentos capacitados. </p>
+            <p className='p-iv_sub'> Ensino e a pesquisa são pilares essenciais no contexto acadêmico, impulsionando a busca pelo conhecimento 
+            e a formação integral dos estudantes, estamos comprometidos em oferecer um ambiente de aprendizado inspirador, que estimule a criatividade,
+            o pensamento crítico e a inovação.</p>
           </div>
 
           <div className="Comunidade_Cooperacao">

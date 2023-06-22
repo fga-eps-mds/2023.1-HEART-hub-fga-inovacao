@@ -71,7 +71,7 @@ const Inicio = () => {
 
         <div className="pilares">
           <h1 className='valores'>Valores</h1>
-          <p className='p-iv'>Três pilares norteiam o trabalho do Ministério nesta rede de inovação:</p>
+          <p className='p-iv'>Três pilares norteiam o trabalho do <strong className='heart'>HEART</strong> nesta rede de inovação:</p>
         </div>
 
         <div className="coluna-3">

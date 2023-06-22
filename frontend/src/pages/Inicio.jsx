@@ -87,9 +87,7 @@ const Inicio = () => {
           <div className="Comunidade_Cooperacao">
             <img className='valores_1' src={img_com} alt='valores_2'/>
             <h1 className='valores_sub'>Comunidade e Cooperação</h1>
-            <p className='p-iv_sub'>Incentivamos a integração e a cooperação entre agentes para que as inovações do Hub sejam efetivas 
-              e gerem valor para as cidades, respeitando a pluralidade de pontos de vista e de modos de pensar, 
-              agir e atuar perante os estudantes e a comunidade. </p>
+            <p className='p-iv_sub'>A comunidade e a cooperação são essenciais para um ambiente acadêmico vibrante. No HEART, valorizamos a colaboração e o espírito comunitário, acreditando que juntos podemos alcançar objetivos maiores. A união da comunidade e a prática da cooperação fortalecem nosso crescimento impulsionando o aprendizado, a inovação e a transformação. </p>
           </div>
 
           <div className="Transfereia_Aplicacoes">

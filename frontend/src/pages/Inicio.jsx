@@ -58,12 +58,12 @@ const Inicio = () => {
             </div>
             <h1 className='visao'>Visão</h1>
           <p className='p-iii'>
-          A visão do <strong className='heart'>HEART</strong> é ser um ponto central de inovação e colaboração, conectando agentes públicos, privados e do 
-          terceiro setor em uma rede dinâmica. Nossa missão é impulsionar o desenvolvimento sustentável e a transformação 
-          social nas cidades brasileiras. Por meio de projetos, parcerias estratégicas e capacitações, buscamos promover 
-          um futuro resiliente e próspero para todos. Com foco no potencial criativo e empreendedor da comunidade acadêmica 
-          e externa, o HEART visa construir um ambiente propício para soluções inovadoras, melhorando a qualidade de vida e 
-          fortalecendo a colaboração entre os diversos atores envolvidos.</p>
+          A visão do <strong className='heart'>HEART</strong> é um ponto central de conexão e colaboração, projetado para fortalecer a comunidade acadêmica 
+          e impulsionar o desenvolvimento dos estudantes. Acreditamos que o compartilhamento de conhecimento, experiências e oportunidades é fundamental para 
+          o crescimento acadêmico e profissional.
+          Com uma variedade de recursos e seções dedicadas, nosso Hub oferece um ambiente digital dinâmico e interativo. 
+          Nossa plataforma permite o acesso rápido a informações relevantes e atualizadas, bem como a interação entre estudantes, professores e demais membros 
+          da comunidade acadêmica.</p>
         </div>
       </section>
 

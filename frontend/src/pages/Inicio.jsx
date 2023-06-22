@@ -47,13 +47,7 @@ const Inicio = () => {
        <div className='coluna-1'>
         <h1 className='missao'>Missão</h1>
           <p className='p-ii'>
-          A missão do <strong className='heart'>HEART</strong>  é impulsionar a transformação social e o desenvolvimento sustentável nas cidades 
-          brasileiras, por meio da conexão e articulação de agentes públicos, privados e do terceiro setor. 
-          Nosso objetivo é criar uma rede de troca de experiências inovadoras, reunindo boas práticas e 
-          promovendo o intercâmbio de conhecimentos. Através de projetos, capacitações e parcerias 
-          estratégicas, buscamos impulsionar o potencial criativo e empreendedor da comunidade acadêmica e 
-          externa. Nossa visão é construir um futuro mais sustentável e resiliente, colaborando para a melhoria 
-          contínua das cidades e para o bem-estar da sociedade como um todo.</p>
+          A missão do <strong className='heart'>HEART</strong> é ser uma plataforma digital que visa promover a interação e o compartilhamento de informações entre estudantes, professores e a comunidade acadêmica em geral. Nosso objetivo é conectar pessoas, facilitar o diálogo e proporcionar uma experiência interativa. Queremos ser um ponto de encontro confiável e inspirador, impulsionando o crescimento acadêmico e fortalecendo as conexões na comunidade acadêmica. Junte-se a nós e faça parte dessa experiência colaborativa e enriquecedora.</p>
             <div className='box-img_time'>
               <img className="img_2" src={img_2} alt="Fga"/>
             </div>

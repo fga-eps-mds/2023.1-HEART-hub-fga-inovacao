@@ -47,7 +47,9 @@ const Inicio = () => {
        <div className='coluna-1'>
         <h1 className='missao'>Missão</h1>
           <p className='p-ii'>
-          A missão do <strong className='heart'>HEART</strong> é ser uma plataforma digital que visa promover a interação e o compartilhamento de informações entre estudantes, professores e a comunidade acadêmica em geral. Nosso objetivo é conectar pessoas, facilitar o diálogo e proporcionar uma experiência interativa. Queremos ser um ponto de encontro confiável e inspirador, impulsionando o crescimento acadêmico e fortalecendo as conexões na comunidade acadêmica. Junte-se a nós e faça parte dessa experiência colaborativa e enriquecedora.</p>
+          A missão do <strong className='heart'>HEART</strong> é ser uma plataforma digital que visa promover a interação e o compartilhamento de informações entre estudantes, 
+            professores e a comunidade acadêmica em geral. Nosso objetivo é conectar pessoas, facilitar o diálogo e proporcionar uma experiência interativa. Queremos ser um ponto de encontro confiável e 
+            inspirador, impulsionando o crescimento acadêmico e fortalecendo as conexões na comunidade acadêmica.</p>
             <div className='box-img_time'>
               <img className="img_2" src={img_2} alt="Fga"/>
             </div>
@@ -87,15 +89,16 @@ const Inicio = () => {
           <div className="Comunidade_Cooperacao">
             <img className='valores_1' src={img_com} alt='valores_2'/>
             <h1 className='valores_sub'>Comunidade e Cooperação</h1>
-            <p className='p-iv_sub'>A comunidade e a cooperação são essenciais para um ambiente acadêmico vibrante. No HEART, valorizamos a colaboração e o espírito comunitário, acreditando que juntos podemos alcançar objetivos maiores. A união da comunidade e a prática da cooperação fortalecem nosso crescimento impulsionando o aprendizado, a inovação e a transformação. </p>
+            <p className='p-iv_sub'>A comunidade e a cooperação são essenciais para um ambiente acadêmico vibrante. 
+            No HEART, valorizamos a colaboração e o espírito comunitário, acreditando que juntos podemos alcançar objetivos maiores. 
+            A união da comunidade e a prática da cooperação fortalecem nosso crescimento impulsionando o aprendizado, a inovação e a transformação. </p>
           </div>
 
-          <div className="Transfereia_Aplicacoes">
+          <div className="Transferencia_Aplicacoes">
             <img className='valores_1' src={img_transf} alt='valores_3'/>
-            <h1 className='valores_sub'>Transferênia e Aplicações</h1>
-            <p className='p-iv_sub'>Estimulamos a troca de experiências que gerem valor para as cidades e para os agentes do Hub 
-              de Inovação, assegurando a transparência da iniciativa e a imparcialidade na promoção das 
-              melhores práticas</p>
+            <h1 className='valores_sub'>Transferência e Aplicações</h1>
+            <p className='p-iv_sub'>No HEART, acreditamos na importância de transferir o conhecimento acadêmico para aplicações práticas que gerem um impacto significativo na sociedade. 
+            Reconhecemos que a verdadeira relevância do conhecimento está em sua capacidade de ser aplicado e transformar o mundo ao nosso redor.</p>
           </div>
         </div>
 

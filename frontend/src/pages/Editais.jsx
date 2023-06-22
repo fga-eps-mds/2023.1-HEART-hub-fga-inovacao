@@ -106,7 +106,7 @@ const Editais = () => {
                         <li className="list-inline-item"><a href="professores">Professores</a></li>
                         <li className="list-inline-item"><a href="empresasjuniores">Empresas Juniores</a></li>
                         <li className="list-inline-item"><a href="equipesdecompetição">Equipes de Competição</a></li>
-                        <li className="list-inline-item"><a href="disciplinas">Disciplinas</a></li>
+                        <li className="list-inline-item"><a href="premiacoes">Premiações</a></li>
                         <li className="list-inline-item"><a href="editais">Editais</a></li>
                         <li className="list-inline-item"><a href="contatos">Contatos</a></li>
                       </ul>

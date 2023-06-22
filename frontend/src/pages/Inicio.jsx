@@ -31,13 +31,10 @@ const Inicio = () => {
         <div className='botão'>
           <h1 className='quemsomos'>Quem somos?</h1>
           <p className='p-i'>
-            Somos o <strong className='strong'>HUB FGA Inovação</strong>, um portal de inovação que conecta 
-            estudantes, professores, pesquisadores e empreendedores em uma 
-            plataforma que estimula o desenvolvimento de projetos inovadores 
-            com impacto positivo na sociedade.
-            Oferecemos <strong className='strong'>Capacitações, Mentorias e Recursos</strong> para transformar  
-            ideias em projetos bem-sucedidos e acreditamos na inovação e na 
-            colaboração para transformar o mundo e impulsionar a economia local. 
+            Somos o <strong className='strong'> Heart - HUB FGA Inovação </strong> uma plataforma digital dedicada 
+            a promover a interação e o compartilhamento de informações entre estudantes, professores e comunidade acadêmica em geral. 
+            É um espaço virtual que reúne uma variedade de recursos e funcionalidades para auxiliar no desenvolvimento acadêmico 
+            e profissional dos envolvidos.
           </p>
           <a href="contatos" className="btn-saiba-mais">Saiba mais</a>
         </div>

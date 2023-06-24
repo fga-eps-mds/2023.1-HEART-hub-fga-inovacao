@@ -38,14 +38,15 @@ jobs:
 
       - name: Configurar o ChromeDriver
         run: |
-            sudo apt-get update
-            sudo apt-get install -y chromium-chromedriver
+          sudo apt-get update
+          sudo apt-get install -y chromium-chromedriver=1:114.0.5735.90-0ubuntu0.20.04.1
 
-                # Verificar se o arquivo já existe antes de copiá-lo
-            if [ ! -f /usr/bin/chromedriver ]; then
-              sudo cp /usr/lib/chromium-browser/chromedriver /usr/bin/
-              sudo chmod +x /usr/bin/chromedriver
-            fi
+            # Verificar se o arquivo já existe antes de copiá-lo
+          if [ ! -f /usr/bin/chromedriver ]; then
+            sudo cp /usr/lib/chromium-browser/chromedriver /usr/bin/
+            sudo chmod +x /usr/bin/chromedriver
+          fi
+
 
       - name: Install necessary packages
         run: |

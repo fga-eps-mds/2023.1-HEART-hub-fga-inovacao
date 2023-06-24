@@ -44,6 +44,12 @@ jobs:
           curl -o /tmp/chromedriver.zip "https://chromedriver.storage.googleapis.com/$LATEST_CHROMEDRIVER_VERSION/chromedriver_linux64.zip"
           sudo unzip /tmp/chromedriver.zip -d /usr/local/bin/
           sudo chmod +x /usr/local/bin/chromedriver
+          
+      - name: Installing all necessary packages
+        run: pip install chromedriver-autoinstaller selenium pyvirtualdisplay
+        
+      - name: Install xvfb
+        run: sudo apt-get install xvfb
 
       - name: Install necessary packages
         run: |

@@ -49,11 +49,6 @@ jobs:
         run: |
           pip install requests selenium pytest
 
-      - name: Start ChromeDriver
-        run: |
-          chromedriver --port=9515 --url-base=/
-
-
       - name: Run the PyTest script
         run: |
           cd testes

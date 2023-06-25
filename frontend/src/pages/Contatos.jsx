@@ -230,7 +230,7 @@ const Contatos = () => {
                 <li className="list-inline-item"><a href="professores">Professores</a></li>
                 <li className="list-inline-item"><a href="empresasjuniores">Empresas Juniores</a></li>
                 <li className="list-inline-item"><a href="equipesdecompetição">Equipes de Competição</a></li>
-                <li className="list-inline-item"><a href="Premiacoes">Premiações</a></li>
+                <li className="list-inline-item"><a href="premiações">Premiações</a></li>
                 <li className="list-inline-item"><a href="editais">Editais</a></li>
                 <li className="list-inline-item"><a href="contatos">Contatos</a></li>
               </ul>

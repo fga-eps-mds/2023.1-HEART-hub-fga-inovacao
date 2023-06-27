@@ -75,7 +75,7 @@ const Contatos = () => {
 
     return (
     <section className='section'>
-        <div className="container-contatos">
+      <div className="container-contatos">
       <img src="img/shape.png" className="square" alt="" />
       <div className="form">
         <div className="contact-info">
@@ -173,7 +173,7 @@ const Contatos = () => {
           </form>
         </div>
       </div>
-    </div>
+      </div>
  
 
       <section className='second-section'>
@@ -182,7 +182,7 @@ const Contatos = () => {
         </div>
         <div className='card_contatos'>
           {contatosData.map((item, index) => {
-            const { foto, nome, linkdin, função, github, gitpage, email } = item;
+            const { foto, nome, linkdin, função, git, gitpage} = item;
             return (
               <div className='card-grid-contatos' key={index}>
                 <img className='foto_contatos' src={foto} alt="imagem grupo" />
@@ -190,7 +190,7 @@ const Contatos = () => {
                 <h2 className='curso'>{função}</h2>
                 <div className='icons-contatos_sec-2'>
                   <a href={linkdin}><FiLinkedin /></a>
-                  <a href={github}><FiGithub /></a>
+                  <a href={git}><FiGithub /></a>
                   <a href={gitpage}><FiFile /></a>
                 </div>
               </div>

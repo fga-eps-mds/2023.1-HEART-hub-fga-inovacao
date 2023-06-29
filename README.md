@@ -110,6 +110,38 @@ pip install beautifulsoup4
 
 Esse comando irá instalar a biblioteca Selenium no ambiente virtual myenv.
 
+
+### Executando o projeto localmente
+
+Siga as etapas abaixo para executar o projeto localmente:
+
+Clone o repositório para o seu ambiente de desenvolvimento local:
+
+```
+git clone https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao.git
+```
+
+Navegue até o diretório do projeto:
+
+```
+cd 2023.1-HEART-hub-fga-inovacao
+```
+
+Instale as dependências do front-end. Certifique-se de ter o Node.js instalado. No diretório raiz do projeto, execute o seguinte comando:
+
+```
+npm install
+```
+
+Inicie o servidor de desenvolvimento:
+
+```
+npm start
+```
+
+Isso iniciará o servidor de desenvolvimento e o projeto poderá ser acessado em http://localhost:3000.
+
+
 ### Configuração do GitHub Pages
 
 Para configurar o GitHub Pages, acesse as configurações do seu repositório no GitHub e ative o GitHub Pages para a branch main. Em seguida, selecione o diretório /docs como diretório de publicação.

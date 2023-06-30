@@ -93,28 +93,6 @@ const Sidebar = ({children}) => {
                         )}
                     </div>
                 </div>
-                <div style={{ position: 'relative', display: 'inline-block' }}>
-                <input
-                    className="search"
-                    style={{ width: isOpen ? '272px' : '48px' }}
-                    type="search"
-                    placeholder={isOpen ? 'Digite uma palavra-chave' : ''}
-                    value={searchValue}
-                    onChange={(e) => {
-                        setSearchValue(e.target.value);
-                        handleInputChange(e);
-                    }}
-                    readOnly={!isOpen}
-                />
-                {!isOpen && searchValue === '' && (
-                    <div className='search-icon'>
-                        <FiSearch 
-                            style={{ cursor: 'pointer' }}
-                            onClick={handleToggleSidebar}
-                        />
-                    </div>
-                )}
-                </div>
                 {
                     menuItem.map((item, index)=>
                     <NavLink to ={item.path} key={index} className="link" activeclassName="active">

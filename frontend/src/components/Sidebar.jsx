@@ -25,12 +25,6 @@ const Sidebar = ({children}) => {
 
     const toggle = () => setIsOpen (!isOpen);
 
-    useEffect(() => {
-        if (!isOpen) {
-          setSearchValue('');
-        }
-    }, [isOpen]);
-
     const menuItem=[
         {
             path:"/2023.1-HEART-hub-fga-inovacao",

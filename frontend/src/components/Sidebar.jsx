@@ -27,10 +27,6 @@ const Sidebar = ({children}) => {
 
     const [searchValue, setSearchValue] = useState('');
 
-    const handleToggleSidebar = () => {
-        setIsOpen(!isOpen);
-    };
-
     useEffect(() => {
         if (!isOpen) {
           setSearchValue('');

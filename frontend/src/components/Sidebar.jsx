@@ -16,11 +16,6 @@ import { NavLink } from 'react-router-dom';
 
 const Sidebar = ({children}) => {
 
-    const handleInputChange = (e) => {
-        e.preventDefault();
-        console.log('handleInputChange', e.target.value);
-    }
-
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => setIsOpen (!isOpen);

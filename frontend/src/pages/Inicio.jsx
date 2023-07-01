@@ -100,14 +100,6 @@ const Inicio = () => {
             <p className='p-iv_sub'>No HEART, acreditamos na importância de transferir o conhecimento acadêmico para aplicações práticas que gerem um impacto significativo na sociedade. 
             Reconhecemos que a verdadeira relevância do conhecimento está em sua capacidade de ser aplicado e transformar o mundo ao nosso redor.</p>
           </div>
-
-          {/* <div className="Transferencia_Aplicacoes">
-            <img className='valores_1' src={img_transf} alt='valores_3'/>
-            <h1 className='valores_sub'>Transferência e Aplicações</h1>
-            <p className='p-iv_sub'>No HEART, acreditamos na importância de transferir o conhecimento acadêmico para aplicações práticas que gerem um impacto significativo na sociedade. 
-            Reconhecemos que a verdadeira relevância do conhecimento está em sua capacidade de ser aplicado e transformar o mundo ao nosso redor.</p>
-          </div>
-           */}
         </div>
 
       </section>

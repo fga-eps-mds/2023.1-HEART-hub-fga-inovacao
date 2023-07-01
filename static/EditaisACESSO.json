@@ -1,0 +1,34 @@
+[
+    {   
+        "logo": "https://i.imgur.com/Nrp3PiD_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
+        "nome": "ACESSO PAS - UnB",
+        "descricao": "O Programa de Avalia\u00e7\u00e3o Seriada (PAS) \u00e9 um processo seletivo da Universidade de Bras\u00edlia (UnB), realizado ao longo dos tr\u00eas anos do ensino m\u00e9dio regular. Atualmente, a Universidade destina a metade das vagas em todos os seus cursos aos aprovados no Programa, abrindo as portas da Institui\u00e7\u00e3o para os estudantes do ensino m\u00e9dio de forma gradual e progressiva.",
+        "ano": "Subprograma 2022-2024",
+        "edital": "https://cdn.cebraspe.org.br/pas/arquivos/ED_1_PAS_1_2022-2024_abertura.pdf",
+        "libras": "https://security.cebraspe.org.br/PAS_2022_1/EditaisLibras/Editallibras_abertura/"
+    },
+    {
+        "logo": "https://i.imgur.com/ZxQuf4N_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
+        "nome": "ACESSO Vestibular - UnB",
+        "descricao": "O acesso vestibular \u00e0 Universidade de Bras\u00edlia (UnB) \u00e9 uma das formas de ingresso para os cursos de gradua\u00e7\u00e3o oferecidos pela institui\u00e7\u00e3o.  o acesso vestibular \u00e9 realizado por meio de um processo seletivo que ocorre anualmente. Os candidatos interessados devem se inscrever para participar do vestibular da UnB, que \u00e9 composto por provas abrangendo as diferentes \u00e1reas de conhecimento.",
+        "ano": "2023",
+        "edital": "https://cdn.cebraspe.org.br/vestibulares/VESTUNB_23/arquivos/ED_1_2023_UNB_VEST_TRADICIONAL_E_LIBRAS_ABERTURA.PDF",
+        "libras": "https://security.cebraspe.org.br/VESTUNB_23/EditaisLibras/Editallibras_abertura/"
+    },
+    {
+        "logo": "https://i.imgur.com/3G7cvYa_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
+        "nome": "ACESSO ENEM - UnB",
+        "descricao": "A Universidade de Brasília (UnB) utiliza o Exame Nacional do Ensino Médio (ENEM) como forma de ingresso para seus cursos de graduação. Os candidatos interessados devem participar do processo seletivo do Sistema de Seleção Unificada (SiSU), no qual as notas do Enem são utilizadas para classificação e atribuição de vagas. É importante acompanhar as datas e orientações divulgadas pelo SiSU e pela UnB para participar do processo seletivo.",
+        "ano": "2023",
+        "edital": "https://cdn.cebraspe.org.br/vestibulares/UNB_23_ACESSOENEM/arquivos/ED_1_2023_ACESSO_ENEM_ABERTURA.PDF",
+        "libras": "https://security.cebraspe.org.br/UNB_23_ACESSOENEM/EditaisLibras_3102E084-49EA-4AED-B389/Editallibras_abertura/"
+    },
+    {
+        "logo": "https://i.imgur.com/inyuLZY_d.jpg?maxwidth=520&shape=thumb&fidelity=high",
+        "nome": "Transfer\u00eancia Facultativa",
+        "descricao": "Forma de ingresso na UnB, mediante processo seletivo, para alunos regulares de outras Institui\u00e7\u00f5es de Ensino Superior (IES), p\u00fablicas ou particulares, nacionais ou estrangeiras, para prosseguimento de estudos no mesmo curso ou em curso equivalente, visando ao preenchimento de vagas de gradua\u00e7\u00e3o ociosas da Universidade. Entende-se como curso equivalente aquele que confira o mesmo grau de forma\u00e7\u00e3o e tenha carga hor\u00e1ria compat\u00edvel com o curso pretendido na UnB.",
+        "ano": "2023",
+        "edital": "https://www.iades.com.br/inscricao/upload/319/20230104102927961.pdf",
+        "libras": "https://www.youtube.com/playlist?list=PLvH8tt8u9y9aA9YiZGXTYyvlohcfJjwgL"
+    }
+]

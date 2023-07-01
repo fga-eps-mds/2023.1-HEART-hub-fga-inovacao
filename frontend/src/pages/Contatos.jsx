@@ -187,7 +187,7 @@ const Contatos = () => {
               <div className='card-grid-contatos' key={index}>
                 <img className='foto_contatos' src={foto} alt="imagem grupo" />
                 <h1 className='nome_contatos'>{nome}</h1>
-                <h2 className='curso'>{função}</h2>
+                {/* <h2 className='curso'>{função}</h2> */}
                 <div className='icons-contatos_sec-2'>
                   <a href={linkdin}><FiLinkedin /></a>
                   <a href={git}><FiGithub /></a>

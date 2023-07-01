@@ -183,10 +183,11 @@
     font-size: 1.44rem;
     color: #7D2D88;
     max-width: 18.75rem;
+    gap: 2rem;
 }
 
 .valores_1 {
-    max-width: 18.75rem;
+    max-width: 23rem;
 }
 
 .p-iv_sub {
@@ -195,6 +196,7 @@
     text-align: justify;
     max-width: 18.75rem;
     left: 100vh;
+    gap: 2rem;
 }
 
 .Ensino_Pesquisa {

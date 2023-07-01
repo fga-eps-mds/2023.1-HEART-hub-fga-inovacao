@@ -94,8 +94,8 @@ const Inicio = () => {
             A união da comunidade e a prática da cooperação fortalecem nosso crescimento impulsionando o aprendizado, a inovação e a transformação. </p>
           </div>
 
-          <div className="Transferencia_Aplicacoes">
-            <img className='valores_1' src={img_transf} alt='valores_3'/>
+          <div className="Comunidade_Cooperacao">
+            <img className='valores_1' src={img_transf}  alt='valores_2'/>
             <h1 className='valores_sub'>Transferência e Aplicações</h1>
             <p className='p-iv_sub'>No HEART, acreditamos na importância de transferir o conhecimento acadêmico para aplicações práticas que gerem um impacto significativo na sociedade. 
             Reconhecemos que a verdadeira relevância do conhecimento está em sua capacidade de ser aplicado e transformar o mundo ao nosso redor.</p>

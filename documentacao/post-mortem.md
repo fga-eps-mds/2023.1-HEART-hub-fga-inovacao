@@ -10,7 +10,9 @@
 
 
 ## Introdução
+Este documento apresenta o post mortem do projeto "Heart - Hub FGA Inovação", desenvolvido como trabalho da disciplina de Métodos de Desenvolvimento de Software. O projeto teve como objetivo criar uma plataforma digital chamada Heart, dedicada a promover a interação e o compartilhamento de informações entre estudantes, professores e a comunidade acadêmica em geral da Faculdade do Gama (FGA).
 
+A plataforma Heart foi concebida como um espaço virtual que reúne uma variedade de recursos e funcionalidades com o intuito de auxiliar no desenvolvimento acadêmico e profissional dos seus usuários. Seu objetivo era proporcionar um ambiente colaborativo que facilitasse a troca de conhecimentos, a divulgação de eventos e oportunidades, além de promover a conexão entre os membros da comunidade acadêmica da FGA.
 
 ## Definição de Escopo
 

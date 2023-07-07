@@ -20,15 +20,17 @@ A plataforma Heart foi concebida como um espaço virtual que reúne uma variedad
 ## Metodologia e Processo
 
 
+
 ## Tecnologias utilizadas
+- **BeautifulSoup**: biblioteca em Python que permite analisar e extrair informações de documentos HTML e XML. Usada para realizar a raspagem dos dados usados no projeto.
+  
+- **JSON**: formado de dados usada para armazenar os dados extraídos através da biblioteca BeautifulSoup.
 
-- Back-end:
+- **React.js**: permite a criação de componentes reutilizáveis e eficientes, os quais facilitam a construção de aplicativos web complexos e escaláveis. Usado para criar todo o frontend da aplicação e consumir os arquivos JSON.
 
-- Front-end:
+- **Selenium**: biblioteca popular de automação de testes para aplicações web. Ela permite que os desenvolvedores simulem a interação de um usuário com um navegador, executando ações como clicar em botões, preencher formulários, navegar por páginas e realizar verificações automatizadas. Usada nos testes de integração da aplicação.
 
-- Outras tecnologias e ferramentas:
-
-
+- **Pytest**: framework de teste em Python que simplifica e aprimora a escrita e execução de casos de teste.
 
 ## Entrega da R1
 

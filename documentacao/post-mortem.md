@@ -20,11 +20,12 @@
 
 ## Tecnologias utilizadas
 
+- Back-end:
 
-## Arquitetura
+- Front-end:
 
+- Outras tecnologias e ferramentas:
 
-## Capacitação do Time
 
 
 ## Entrega da R1

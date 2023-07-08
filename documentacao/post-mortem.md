@@ -81,6 +81,7 @@ Desejamos a todos muito sucesso neste projeto e ao longo da disciplina de Métod
 ### [@esmsena](https://github.com/esmsena)
 
 ### [@izabellaalves](https://github.com/izabellaalves)
+Desenvolver um projeto de software com novas tecnologias para aprender, e em equipe, é trabalhoso e exige muito de nós profissionalmente e interpessoalmente, e isso é ótimo, porque é disso que se trata o desenvolvimento de qualquer software que existe. Sendo assim, aproveite a oportunidade para aprender a trabalhar em grupo e confiar no trabalho das outras pessoas, veja MDS como uma oportunidade de melhorar tecnicamente como engenheiro de software, mas veja também como uma forma de aprender e colaborar com outras pessoas que com certeza terão muito para te oferecer. 
 
 ### [@Lucas13032003](https://github.com/Lucas13032003)
 
@@ -89,6 +90,3 @@ Desejamos a todos muito sucesso neste projeto e ao longo da disciplina de Métod
 ### [@lucassouzs](https://github.com/lucassouzs)
 
 ### [@Maryyscreuza](https://github.com/Maryyscreuza)
-
-
-## Conclusão

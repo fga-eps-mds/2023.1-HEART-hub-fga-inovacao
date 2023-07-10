@@ -7,6 +7,7 @@
 | :--------- | :----- | :---------------------------------------------------------- | :----------------------------------------------------- |
 | 05/07/2023 | 0.1    | Criação do documento                                        | [@izabellaalves](https://github.com/izabellaalves)     |
 | 06/07/2023 | 0.2    | Criação da estrutura do documento                           | [@algorithmorphic](https://github.com/algorithmorphic) |
+| 10/07/2023 | 0.3    | Adição/contribuição em Sentimentos da Equipe                | [@algorithmorphic](https://github.com/algorithmorphic) |
 
 
 ## Introdução
@@ -77,6 +78,9 @@ Desejamos a todos muito sucesso neste projeto e ao longo da disciplina de Métod
 ## Sentimentos da Equipe
 
 ### [@algorithmorphic](https://github.com/algorithmorphic)
+Na minha visão e opinião, Métodos de Desenvolvimento de Software (MDS), sem dúvidas, é uma das disciplinas mais importantes e desafiadoras de todo o curso de Engenharia de Software oferecido pela Universidade de Brasília - UnB. Construir um software, mesmo que em equipe, de fato, não é uma tarefa simples. Talvez a coisa mais importante a se desenvolver aqui, antes mesmo do "trabalho em equipe" propriamente dito, seja a comunicação. É imprescindível que a sua equipe estabeleça uma comunicação efetiva entre seus membros, visto que o diálogo será necessário na maioria das etapas no decorrer do desenvolvimento de um projeto de software, como, por exemplo, no planejamento e tomada de decisões, na divisão de tarefas e, principalmente, nos feedbacks e interações trazidos por cada integrante do time. Uma equipe com uma boa comunicação, com toda a certeza, conseguirá obter melhores resultados no desenvolvimento de projetos como os propostos em MDS com a professora Carla Rocha ([@RochaCarla](https://github.com/RochaCarla)). Nesta disciplina pude aproveitar a oportunidade de estar desenvolvendo e/ou melhorando habilidades como, por exemplo, a comunicação e o trabalho em equipe, e sou muito grato por isso, pois, tratam-se estas de habilidades comportamentais (as chamadas "[soft skills](https://pt.wikipedia.org/wiki/Soft_skills)") realmente importantes tanto para a nossa carreira como futuros(as) engenheiros(as) de software quanto para a nossa vida pessoal e em sociedade, no geral.
+
+Hoje consigo compreender a importância de se fazer parte de uma equipe que tenha se empenhado em construir algo grande e o quão incrível é conseguir enxergar, ao final do semestre, a diferença que a contribuição de cada integrante do time/equipe faz no resultado de uma possível entrega final ou release de um projeto. É fascinante como que, aos poucos e com constância, torna-se possível realizar feitos grandiosos!
 
 ### [@esmsena](https://github.com/esmsena)
 Sempre ouvi comentários sobre como este projeto era desafiador e exigia muito tempo, e realmente pude entender o significado dessas palavras. Ao longo dessa jornada, dediquei uma quantidade significativa de tempo e adquiri um vasto conhecimento. No entanto, percebi que o aspecto mais importante que moldou essa experiência foi ter uma equipe comprometida em aprender e crescer juntos. Sem uma equipe colaborativa, o projeto não avança e a evolução se torna limitada tanto em termos didáticos quanto práticos.

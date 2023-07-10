@@ -101,6 +101,13 @@ Apesar do desejo de ter tido mais tempo para aprimorar o Heart, reconheço que o
 Olhando para o futuro, tenho o interesse em continuar buscando melhorias para o Heart. Uma ideia que me motiva é adaptar o projeto para ser compatível com telas mobile, ampliando o alcance e a acessibilidade do produto. Pretendo explorar essa possibilidade, aplicar novos conhecimentos adquiridos e continuar contribuindo para o crescimento e o aprimoramento contínuo do Heart.
 
 ### [@LucasOliveiraDiasMarquesFerreira](https://github.com/LucasOliveiraDiasMarquesFerreira)
+Um dos maiores desafios que enfrentei neste semestre foi a disciplina de métodos e desenvolvimento de software e o projeto Heart. No início, tive muita dificuldade em aprender a tecnologia react. Foi um grande salto em relação ao que eu estava acostumado a programar, e precisei dedicar muitas horas de estudo e prática para me familiarizar com ela.
+
+Além disso, foi difícil conciliar o tempo com o trabalho e as outras disciplinas da faculdade. Muitas vezes, eu me sentia sobrecarregado e estressado com tantas tarefas e prazos a cumprir. Tive que aprender a gerenciar melhor o meu tempo e a priorizar as atividades mais importantes.
+
+Outro desafio foi trabalhar em uma equipe grande, com pessoas de diferentes perfis e habilidades. Nem sempre foi fácil coordenar as ações e as comunicações entre os membros do grupo, e houve alguns conflitos e divergências ao longo do processo. Porém, também houve momentos de colaboração e aprendizado mútuo, e acredito que conseguimos entregar um bom resultado final.
+
+Apesar das dificuldades, eu sinto que essa experiência foi muito válida para o meu crescimento pessoal e profissional. Eu pude desenvolver novas competências técnicas e interpessoais, além de ampliar a minha visão sobre o desenvolvimento de software. Eu me sinto mais preparado para enfrentar os desafios futuros na área.
 
 ### [@lucassouzs](https://github.com/lucassouzs)
 No decorrer da disciplina de Métodos de Desenvolvimento de Software, enfrentei diversos desafios iniciais com as principais tecnologias utilizadas durante a produção do Heart, o que gerou insegurança. Também precisei me preocupar com a organização do meu tempo, equilibrando as demandas do projeto com outras disciplinas da faculdade. No entanto, à medida que me envolvia cada vez mais com o projeto Heart, passei a valorizar a experiência gratificante que ele proporcionava, trazendo propósito e realização ao contribuir para algo que poderia impactar positivamente os usuários e a comunidade acadêmica.

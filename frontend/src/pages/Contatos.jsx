@@ -17,7 +17,7 @@ import emailjs from 'emailjs-com';
 const Contatos = () => {
   const [contatosData, setContatosData] = useState([]);
   useEffect(() => {
-      fetch('http://localhost:3000/2023.1-HEART-hub-fga-inovacao/static/Contatos.json')
+      fetch('https://api.npoint.io/0bfc36b8202f0ec3eff9')
         .then((response) => response.json())
         .then((data) => setContatosData(data));
     }, []);

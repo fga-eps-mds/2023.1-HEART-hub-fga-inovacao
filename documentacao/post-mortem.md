@@ -108,3 +108,6 @@ No decorrer da disciplina de Métodos de Desenvolvimento de Software, enfrentei 
 Apesar das limitações temporais, procurei fazer o meu melhor dentro das circunstâncias, explorando diferentes funcionalidades, refinando o design e realizando testes para garantir a qualidade do produto. Olhando para o futuro, tenho interesse em continuar aprimorando o Heart, adaptando-o para ser compatível com telas mobile, ampliando sua acessibilidade e alcance. Pretendo aplicar novos conhecimentos adquiridos e contribuir para seu crescimento e aprimoramento contínuo.
 
 ### [@Maryyscreuza](https://github.com/Maryyscreuza)
+Trabalhar no projeto HEART foi incrivelmente gratificante e enriquecedor. Desde o início, sabíamos que estávamos embarcando em um projeto com impacto positivo na comunidade acadêmica da FGA e na população em geral. Ver o HEART ganhar vida, com o esforço conjunto da equipe, foi emocionante. Aprendemos habilidades valiosas ao utilizar o React, explorar técnicas de web scraping e colaborar em equipe para encontrar soluções inovadoras. 
+
+Acreditamos que o HEART deixará um legado duradouro, fortalecendo a conexão entre a faculdade e a comunidade e estamos felizes em contribuir para a disseminação do conhecimento. Trabalhar no projeto HEART foi verdadeiramente gratificante e nos inspira a buscar novos desafios e oportunidades de impacto positivo.

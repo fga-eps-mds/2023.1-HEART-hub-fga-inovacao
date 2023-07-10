@@ -110,4 +110,6 @@ Apesar das limitações temporais, procurei fazer o meu melhor dentro das circun
 ### [@Maryyscreuza](https://github.com/Maryyscreuza)
 Trabalhar no projeto HEART foi incrivelmente gratificante e enriquecedor. Desde o início, sabíamos que estávamos embarcando em um projeto com impacto positivo na comunidade acadêmica da FGA e na população em geral. Ver o HEART ganhar vida, com o esforço conjunto da equipe, foi emocionante. Aprendemos habilidades valiosas ao utilizar o React, explorar técnicas de web scraping e colaborar em equipe para encontrar soluções inovadoras. 
 
-Acreditamos que o HEART deixará um legado duradouro, fortalecendo a conexão entre a faculdade e a comunidade e estamos felizes em contribuir para a disseminação do conhecimento. Trabalhar no projeto HEART foi verdadeiramente gratificante e nos inspira a buscar novos desafios e oportunidades de impacto positivo.
+Aprender a otimizar o tempo entre máterias da faculdade e o projeto foi a parte que mais me ensinou, pois a cada semana é um aprendizado novo e uma organização diferente, sendo necessária devida atenção ao projeto. A comunicação é crucial em um projeto em equipe, sem ela com certeza não conseguiriamos entregar o trabalho completo.
+
+Em geral, acreditamos que o HEART deixará um legado duradouro, fortalecendo a conexão entre a faculdade e a comunidade e estamos felizes em contribuir para a disseminação do conhecimento. Trabalhar no projeto HEART foi verdadeiramente gratificante e nos inspira a buscar novos desafios e oportunidades de impacto positivo.

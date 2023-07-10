@@ -23,3 +23,10 @@ No HEART, o front-end é desenvolvido utilizando o React, uma biblioteca JavaScr
 
 ### Implementação no Git Pages
 Para hospedar o HEART, o projeto utiliza o Git Pages, um serviço de hospedagem fornecido pelo Git. O Git Pages permite que o site seja implantado de forma simples e acessível por meio de um link público. Dessa forma, o HEART pode ser compartilhado e acessado facilmente pela população.
+
+## Conclusão
+Em conclusão, a arquitetura do projeto HEART, sem a necessidade de um back-end e banco de dados, oferece uma solução eficiente e de baixo custo para ser utilizada pela Universidade de Brasília - Campus Gama (UnB-Gama). Ao utilizar o React no front-end e o web scraping em Python para coletar e transformar os dados em formato JSON, é possível fornecer uma plataforma acessível e informativa sem incorrer em despesas adicionais.
+
+A ausência de um back-end e banco de dados reduz a complexidade da arquitetura, simplificando o desenvolvimento e a manutenção do projeto. Ao optar por hospedar o site no Git Pages, você pode disponibilizar a plataforma de forma gratuita, garantindo que o acesso às informações seja aberto a todos os usuários interessados.
+
+Portanto, a arquitetura do projeto HEART, sem um back-end e banco de dados, é uma solução viável, econômica e adequada para a Universidade de Brasília - Campus Gama. Ela permite que o hub de inovação seja desenvolvido, implantado e mantido de forma acessível e eficiente, conectando o conhecimento e as atividades desenvolvidas na faculdade com a população.

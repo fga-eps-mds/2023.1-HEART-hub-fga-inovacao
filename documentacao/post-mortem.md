@@ -87,6 +87,13 @@ Através desse projeto, minha perspectiva em relação ao desenvolvimento de pro
 Desenvolver um projeto de software com novas tecnologias para aprender, e em equipe, é trabalhoso e exige muito de nós profissionalmente e interpessoalmente, e isso é ótimo, porque é disso que se trata o desenvolvimento de qualquer software que existe. Sendo assim, aproveite a oportunidade para aprender a trabalhar em grupo e confiar no trabalho das outras pessoas, veja MDS como uma oportunidade de melhorar tecnicamente como engenheiro de software, mas veja também como uma forma de aprender e colaborar com outras pessoas que com certeza terão muito para te oferecer. 
 
 ### [@Lucas13032003](https://github.com/Lucas13032003)
+Durante a disciplina de Métodos de Desenvolvimento de Software e o desenvolvimento do projeto Heart, experimentei uma mistura de desafios e sentimentos gratificantes. No início, enfrentei certa dificuldade ao lidar com a tecnologia React, o que inicialmente me deixou inseguro. Além disso, havia uma preocupação constante em relação à organização do meu tempo, especialmente para equilibrar as demandas do projeto com outras disciplinas da faculdade.
+
+No entanto, à medida que me envolvia cada vez mais com o projeto Heart, passei a apreciar muito a experiência. Trabalhar nesse projeto trouxe um senso de propósito e realização, pois pude contribuir para a criação de algo que poderia impactar positivamente os usuários e a comunidade acadêmica.
+
+Apesar do desejo de ter tido mais tempo para aprimorar o Heart, reconheço que os recursos temporais eram limitados. Mesmo assim, busquei fazer o meu melhor dentro das circunstâncias, explorando diferentes funcionalidades, refinando o design e realizando testes para garantir a qualidade do produto.
+
+Olhando para o futuro, tenho o interesse em continuar buscando melhorias para o Heart. Uma ideia que me motiva é adaptar o projeto para ser compatível com telas mobile, ampliando o alcance e a acessibilidade do produto. Pretendo explorar essa possibilidade, aplicar novos conhecimentos adquiridos e continuar contribuindo para o crescimento e o aprimoramento contínuo do Heart.
 
 ### [@LucasOliveiraDiasMarquesFerreira](https://github.com/LucasOliveiraDiasMarquesFerreira)
 

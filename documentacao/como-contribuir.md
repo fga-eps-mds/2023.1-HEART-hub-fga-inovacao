@@ -1,6 +1,6 @@
-# Diretrizes de contribuição para o projeto `fga-eps-mds/2023.1-HEART-hub-fga-inovacao`
+# Diretrizes de contribuição para o projeto 
 
-Agradecemos seu interesse em contribuir para o projeto `fga-eps-mds/2023.1-HEART-hub-fga-inovacao`! Sua contribuição é muito importante para nós e ajudará a melhorar o projeto.
+Agradecemos seu interesse em contribuir para o projeto do Heart! Sua contribuição é muito importante para nós e ajudará a melhorar o projeto.
 
 Antes de começar a contribuir, por favor, leia atentamente estas diretrizes para garantir que sua contribuição seja aceita.
 

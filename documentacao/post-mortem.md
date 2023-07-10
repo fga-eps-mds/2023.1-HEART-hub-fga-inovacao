@@ -102,5 +102,8 @@ Olhando para o futuro, tenho o interesse em continuar buscando melhorias para o 
 ### [@LucasOliveiraDiasMarquesFerreira](https://github.com/LucasOliveiraDiasMarquesFerreira)
 
 ### [@lucassouzs](https://github.com/lucassouzs)
+No decorrer da disciplina de Métodos de Desenvolvimento de Software, enfrentei diversos desafios iniciais com as principais tecnologias utilizadas durante a produção do Heart, o que gerou insegurança. Também precisei me preocupar com a organização do meu tempo, equilibrando as demandas do projeto com outras disciplinas da faculdade. No entanto, à medida que me envolvia cada vez mais com o projeto Heart, passei a valorizar a experiência gratificante que ele proporcionava, trazendo propósito e realização ao contribuir para algo que poderia impactar positivamente os usuários e a comunidade acadêmica.
+
+Apesar das limitações temporais, procurei fazer o meu melhor dentro das circunstâncias, explorando diferentes funcionalidades, refinando o design e realizando testes para garantir a qualidade do produto. Olhando para o futuro, tenho interesse em continuar aprimorando o Heart, adaptando-o para ser compatível com telas mobile, ampliando sua acessibilidade e alcance. Pretendo aplicar novos conhecimentos adquiridos e contribuir para seu crescimento e aprimoramento contínuo.
 
 ### [@Maryyscreuza](https://github.com/Maryyscreuza)

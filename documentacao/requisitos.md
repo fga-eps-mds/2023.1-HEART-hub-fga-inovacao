@@ -6,8 +6,6 @@ A documentação apresenta os requisitos e uma exploração do HUB USP Inovaçã
 ## 2. Requisitos
 Os requisitos foram divididos em funcionais e não funcionais para delinear as funcionalidades desejadas e as características essenciais do sistema. Os requisitos funcionais incluem o cadastro de usuários, a busca de eventos, a participação em fóruns e a integração com redes sociais. Por outro lado, os requisitos não funcionais abordam aspectos como escalabilidade, segurança, usabilidade, disponibilidade, performance, confiabilidade, acessibilidade, internacionalização e portabilidade. Esses requisitos foram estabelecidos para garantir que o HUB USP Inovação seja capaz de atender às necessidades dos usuários, proporcionando uma experiência confiável, eficiente e acessível.
 ### Requisitos Funcionais:
-* Cadastro de usuários: Os usuários devem poder criar uma conta para acessar as funcionalidades do hub.
-* Busca de eventos: Os usuários devem poder pesquisar eventos e programas de aceleração disponíveis na plataforma.
 * Participação em fóruns: Os usuários devem poder participar de discussões e fóruns de networking.
 * Integração com redes sociais: Os usuários devem poder compartilhar informações sobre eventos e programas de aceleração em suas redes sociais.
 ### Requisitos Não Funcionais:
@@ -44,7 +42,7 @@ A seção de resumos destaca informações sobre disciplinas, editais, empresas 
 ### Premiações
 Na seção de Premiações, você encontrará informações sobre as principais premiações relacionadas à UnB/FGA. Isso inclui reconhecimentos acadêmicos, prêmios de pesquisa e méritos alcançados por estudantes, professores e funcionários da instituição. Essas premiações servem como um indicativo do alto nível de excelência e contribuição da UnB/FGA para a comunidade acadêmica e científica, destacando suas realizações e avanços em diversas áreas de conhecimento.
 ### Editais
-Na seção de **Editais**, você poderá acompanhar os editais de financiamento e chamadas para projetos de inovação na FGA UnB. Mantenha-se atualizado sobre as oportunidades de bolsas, auxílios e incentivos disponíveis para o desenvolvimento de suas ideias e projetos inovadores. Acesse os documentos e informações relevantes para participar dos processos seletivos, bem como os prazos e critérios estabelecidos para cada edital.
+Na seção de **Editais**, você poderá acompanhar os editais de seleção e chamadas para ingresso na FGA UnB. Mantenha-se atualizado sobre as oportunidades de admissão nos cursos e programas oferecidos pela instituição. Acesse os documentos e informações relevantes para participar dos processos seletivos, bem como os prazos e critérios estabelecidos para cada edital. Esteja preparado para aproveitar as chances de ingressar na FGA UnB e trilhar seu caminho acadêmico e profissional de sucesso.
 ### Empresas Juniores
 Na seção de **Empresas Juniores**, você vai explorar o ecossistema das Empresas Juniores na FGA UnB. Conheça essas organizações geridas por estudantes que oferecem serviços de consultoria de alta qualidade para empresas e empreendedores. Descubra as áreas de atuação de cada Empresa Júnior, os projetos já realizados e como você pode se envolver, seja como membro ou buscando apoio para o seu próprio negócio.
 ### Equipes de Competição

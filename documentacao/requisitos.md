@@ -54,16 +54,3 @@ Na seção de **Equipes de Competição**, você descobrirá as Equipes de Compe
 Explore as atividades de **Pesquisa, Desenvolvimento e Inovação (P&D&I)** na FGA UnB. Descubra os projetos em andamento, as tecnologias inovadoras sendo desenvolvidas e os resultados alcançados por nossa comunidade acadêmica. Acesse recursos e informações sobre parcerias de pesquisa, publicações e oportunidades de colaboração na área de inovação.
 ### Professores
 Na seção de **Professores**, você conhecerá nossos professores especializados e engajados em promover a inovação. Saiba mais sobre suas áreas de atuação, projetos de pesquisa e experiência acadêmica. Descubra como entrar em contato e colaborar com os professores da FGA UnB para obter orientações sobre projetos, mentoria e apoio para suas ideias inovadoras.
-
-## 5. Tabela de Requisitos
-| Pré-requisitos obrigatórios para Hub |                    |            |           |
-|--------------------------------------|--------------------|------------|-----------|
-| **Páginas**                          | **Links**          | **Imagens**| **Botões**|
-| Página inicial                       | X                  | X          | X         |
-| Iniciativas                          | X                  |            | X         |
-| P&D&I                                | X                  |            |           |
-| Competência                          | X                  | X          |           |
-| Empreendedorismo e Inovação          | X                  |            | X         |
-| Empresas                             | X                  |            | X         |
-| Editais                              | X                  |            | X         |
-| Contato                              | X                  |            | X         |

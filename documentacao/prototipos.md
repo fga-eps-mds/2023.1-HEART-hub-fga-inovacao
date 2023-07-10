@@ -25,11 +25,25 @@ Ao criar os protótipos de baixa fidelidade, buscamos estimular o debate constru
 ### - Busca
 ![Protótipo de Baixa Fidelidade - Busca](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/prototipo-baixa-fidelidade/11_Busca.jpg?raw=true)
 
-## 3. Protótipos de Alta Fidelidade e Mudanças no Design no Projeto HEART
+## 3. Protótipos de Alta Fidelidade no Projeto HEART
 
 Os protótipos de alta fidelidade no Projeto HEART têm como objetivo representar uma versão mais refinada e detalhada do design, refletindo melhor as funcionalidades e o fluxo de interação. Eles são criados após a validação e iteração dos protótipos de baixa fidelidade, incorporando feedbacks e melhorias identificadas anteriormente.
 
 No Projeto HEART, houve mudanças no design durante a transição para os protótipos de alta fidelidade. A sidebar passou por alterações visuais e de posição, sendo agora localizada à esquerda da interface. Além disso, a página "Disciplina" foi substituída pela página "Premiação". Todas as telas do projeto foram aprimoradas, apresentando melhorias de design e implementação de um modo de exibição com cards.
 
 Essas mudanças e melhorias proporcionam uma visualização mais precisa do design final do Projeto HEART, contribuindo para testes de usabilidade, revisões finais e implementação do produto. O objetivo é garantir que o projeto atenda às necessidades dos usuários e alcance as metas estabelecidas pela equipe.
+
+### Protótipos de Alta Fidelidade
+
+### - Home
+![Protótipo de Alta Fidelidade - Home](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/Nw_prototipos/home.png?raw=true)
+
+### - Home e Sidebar
+![Protótipo de Alta Fidelidade - Home e Sidebar](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/Nw_prototipos/home_2.png?raw=true)
+
+### - Empresas Júnior
+![Protótipo de Alta Fidelidade - Empresas Júnior](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/Nw_prototipos/empresas.png?raw=true)
+
+### - Contano
+![Protótipo de Alta Fidelidade - Cintato](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/Nw_prototipos/contato_2.png?raw=true)
 

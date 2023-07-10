@@ -79,6 +79,9 @@ Desejamos a todos muito sucesso neste projeto e ao longo da disciplina de Métod
 ### [@algorithmorphic](https://github.com/algorithmorphic)
 
 ### [@esmsena](https://github.com/esmsena)
+Sempre ouvi comentários sobre como este projeto era desafiador e exigia muito tempo, e realmente pude entender o significado dessas palavras. Ao longo dessa jornada, dediquei uma quantidade significativa de tempo e adquiri um vasto conhecimento. No entanto, percebi que o aspecto mais importante que moldou essa experiência foi ter uma equipe comprometida em aprender e crescer juntos. Sem uma equipe colaborativa, o projeto não avança e a evolução se torna limitada tanto em termos didáticos quanto práticos.
+
+Através desse projeto, minha perspectiva em relação ao desenvolvimento de projetos mudou drasticamente. Consegui me aprimorar e descobri que existem diversos métodos eficientes que podem auxiliar nesses processos. Além disso, aprendi a adotar uma abordagem mais profissional em relação à apresentação e ao produto. Sou imensamente grata por tudo o que aprendi aqui e sei que levarei e aplicarei esses conhecimentos em todos os aspectos da minha vida.
 
 ### [@izabellaalves](https://github.com/izabellaalves)
 Desenvolver um projeto de software com novas tecnologias para aprender, e em equipe, é trabalhoso e exige muito de nós profissionalmente e interpessoalmente, e isso é ótimo, porque é disso que se trata o desenvolvimento de qualquer software que existe. Sendo assim, aproveite a oportunidade para aprender a trabalhar em grupo e confiar no trabalho das outras pessoas, veja MDS como uma oportunidade de melhorar tecnicamente como engenheiro de software, mas veja também como uma forma de aprender e colaborar com outras pessoas que com certeza terão muito para te oferecer. 

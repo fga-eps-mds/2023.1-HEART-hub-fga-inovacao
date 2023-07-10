@@ -11,7 +11,7 @@ O objetivo dos protótipos de baixa fidelidade é permitir uma exploração inic
 
 Ao criar os protótipos de baixa fidelidade, buscamos estimular o debate construtivo e promover o alinhamento da equipe em relação ao visual e ao fluxo de interação do Projeto HEART. Essa etapa foi essencial para iterar e aprimorar o design, garantindo a incorporação das melhores soluções antes de avançar para protótipos mais detalhados e de alta fidelidade.
 
-### Protótipos de Baixa Fidelidade
+## Telas:
 
 ### - Home
 ![Protótipo de Baixa Fidelidade - Home](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/prototipo-baixa-fidelidade/1_Home.jpg?raw=true)
@@ -33,7 +33,7 @@ No Projeto HEART, houve mudanças no design durante a transição para os protó
 
 Essas mudanças e melhorias proporcionam uma visualização mais precisa do design final do Projeto HEART, contribuindo para testes de usabilidade, revisões finais e implementação do produto. O objetivo é garantir que o projeto atenda às necessidades dos usuários e alcance as metas estabelecidas pela equipe.
 
-### Protótipos de Alta Fidelidade
+## Telas:
 
 ### - Home
 ![Protótipo de Alta Fidelidade - Home](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/Nw_prototipos/home.png?raw=true)
@@ -44,6 +44,17 @@ Essas mudanças e melhorias proporcionam uma visualização mais precisa do desi
 ### - Empresas Júnior
 ![Protótipo de Alta Fidelidade - Empresas Júnior](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/Nw_prototipos/empresas.png?raw=true)
 
-### - Contano
-![Protótipo de Alta Fidelidade - Cintato](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/Nw_prototipos/contato_2.png?raw=true)
+### - Contato
+![Protótipo de Alta Fidelidade - Contato](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/Nw_prototipos/contato_2.png?raw=true)
 
+## 4. Conclusão 
+<div style="text-align: justify">
+
+Ao longo do desenvolvimento do Projeto HEART, os protótipos de baixa fidelidade e alta fidelidade desempenharam papéis importantes na definição e refinamento do design. Os protótipos de baixa fidelidade permitiram explorar as funcionalidades e a estrutura do projeto, promovendo o debate construtivo e a colaboração da equipe. Os protótipos de alta fidelidade representaram uma versão mais detalhada do design, incorporando melhorias identificadas.
+
+Durante a transição para os protótipos de alta fidelidade, ocorreram mudanças no design do Projeto HEART. A sidebar foi reposicionada e teve alterações visuais, agora localizada à esquerda da interface. A página "Disciplina" foi substituída pela "Premiação". Todas as telas do projeto foram aprimoradas, apresentando melhorias de design e a implementação de um modo de exibição com cards.
+
+Além disso, foi escolhida a cor principal #7D2D88 para o Projeto HEART. Essa cor foi selecionada levando em consideração identidade visual, usabilidade e apelo estético, transmitindo a mensagem e personalidade do projeto, além de proporcionar uma experiência visual agradável.
+
+Em resumo, os protótipos de baixa fidelidade e alta fidelidade foram etapas cruciais no desenvolvimento do Projeto HEART, permitindo visualização e aprimoramento do design. As alterações no design, como a posição da sidebar e a substituição da página "Disciplina" pela "Premiação", contribuíram para melhor organização visual e fluxo de interação. A escolha da cor principal #7D2D88 reflete a identidade do projeto e contribui para a experiência visual do usuário. Com base nessas etapas, o Projeto HEART está mais próximo de atingir suas metas e atender às necessidades dos usuários.
+</div>

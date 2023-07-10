@@ -16,32 +16,20 @@ Ao criar os protótipos de baixa fidelidade, buscamos estimular o debate constru
 ### - Home
 ![Protótipo de Baixa Fidelidade - Home](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/prototipo-baixa-fidelidade/1_Home.jpg?raw=true)
 
-### - Iniciativas
-![Protótipo de Baixa Fidelidade - Iniciativas](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/prototipo-baixa-fidelidade/2_Iniciativas.jpg?raw=true)
-
 ### - P&D&I
 ![Protótipo de Baixa PDI](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/prototipo-baixa-fidelidade/3_P&D&I.jpg?raw=true)
-
-### - Competências
-![Protótipo de Baixa Compet%C3%AAncias](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/prototipo-baixa-fidelidade/4_Compet%C3%AAncias.jpg?raw=true)
-
-### - Empresa Júnior
-![Protótipo de Baixa Fidelidade - Empresa Júnior](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/prototipo-baixa-fidelidade/5_Empresa%20Junior.jpg?raw=true)
-
-### - Equipe Júnior
-![Protótipo de Baixa Fidelidade - Equipe Júnior](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/prototipo-baixa-fidelidade/6_Equipe%20de%20Competi%C3%A7%C3%A3o.jpg?raw=true)
-
-### - Editais
-![Protótipo de Baixa Fidelidade - Editais](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/prototipo-baixa-fidelidade/7_Editais.jpg?raw=true)
-
-### - Disciplina
-![Protótipo de Baixa Fidelidade - Disciplina](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/prototipo-baixa-fidelidade/8_Disciplina.jpg?raw=true)
-
-### - Contato
-![Protótipo de Baixa Fidelidade - Contato](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/prototipo-baixa-fidelidade/9_Contato.jpg?raw=true)
 
 ### - Menu
 ![Protótipo de Baixa Fidelidade - Menu](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/prototipo-baixa-fidelidade/10_Menu.jpg?raw=true)
 
 ### - Busca
 ![Protótipo de Baixa Fidelidade - Busca](https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao/blob/main/docs/prototipos/prototipo-baixa-fidelidade/11_Busca.jpg?raw=true)
+
+## 3. Protótipos de Alta Fidelidade e Mudanças no Design no Projeto HEART
+
+Os protótipos de alta fidelidade no Projeto HEART têm como objetivo representar uma versão mais refinada e detalhada do design, refletindo melhor as funcionalidades e o fluxo de interação. Eles são criados após a validação e iteração dos protótipos de baixa fidelidade, incorporando feedbacks e melhorias identificadas anteriormente.
+
+No Projeto HEART, houve mudanças no design durante a transição para os protótipos de alta fidelidade. A sidebar passou por alterações visuais e de posição, sendo agora localizada à esquerda da interface. Além disso, a página "Disciplina" foi substituída pela página "Premiação". Todas as telas do projeto foram aprimoradas, apresentando melhorias de design e implementação de um modo de exibição com cards.
+
+Essas mudanças e melhorias proporcionam uma visualização mais precisa do design final do Projeto HEART, contribuindo para testes de usabilidade, revisões finais e implementação do produto. O objetivo é garantir que o projeto atenda às necessidades dos usuários e alcance as metas estabelecidas pela equipe.
+

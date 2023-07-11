@@ -47,7 +47,7 @@ const Sidebar = ({children}) => {
             icon:<FiDribbble/>
         },
         {
-            path:"/premiações",
+            path:"/2023.1-HEART-hub-fga-inovacao/premiações",
             name:"Premiações",
             icon:<FiAward/>
         },

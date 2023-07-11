@@ -52,7 +52,7 @@ const Sidebar = ({children}) => {
             icon:<FiAward/>
         },
         {
-            path:"/editais",
+            path:"/2023.1-HEART-hub-fga-inovacao/editais",
             name:"Editais",
             icon:<FiCalendar/>
         },

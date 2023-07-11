@@ -102,13 +102,13 @@ const Editais = () => {
                     <p className='texto_footer'>Este HUB é referente à Universidade de Brasília - Campus Gama</p>
                     </div>
                       <ul className="list-inline">
-                        <li className="list-inline-item"><a href="2023.1-HEART-hub-fga-inovacao/pedei">P&D&I</a></li>
-                        <li className="list-inline-item"><a href="2023.1-HEART-hub-fga-inovacao/professores">Professores</a></li>
-                        <li className="list-inline-item"><a href="2023.1-HEART-hub-fga-inovacao/empresasjuniores">Empresas Juniores</a></li>
-                        <li className="list-inline-item"><a href="2023.1-HEART-hub-fga-inovacao/equipesdecompetição">Equipes de Competição</a></li>
-                        <li className="list-inline-item"><a href="2023.1-HEART-hub-fga-inovacao/premiações">Premiações</a></li>
-                        <li className="list-inline-item"><a href="2023.1-HEART-hub-fga-inovacao/editais">Editais</a></li>
-                        <li className="list-inline-item"><a href="2023.1-HEART-hub-fga-inovacao/contatos">Contatos</a></li>
+                        <li className="list-inline-item"><a href="pedei">P&D&I</a></li>
+                        <li className="list-inline-item"><a href="professores">Professores</a></li>
+                        <li className="list-inline-item"><a href="empresasjuniores">Empresas Juniores</a></li>
+                        <li className="list-inline-item"><a href="equipesdecompetição">Equipes de Competição</a></li>
+                        <li className="list-inline-item"><a href="premiações">Premiações</a></li>
+                        <li className="list-inline-item"><a href="editais">Editais</a></li>
+                        <li className="list-inline-item"><a href="contatos">Contatos</a></li>
                       </ul>
                     <p className="copyright">Heart - HUB FGA Inovação © 2023</p>
                     <div className='logo_unb'>

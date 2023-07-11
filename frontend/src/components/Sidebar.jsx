@@ -42,7 +42,7 @@ const Sidebar = ({children}) => {
             icon:<FiBriefcase/>
         },
         {
-            path:"/equipesdecompetição",
+            path:"/2023.1-HEART-hub-fga-inovacao/equipesdecompetição",
             name:"Equipes de Competição",
             icon:<FiDribbble/>
         },

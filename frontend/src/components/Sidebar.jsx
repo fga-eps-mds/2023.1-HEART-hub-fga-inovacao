@@ -37,7 +37,7 @@ const Sidebar = ({children}) => {
             icon:<FiUsers/>
         },
         {
-            path:"/empresasjuniores",
+            path:"/2023.1-HEART-hub-fga-inovacao/empresasjuniores",
             name:"Empresas Juniores",
             icon:<FiBriefcase/>
         },

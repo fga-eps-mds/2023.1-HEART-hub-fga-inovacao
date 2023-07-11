@@ -27,7 +27,7 @@ const Sidebar = ({children}) => {
             icon:<FiHome/>
         },
         {
-            path:"/pedei",
+            path:"/2023.1-HEART-hub-fga-inovacao/pedei",
             name:"P&D&I",
             icon:<FiCpu/>
         },

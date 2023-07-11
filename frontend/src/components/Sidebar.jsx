@@ -57,7 +57,7 @@ const Sidebar = ({children}) => {
             icon:<FiCalendar/>
         },
         {
-            path:"/contatos",
+            path:"/2023.1-HEART-hub-fga-inovacao/contatos",
             name:"Contatos",
             icon:<FiPhone/>
         },

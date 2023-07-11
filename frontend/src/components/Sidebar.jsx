@@ -32,7 +32,7 @@ const Sidebar = ({children}) => {
             icon:<FiCpu/>
         },
         {
-            path:"/professores",
+            path:"/2023.1-HEART-hub-fga-inovacao/professores",
             name:"Professores",
             icon:<FiUsers/>
         },

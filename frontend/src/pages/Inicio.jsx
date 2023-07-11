@@ -36,7 +36,7 @@ const Inicio = () => {
             É um espaço virtual que reúne uma variedade de recursos e funcionalidades para auxiliar no desenvolvimento acadêmico 
             e profissional dos envolvidos.
           </p>
-          <a href="contatos" className="btn-saiba-mais">Saiba mais</a>
+          <a href="2023.1-HEART-hub-fga-inovacao/contatos" className="btn-saiba-mais">Saiba mais</a>
         </div>
         <div class="box-img-main">
           <img className="img" src={HeartDesign} alt="logo"/>
@@ -113,15 +113,15 @@ const Inicio = () => {
           <div>
             <ul className='bloco1'>
               <li className='li-b1'>
-                <a className='a-b1' href="pedei"><FiCpu/> P&D&I</a> 
+                <a className='a-b1' href="2023.1-HEART-hub-fga-inovacao/pedei"><FiCpu/> P&D&I</a> 
                 <p className='p-b1'>Conheça as diversas iniciativas para o estimulo da pesquisa e inovação na FGA</p>
               </li>
               <li className='li-b1'>
-                <a className='a-b1' href="professores"><FiUsers/> Professores</a> 
+                <a className='a-b1' href="2023.1-HEART-hub-fga-inovacao/professores"><FiUsers/> Professores</a> 
                 <p className='p-b1'>Consulte os profeessores da FGA</p>
               </li>
               <li className='li-b1' >
-                <a className='a-b1' href="empresasjuniores"><FiBriefcase/> Empresas</a>
+                <a className='a-b1' href="2023.1-HEART-hub-fga-inovacao/empresasjuniores"><FiBriefcase/> Empresas</a>
                 <p className='p-b1'>Conheça as empresas criadas por iniciativas de alunos e ex alunos da FGA</p>
               </li>
             </ul>
@@ -129,15 +129,15 @@ const Inicio = () => {
           <div>
             <ul className='bloco2'>
               <li className='li-b2'>
-                <a className='a-b2' href="equipesdecompetição"><FiDribbble/> Equipes de Competição.</a>
+                <a className='a-b2' href="2023.1-HEART-hub-fga-inovacao/equipesdecompetição"><FiDribbble/> Equipes de Competição.</a>
                 <p className='p-b2'>Tenha acesso a todas as equipes de competição da FGA</p>
               </li>
                <li className='li-b2'>
-                <a className='a-b2' href="premiações"><FiAward/> Premiações</a>
+                <a className='a-b2' href="2023.1-HEART-hub-fga-inovacao/premiações"><FiAward/> Premiações</a>
                 <p className='p-b2'>Fique por dentro de algumas das premiações que nosso campus já recebeu</p>
               </li>
               <li className='li-b2'>
-                <a className='a-b2' href="editais"><FiCalendar/> Editais</a>
+                <a className='a-b2' href="2023.1-HEART-hub-fga-inovacao/editais"><FiCalendar/> Editais</a>
                 <p className='p-b2'>Tenha acesso a todos os editais referentes ao nosso campus bem como algumas páginas de apoio ligadas a FGA direta ou indiretamente</p>
               </li>
             </ul> 
@@ -172,13 +172,13 @@ const Inicio = () => {
             <p className='texto_footer'>Este HUB é referente à Universidade de Brasília - Campus Gama</p>
             </div>
               <ul className="list-inline">
-                <li className="list-inline-item"><a href="pedei">P&D&I</a></li>
-                <li className="list-inline-item"><a href="professores">Professores</a></li>
-                <li className="list-inline-item"><a href="empresasjuniores">Empresas Juniores</a></li>
-                <li className="list-inline-item"><a href="equipesdecompetição">Equipes de Competição</a></li>
-                <li className="list-inline-item"><a href="premiações">Premiações</a></li>
-                <li className="list-inline-item"><a href="editais">Editais</a></li>
-                <li className="list-inline-item"><a href="contatos">Contatos</a></li>
+                <li className="list-inline-item"><a href="2023.1-HEART-hub-fga-inovacao/pedei">P&D&I</a></li>
+                <li className="list-inline-item"><a href="2023.1-HEART-hub-fga-inovacao/professores">Professores</a></li>
+                <li className="list-inline-item"><a href="2023.1-HEART-hub-fga-inovacao/empresasjuniores">Empresas Juniores</a></li>
+                <li className="list-inline-item"><a href="2023.1-HEART-hub-fga-inovacao/equipesdecompetição">Equipes de Competição</a></li>
+                <li className="list-inline-item"><a href="2023.1-HEART-hub-fga-inovacao/premiações">Premiações</a></li>
+                <li className="list-inline-item"><a href="2023.1-HEART-hub-fga-inovacao/editais">Editais</a></li>
+                <li className="list-inline-item"><a href="2023.1-HEART-hub-fga-inovacao/contatos">Contatos</a></li>
               </ul>
             <p className="copyright">Heart - HUB FGA Inovação © 2023</p>
             <div className='logo_unb'>

@@ -22,7 +22,7 @@ const Sidebar = ({children}) => {
 
     const menuItem=[
         {
-            path:"/2023.1-HEART-hub-fga-inovacao",
+            path:"/2023.1-HEART-hub-fga-inovacao/",
             name:"Inicio",
             icon:<FiHome/>
         },

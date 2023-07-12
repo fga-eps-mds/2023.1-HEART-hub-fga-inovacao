@@ -1,16 +1,5 @@
 # _Post Mortem_ - HEART: HUB FGA Inovação 💜
 
-
-## Histórico de revisão
-
-| Data       | Versão | Modificação                                                 | Autor(a)                                               |
-| :--------- | :----- | :---------------------------------------------------------- | :----------------------------------------------------- |
-| 05/07/2023 | 0.1    | Criação do documento                                        | [@izabellaalves](https://github.com/izabellaalves)     |
-| 06/07/2023 | 0.2    | Criação da estrutura do documento                           | [@algorithmorphic](https://github.com/algorithmorphic) |
-| 10/07/2023 | 0.3    | Criação_protótipo/contribuição no post-mortem               | [@Lucas13032003](https://github.com/Lucas13032003)     |
-| 10/07/2023 | 0.4    | Adição/contribuição em Sentimentos da Equipe                | [@algorithmorphic](https://github.com/algorithmorphic) |
-
-
 ## Introdução
 Este documento apresenta o post mortem do projeto "Heart - Hub FGA Inovação", desenvolvido como trabalho da disciplina de Métodos de Desenvolvimento de Software. O projeto teve como objetivo criar uma plataforma digital chamada Heart, dedicada a promover a interação e o compartilhamento de informações entre estudantes, professores e a comunidade acadêmica em geral da Faculdade do Gama (FGA).
 

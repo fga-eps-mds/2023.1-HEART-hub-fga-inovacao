@@ -27,37 +27,37 @@ const Sidebar = ({children}) => {
             icon:<FiHome/>
         },
         {
-            path:"/pedei",
+            path:"/2023.1-HEART-hub-fga-inovacao/pedei",
             name:"P&D&I",
             icon:<FiCpu/>
         },
         {
-            path:"/professores",
+            path:"/2023.1-HEART-hub-fga-inovacao/professores",
             name:"Professores",
             icon:<FiUsers/>
         },
         {
-            path:"/empresasjuniores",
+            path:"/2023.1-HEART-hub-fga-inovacao/empresasjuniores",
             name:"Empresas Juniores",
             icon:<FiBriefcase/>
         },
         {
-            path:"/equipesdecompetição",
+            path:"/2023.1-HEART-hub-fga-inovacao/equipesdecompetição",
             name:"Equipes de Competição",
             icon:<FiDribbble/>
         },
         {
-            path:"/premiações",
+            path:"/2023.1-HEART-hub-fga-inovacao/premiações",
             name:"Premiações",
             icon:<FiAward/>
         },
         {
-            path:"/editais",
+            path:"/2023.1-HEART-hub-fga-inovacao/editais",
             name:"Editais",
             icon:<FiCalendar/>
         },
         {
-            path:"/contatos",
+            path:"/2023.1-HEART-hub-fga-inovacao/contatos",
             name:"Contatos",
             icon:<FiPhone/>
         },

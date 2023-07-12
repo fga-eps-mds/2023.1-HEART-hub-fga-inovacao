@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -17,13 +18,13 @@ const App = () => {
       <Sidebar>
         <Routes>
           <Route path="/2023.1-HEART-hub-fga-inovacao"element={<Inicio/>}/>
-          <Route path="/pedei"element={<Pedei/>}/>
-          <Route path="/professores"element={<Professores/>}/>
-          <Route path="/empresasjuniores"element={<EmpresasJuniores/>}/>
-          <Route path="/equipesdecompetição"element={<EquipesdeCompeticao/>}/>
-          <Route path="/premiações"element={<Premiacoes/>}/>
-          <Route path="/editais"element={<Editais/>}/>
-          <Route path="/contatos"element={<Contatos/>}/>
+          <Route path="/2023.1-HEART-hub-fga-inovacao/pedei"element={<Pedei/>}/>
+          <Route path="/2023.1-HEART-hub-fga-inovacao/professores"element={<Professores/>}/>
+          <Route path="/2023.1-HEART-hub-fga-inovacao/empresasjuniores"element={<EmpresasJuniores/>}/>
+          <Route path="/2023.1-HEART-hub-fga-inovacao/equipesdecompetição"element={<EquipesdeCompeticao/>}/>
+          <Route path="/2023.1-HEART-hub-fga-inovacao/premiações"element={<Premiacoes/>}/>
+          <Route path="/2023.1-HEART-hub-fga-inovacao/editais"element={<Editais/>}/>
+          <Route path="/2023.1-HEART-hub-fga-inovacao/contatos"element={<Contatos/>}/>
         </Routes>
       </Sidebar>
     </BrowserRouter>

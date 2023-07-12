@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/2023.1-HEART-hub-fga-inovacao/static/css/main.6d6a8850.css",
-    "main.js": "/2023.1-HEART-hub-fga-inovacao/static/js/main.3a5dbacf.js",
+    "main.css": "/2023.1-HEART-hub-fga-inovacao/static/css/main.eb63f17f.css",
+    "main.js": "/2023.1-HEART-hub-fga-inovacao/static/js/main.5376256d.js",
     "static/media/img-ed.png": "/2023.1-HEART-hub-fga-inovacao/static/media/img-ed.e3207d2b3f989b185960.png",
     "static/media/time.png": "/2023.1-HEART-hub-fga-inovacao/static/media/time.7d34c4691d556314af44.png",
     "static/media/inovacao.png": "/2023.1-HEART-hub-fga-inovacao/static/media/inovacao.894827495dc3f4862d30.png",
@@ -12,11 +12,11 @@
     "static/media/valores_3.png": "/2023.1-HEART-hub-fga-inovacao/static/media/valores_3.f2bbf585eac71e783a29.png",
     "static/media/fga.png": "/2023.1-HEART-hub-fga-inovacao/static/media/fga.18d05ee8dfcb7b7e498f.png",
     "index.html": "/2023.1-HEART-hub-fga-inovacao/index.html",
-    "main.6d6a8850.css.map": "/2023.1-HEART-hub-fga-inovacao/static/css/main.6d6a8850.css.map",
-    "main.3a5dbacf.js.map": "/2023.1-HEART-hub-fga-inovacao/static/js/main.3a5dbacf.js.map"
+    "main.eb63f17f.css.map": "/2023.1-HEART-hub-fga-inovacao/static/css/main.eb63f17f.css.map",
+    "main.5376256d.js.map": "/2023.1-HEART-hub-fga-inovacao/static/js/main.5376256d.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d6a8850.css",
-    "static/js/main.3a5dbacf.js"
+    "static/css/main.eb63f17f.css",
+    "static/js/main.5376256d.js"
   ]
 }

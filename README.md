@@ -121,10 +121,10 @@ Clone o repositório para o seu ambiente de desenvolvimento local:
 git clone https://github.com/fga-eps-mds/2023.1-HEART-hub-fga-inovacao.git
 ```
 
-Navegue até o diretório do projeto:
+Navegue até o diretório do projeto, mais especificamente na pasta "frontend":
 
 ```
-cd 2023.1-HEART-hub-fga-inovacao
+cd 2023.1-HEART-hub-fga-inovacao/frontend
 ```
 
 Instale as dependências do front-end. Certifique-se de ter o Node.js instalado. No diretório raiz do projeto, execute o seguinte comando:

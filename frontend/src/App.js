@@ -17,7 +17,7 @@ const App = () => {
     <BrowserRouter>
       <Sidebar>
         <Routes>
-          <Route path="/2023.1-HEART-hub-fga-inovacao"element={<Inicio/>}/>
+          <Route path="/2023.1-HEART-hub-fga-inovacao/"element={<Inicio/>}/>
           <Route path="/2023.1-HEART-hub-fga-inovacao/pedei"element={<Pedei/>}/>
           <Route path="/2023.1-HEART-hub-fga-inovacao/professores"element={<Professores/>}/>
           <Route path="/2023.1-HEART-hub-fga-inovacao/empresasjuniores"element={<EmpresasJuniores/>}/>

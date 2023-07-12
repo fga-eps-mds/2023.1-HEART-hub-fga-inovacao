@@ -191,7 +191,6 @@ const Contatos = () => {
                 <div className='icons-contatos_sec-2'>
                   <a href={linkdin}><FiLinkedin /></a>
                   <a href={git}><FiGithub /></a>
-                  <a href={gitpage}><FiFile /></a>
                 </div>
               </div>
             );

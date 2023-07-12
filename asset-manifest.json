@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/2023.1-HEART-hub-fga-inovacao/static/css/main.eb63f17f.css",
+    "main.js": "/2023.1-HEART-hub-fga-inovacao/static/js/main.9a668722.js",
+    "static/media/img-ed.png": "/2023.1-HEART-hub-fga-inovacao/static/media/img-ed.e3207d2b3f989b185960.png",
+    "static/media/time.png": "/2023.1-HEART-hub-fga-inovacao/static/media/time.7d34c4691d556314af44.png",
+    "static/media/inovacao.png": "/2023.1-HEART-hub-fga-inovacao/static/media/inovacao.894827495dc3f4862d30.png",
+    "static/media/imgfundo.png": "/2023.1-HEART-hub-fga-inovacao/static/media/imgfundo.d1c31e2e96ee730f4eff.png",
+    "static/media/valores_2.png": "/2023.1-HEART-hub-fga-inovacao/static/media/valores_2.70ebbce8285e976943ef.png",
+    "static/media/img5.png": "/2023.1-HEART-hub-fga-inovacao/static/media/img5.65fd6db9490784dab23d.png",
+    "static/media/valores_1.png": "/2023.1-HEART-hub-fga-inovacao/static/media/valores_1.9e81cd865ee785429d7f.png",
+    "static/media/valores_3.png": "/2023.1-HEART-hub-fga-inovacao/static/media/valores_3.f2bbf585eac71e783a29.png",
+    "static/media/fga.png": "/2023.1-HEART-hub-fga-inovacao/static/media/fga.18d05ee8dfcb7b7e498f.png",
+    "index.html": "/2023.1-HEART-hub-fga-inovacao/index.html",
+    "main.eb63f17f.css.map": "/2023.1-HEART-hub-fga-inovacao/static/css/main.eb63f17f.css.map",
+    "main.9a668722.js.map": "/2023.1-HEART-hub-fga-inovacao/static/js/main.9a668722.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb63f17f.css",
+    "static/js/main.9a668722.js"
+  ]
+}
